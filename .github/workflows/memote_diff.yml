@@ -19,10 +19,13 @@ jobs:
     - name: Install dependencies
       run: python -m pip install memote
       
+      #memote report diff Cstr_14.xml Cstr_15.xml Cstr_16.xml Cstr_17.xml
     - name: Run memote diff on all models
       run: |
         cd models
-        memote report diff Cstr_14.xml Cstr_15.xml Cstr_16.xml Cstr_17.xml
+        memote report snapshot Cstr_17.xml
+        cd ..
+        cd reports
 
     - name: Commit files
       id: commit
@@ -41,5 +44,4 @@ jobs:
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
-         directory: '../reports'
          github_token: ${{ secrets.GITHUB_TOKEN }}
