@@ -40,6 +40,6 @@ jobs:
     - name: Push changes
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
-      directory: '../reports'
       with:
+         directory: '../reports'
          github_token: ${{ secrets.GITHUB_TOKEN }}
