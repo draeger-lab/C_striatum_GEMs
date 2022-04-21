@@ -41,5 +41,5 @@ jobs:
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
-         directory: 'reports'
+         directory: 'reports/'
          github_token: ${{ secrets.GITHUB_TOKEN }}
