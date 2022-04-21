@@ -11,3 +11,4 @@ Cleaned draft models | refinegems.polish_carveme | 28.03.2022 | v1.0
 Polished draft models | ModelPolisher | 29.03.2022 | v2.0
 Specified SBO Terms | refinegems.sbo_annotation | 03.04.2022 | v3.0
 Charge correction | refinegems.charges / man_cur_charges.py | 05.04.2022 | v4.0
+Annotate GPRs using NCBI | refinegems.polish_carveme | 07.04.2022 | v5.0
