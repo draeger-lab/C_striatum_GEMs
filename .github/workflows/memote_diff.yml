@@ -22,10 +22,7 @@ jobs:
       #memote report diff Cstr_14.xml Cstr_15.xml Cstr_16.xml Cstr_17.xml
     - name: Run memote diff on all models
       run: |
-        cd models
-        memote report snapshot Cstr_17.xml
-        cd ..
-        cd reports
+        memote report snapshot 'models/Cstr_17.xml'
 
     - name: Commit files
       id: commit
@@ -44,4 +41,5 @@ jobs:
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
+         directory: 'reports'
          github_token: ${{ secrets.GITHUB_TOKEN }}
