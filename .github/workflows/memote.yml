@@ -35,7 +35,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run memote on all models
         run: |
-          memote report snapshot --filename "reports/Cstr_14.html" models/Cstr_14.xml
-          memote report snapshot --filename "reports/Cstr_15.html" models/Cstr_15.xml
-          memote report snapshot --filename "reports/Cstr_16.html" models/Cstr_16.xml
-          memote report snapshot --filename "reports/Cstr_17.html" models/Cstr_17.xml
+          memote report diff models/Cstr_14.xml models/Cstr_15.xml models/Cstr_16.xml models/Cstr_17.xml
+          memote report snapshot --filename "Cstr_14.html" models/Cstr_14.xml
+          memote report snapshot --filename "Cstr_15.html" models/Cstr_15.xml
+          memote report snapshot --filename "Cstr_16.html" models/Cstr_16.xml
+          memote report snapshot --filename "Cstr_17.html" models/Cstr_17.xml
