@@ -1,4 +1,4 @@
-name: Update memote diff
+name: Update memote report (diff for all models)
 
 on: push
 
@@ -11,6 +11,7 @@ jobs:
       with:
        persist-credentials: false
        fetch-depth: 0
+       
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
@@ -19,12 +20,11 @@ jobs:
     - name: Install dependencies
       run: python -m pip install memote
       
-      #memote report diff Cstr_14.xml Cstr_15.xml Cstr_16.xml Cstr_17.xml
-    - name: Run memote diff on all models
+    - name: Create memote report in difference mode for all models
       run: |
-        memote report snapshot 'models/Cstr_17.xml'
+        memote report diff --filename "GEM_status.html" models/Cstr_14.xml models/Cstr_15.xml models/Cstr_16.xml models/Cstr_17.xml
 
-    - name: Commit files
+    - name: Commit memote report
       id: commit
       run: |
         git config --local user.email "famke.baeuerle@gmail.com"
@@ -37,9 +37,8 @@ jobs:
            echo "::set-output name=push::true"
         fi
  
-    - name: Push changes
+    - name: Push changes of the report
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
-         directory: './reports/'
          github_token: ${{ secrets.GITHUB_TOKEN }}
