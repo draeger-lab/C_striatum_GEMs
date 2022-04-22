@@ -12,6 +12,6 @@ Draft models | CarveMe v.1.5.1 | 25.08.2021 | Initial commit
 Cleaned draft models | refinegems.polish_carveme | 28.03.2022 | v1.0
 Polished draft models | ModelPolisher | 29.03.2022 | v2.0
 Specified SBO Terms | refinegems.sbo_annotation | 03.04.2022 | v3.0
-Corrected charges | refinegems.charges / man_cur_charges.py | 05.04.2022 | v4.0
-Annotated GPRs using NCBI | refinegems.polish_carveme / man_cur_annotate.py | 07.04.2022 | v5.0
-Removed duplicate reactions | man_cur_dupreac.py | 21.04.2022 | v6.0
+Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022 | v4.0
+Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_annotate.py | 07.04.2022 | v5.0
+Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
