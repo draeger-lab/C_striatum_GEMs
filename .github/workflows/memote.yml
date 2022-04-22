@@ -3,7 +3,8 @@ name: Update memote report (diff for all models)
 on: 
   push:
     paths:
-    - '*.xml'
+    - '**.xml'
+    - 'models/'
 
 jobs:
   run:
