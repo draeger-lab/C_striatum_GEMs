@@ -27,7 +27,7 @@ def get_metab_without_charge(metab_list):
 
 #%% add charges from Pseudomonas putida to Cstr
 
-example_path = '../../Nextcloud/Examples/iJN1463.xml'
+example_path = '../data/iJN1463.xml'
 example_model = load_model_libsbml(example_path)
 print(example_model.getId())
 
