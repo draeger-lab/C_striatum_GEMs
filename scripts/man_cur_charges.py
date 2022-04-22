@@ -16,7 +16,6 @@ def load_model_libsbml(modelpath):
     mod = read.getModel()
     return mod
 
-    
 def get_metab_without_charge(metab_list):
     uncharged = []
     for i in spe:
@@ -26,252 +25,90 @@ def get_metab_without_charge(metab_list):
                 uncharged.append(bigg)
     return uncharged
 
-#%%
-# 04/04/22 Cstr_XX_charges.xml done with refinegems.charges
-# 05/04/22 charge correction: look for metab without charges 
-# 07/04/22 done to all models after gene polishing (Cstr_XX_genes.xml)
+#%% add charges from Pseudomonas putida to Cstr
 
-path = 'Cstr_17_genes.xml'
+example_path = '../../Nextcloud/Examples/iJN1463.xml'
+example_model = load_model_libsbml(example_path)
+print(example_model.getId())
 
-model = load_model_libsbml(path)
-spe = model.getListOfSpecies()
+modelpaths_to_change = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
 
-# 05/04/22 correct charges in models, charges where ambig in ModelSEED but exact in BiGG
-for i in spe:
-    if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
+for path_to_change in modelpaths_to_change:
+    model_to_change = load_model_libsbml(path_to_change)
+    spe = model_to_change.getListOfSpecies()
+    uncharged_to_change = []
+    
+    for i in spe:
         bigg = i.getId()[2:-2]
-        if (bigg == '2ahbut'):
-            print(bigg)
-            charge = -1
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '3hocoa'):
-            print(bigg)
-            charge = -4
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'dhpmp'):
-            print(bigg)
-            charge = -2
-            i.getPlugin('fbc').setCharge(int(charge))
+        if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
+            if bigg not in uncharged_to_change:
+                uncharged_to_change.append(bigg)
 
-# 05/04/22 manual correction because of list of charge unbalanced reactions (based on Cstr_17)
-for i in spe:
-    bigg = i.getId()[2:-2]
-    if (bigg == '1p2cbxl'):
-        print(bigg)
-        charge = -1
-        i.getPlugin('fbc').setCharge(int(charge))
-    if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
-        if (bigg == 'decoa'):
-            print(bigg)
-            charge = -4
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '4h2kpi'):
-            print(bigg)
-            charge = -2
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '4abzglu'):
-            print(bigg)
-            charge = -2
-            i.getPlugin('fbc').setCharge(int(charge))
+    for metab in uncharged_to_change:
+        compart = ['_c', '_p', '_e']
+        for comp in compart:
+            try:
+                met = example_model.getSpecies('M_' + metab + comp)
+                charge = met.getPlugin('fbc').getCharge()
+                print('M_' + metab + comp, charge)
+                met_to_change = model_to_change.getSpecies('M_' + metab + comp)
+                met_to_change.getPlugin('fbc').setCharge(charge)
+            except (AttributeError):
+                print('M_' + metab + comp + ' does not exist in P. putida.')
 
-for i in spe:
-    if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
-        bigg = i.getId()[2:-2]
-        if (bigg == '1ag160' 
-            or bigg == '1ag180'
-            or bigg == '1ag181d9'
-            or bigg == '1ag182d9d12'
-            or bigg == 'ala_L_thr__L'
-            or bigg == 'ala_L_gln__L'
-            or bigg == 'gly_gln__L'
-            or bigg == 'ala_L_Thr__L'
-            or bigg == 'nh3'
-            or bigg == 'tag160'
-            or bigg == 'dag181d9'
-            or bigg == 'salchs4'
-            or bigg == 'gly_pro__L'
-            or bigg == 'gly_asn__L'
-            or bigg == 'abg4'
-            or bigg == 'istfrnA'
-            or bigg == '2m35mdntha'
-            or bigg == '35dnta'
-            or bigg == 'metox'):
-            print(bigg)
-            charge = 0
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '2hetdp'
-            or bigg == '3h4atb'
-            or bigg == '3hasp__L'
-            or bigg == 'R_3hdcaa'
-            or bigg == 'mmalsa__S'
-            or bigg == 'op4en'
-            or bigg == '6atha'
-            or bigg == 'gly_glu__L'
-            or bigg == 'gly_asp__L'
-            or bigg == '2hadnt'
-            or bigg == '4hadnt'):
-            print(bigg)
-            charge = -1
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'istfrnB'
-            ):
-            print(bigg)
-            charge = -2
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '2oxpaccoa'
-            or bigg == '3h4atbcoa'
-            or bigg == '3h6athcoa'
-            or bigg == '3hbycoa'
-            or bigg == '3hdd5coa'
-            or bigg == '3hdd6coa'
-            or bigg == '3hddccoa'
-            or bigg == '3hdec4coa'
-            or bigg == '3hhd58coa'
-            or bigg == '3hhdccoa'
-            or bigg == '3hhpcoa'
-            or bigg == '3hnonacoa'
-            or bigg == 'dd2coa'
-            or bigg == 'tded5_2_coa'
-            or bigg == '6athacoa'
-            or bigg == '3hpbcoa'
-            or bigg == '3hpdecacoa'
-            or bigg == '3hphpcoa'
-            or bigg == '3hphxacoa'
-            or bigg == '3hpnonacoa'
-            or bigg == '3hpoctacoa'
-            or bigg == '6ath2coa'):
-            print(bigg)
-            charge = -4
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == '23dhacoa'):
-            print(bigg)
-            charge = -5
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'dscl'):
-            print(bigg)
-            charge = -7
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'salchs4fe'):
-            print(bigg)
-            charge = 3
-            i.getPlugin('fbc').setCharge(int(charge))
 
-new_document = model.getSBMLDocument()
-writeSBMLToFile(new_document, path)
-print("Polished model written to " + path)
-test, errors = cobra.io.sbml.validate_sbml_model(path)
-print(errors)
+    writeSBMLToFile(model_to_change.getSBMLDocument(),path_to_change)
+    print("Polished model written to " + path_to_change)
+    test, errors = cobra.io.sbml.validate_sbml_model(path_to_change)
+    print(errors)
 
-#%%
-# download Pseudomonas putida and extract charges to add to Cstr
-# 07/04/22: done to all models (after gene polishing with refinegems)
-
-path = '../../Examples/iJN1463.xml'
+#%% see which metabolites are still uncharged
+path = '../models/Cstr_14_genes.xml'
 model = load_model_libsbml(path)
+print(get_metab_without_charge(model.getListOfSpecies()))
 
-path_to_change = 'Cstr_17_genes.xml'
-model_to_change = load_model_libsbml(path_to_change)
-spe = model_to_change.getListOfSpecies()
-uncharged_to_change = []
-for i in spe:
-    bigg = i.getId()[2:-2]
-    if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
-        if bigg not in uncharged_to_change:
-            uncharged_to_change.append(bigg)
+#%% add charges from manually curated lists of metabolites
+zero = ['actn__S' , 'ala_L_his__L', 'ala_L_leu__L', 'alagly', '4crsol', 'stfrnB', 'stfrnA', 'hmbpp', 'gly_phe__L', 'glyglygln', 'gly_tyr__L', 'gly_met__L'
+, 'gly_leu__L', 'gly_cys__L', 'abg4', 'istfrnA', 'lysglugly', 'prohisglu', 'serglugly', 'nacg', 'ala_L_gln__L', 'abt__L', 'm2bcoa', 'ctncoa', 'pppgpp', '1ag160' 
+, '1ag180', '1ag181d9', '1ag182d9d12', 'ala_L_thr__L', 'ala_L_gln__L', 'gly_gln__L', 'ala_L_Thr__L', 'nh3', 'tag160', 'dag181d9', 'salchs4', 'gly_pro__L'
+, 'gly_asn__L', 'abg4', 'istfrnA', '2m35mdntha', '35dnta', 'metox']
+minus_1 = ['2ahbut', 'ala_L_glu__L', 'pa160190', 'pa190190', 'lgt__S', 'hethmpp', 'met_L_ala__L', '2ahbut', '2hetdp', '3h4atb', '3hasp__L', 'R_3hdcaa'
+, 'mmalsa__S', 'op4en', '6atha', 'gly_glu__L', 'gly_asp__L', '2hadnt', '4hadnt', '1p2cbxl']
+minus_2 = ['nadhx__R', 'nadhx__S', 'istfrnB', 'dhpmp', '4h2kpi', '4abzglu']
+minus_4 = ['ddcoa', 'nadphx__R', 'nadphx__S', 'mhpglu', 'tagdp__D', '2oxpaccoa', '3h4atbcoa', '3h6athcoa', '3hbycoa', '3hdd5coa', '3hdd6coa', '3hddccoa'
+, '3hdec4coa', '3hhd58coa', '3hhdccoa', '3hhpcoa', '3hnonacoa', 'dd2coa', 'tded5_2_coa', '6athacoa', '3hpbcoa', '3hpdecacoa', '3hphpcoa', '3hphxacoa'
+, '3hpnonacoa', '3hpoctacoa', '6ath2coa', '3hocoa', 'decoa']
+minus_5 = ['23dhacoa']
+minus_7 = ['dscl']
+plus_3 = ['salchs4fe']
 
-for metab in uncharged_to_change:
-    compart = ['_c', '_p', '_e']
-    for comp in compart:
-        try:
-            met = model.getSpecies('M_' + metab + comp)
-            charge = met.getPlugin('fbc').getCharge()
-            print('M_' + metab + comp, charge)
-            met_to_change = model_to_change.getSpecies('M_' + metab + comp)
-            met_to_change.getPlugin('fbc').setCharge(charge)
-        except (AttributeError):
-            print('M_' + metab + comp + ' does not exist in P. putida.')
+charges = {0: zero, -1 : minus_1, -2 : minus_2, -4: minus_4, -5 : minus_5, 
+           -7 : minus_7, 3: plus_3}
 
+modelpaths = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
 
-writeSBMLToFile(new_document, path_to_change)
-print("Polished model written to " + path_to_change)
-test, errors = cobra.io.sbml.validate_sbml_model(path_to_change)
-print(errors)
+def key_return(X):
+    for key, value in charges.items():
+        if X == value:
+            return key
+        if isinstance(value, list) and X in value:
+            return key
+    return 1000
 
-#%%
-# 07/04/22 neue Runde charges setzen
-# 07/04/22 basiert auf Cstr_17, über alle models laufen gelassen
+for path in modelpaths:
+    model = load_model_libsbml(path)
+    spe = model.getListOfSpecies()
 
-path = 'Cstr_14_genes.xml'
+    for metabolite in spe:
+        #if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
+        bigg = metabolite.getId()[2:-2]
+        charge = key_return(bigg)
+        if charge < 1000:
+            print(bigg, charge)
+            metabolite.getPlugin('fbc').setCharge(int(charge))
 
-model = load_model_libsbml(path)
-spe = model.getListOfSpecies()
-
-print(get_metab_without_charge(spe))
-
-for i in spe:
-    if not i.getPlugin('fbc').isSetCharge(): # we are only interested in metab without charge
-        bigg = i.getId()[2:-2]
-        if (bigg == 'actn__S' 
-            or bigg == 'ala_L_his__L'
-            or bigg == 'ala_L_leu__L'
-            or bigg == 'alagly'
-            or bigg == '4crsol'
-            or bigg == 'stfrnB'
-            or bigg == 'stfrnA'
-            or bigg == 'hmbpp'
-            or bigg == 'gly_phe__L'
-            or bigg == 'glyglygln'
-            or bigg == 'gly_tyr__L'
-            or bigg == 'gly_met__L'
-            or bigg == 'gly_leu__L'
-            or bigg == 'gly_cys__L'
-            or bigg == 'abg4'
-            or bigg == 'istfrnA'
-            or bigg == 'lysglugly'
-            or bigg == 'prohisglu'
-            or bigg =='serglugly'
-            or bigg == 'nacg'
-            or bigg == 'ala_L_gln__L'
-            or bigg == 'abt__L'
-            or bigg == 'm2bcoa'
-            or bigg == 'ctncoa'
-            or bigg == 'pppgpp'):
-            print(bigg)
-            charge = 0
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'ala_L_glu__L' 
-            or bigg == 'pa160190'
-            or bigg == 'pa190190'
-            or bigg == 'lgt__S'
-            or bigg == 'hethmpp'
-            or bigg == 'met_L_ala__L'):
-            print(bigg)
-            charge = -1
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'ddcoa' 
-            or bigg == 'nadphx__R'
-            or bigg == 'nadphx__S'
-            or bigg == 'mhpglu'
-            or bigg == 'tagdp__D'):
-            print(bigg)
-            charge = -4
-            i.getPlugin('fbc').setCharge(int(charge))
-        if (bigg == 'nadhx__R' 
-            or bigg == 'nadhx__S'
-            or bigg == 'istfrnB'):
-            print(bigg)
-            charge = -2
-            i.getPlugin('fbc').setCharge(int(charge))
-
-writeSBMLToFile(new_document, path)
-print("Polished model written to " + path)
-test, errors = cobra.io.sbml.validate_sbml_model(path)
-print(errors)
-
-#%% schauen was noch fehlt an charges
-path = 'Cstr_14_genes.xml'
-
-model = load_model_libsbml(path)
-spe = model.getListOfSpecies()
-
-print(get_metab_without_charge(spe))
+    writeSBMLToFile(model.getSBMLDocument(),path)
+    print("Polished model written to " + path)
+    test, errors = cobra.io.sbml.validate_sbml_model(path)
+    print(errors)
+    
