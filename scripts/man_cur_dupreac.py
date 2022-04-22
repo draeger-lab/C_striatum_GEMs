@@ -24,13 +24,14 @@ sids_14 = ['R_ECOAH5_1', 'R_GLYCS_I', 'R_METSOX1abc']
 sids_15 = ['R_GLYCS_I', 'R_ABTt_1']
 sids_16 = ['OCBT_1']
 
-mod_14 = load_model_libsbml('Cstr_14_dupreac.xml')
+
+mod_14 = load_model_libsbml('../models/Cstr_14.xml')
 reac_14 = mod_14.getListOfReactions()
-mod_15 = load_model_libsbml('Cstr_15_dupreac.xml')
+mod_15 = load_model_libsbml('../models/Cstr_15.xml')
 reac_15 = mod_15.getListOfReactions()
-mod_16 = load_model_libsbml('Cstr_16_dupreac.xml')
+mod_16 = load_model_libsbml('../models/Cstr_16.xml')
 reac_16 = mod_16.getListOfReactions()
-mod_17 = load_model_libsbml('Cstr_17_dupreac.xml')
+mod_17 = load_model_libsbml('../models/Cstr_17.xml')
 reac_17 = mod_17.getListOfReactions()
 
 def remove_duplicates(reac, sids):
@@ -49,7 +50,7 @@ remove_duplicates(reac_16, sids_16)
 remove_duplicates(reac_17, sids_all)
 remove_duplicates(reac_17, sids_17)
 
-writeSBMLToFile(mod_14.getSBMLDocument(),'Cstr_14_dupreac.xml')
-writeSBMLToFile(mod_15.getSBMLDocument(),'Cstr_15_dupreac.xml')
-writeSBMLToFile(mod_16.getSBMLDocument(),'Cstr_16_dupreac.xml')
-writeSBMLToFile(mod_17.getSBMLDocument(),'Cstr_17_dupreac.xml')
+writeSBMLToFile(mod_14.getSBMLDocument(),'../models/Cstr_14.xml')
+writeSBMLToFile(mod_15.getSBMLDocument(),'../models/Cstr_15.xml')
+writeSBMLToFile(mod_16.getSBMLDocument(),'../models/Cstr_16.xml')
+writeSBMLToFile(mod_17.getSBMLDocument(),'../models/Cstr_17.xml')

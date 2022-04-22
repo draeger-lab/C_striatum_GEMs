@@ -15,3 +15,4 @@ Specified SBO Terms | refinegems.sbo_annotation | 03.04.2022 | v3.0
 Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022 | v4.0
 Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_annotate.py | 07.04.2022 | v5.0
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
+Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1

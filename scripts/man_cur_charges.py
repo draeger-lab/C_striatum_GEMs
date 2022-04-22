@@ -63,7 +63,7 @@ for path_to_change in modelpaths_to_change:
     print(errors)
 
 #%% see which metabolites are still uncharged
-path = '../models/Cstr_14_genes.xml'
+path = '../models/Cstr_14.xml'
 model = load_model_libsbml(path)
 print(get_metab_without_charge(model.getListOfSpecies()))
 
