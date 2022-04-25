@@ -2,7 +2,7 @@
   "software.name": "fbc_curation",
   "software.version": "0.1.6",
   "software.url": "https://doi.org/10.5281/zenodo.3708271",
-  "environment": "posix, Darwin, 19.6.0",
+  "environment": "posix, Linux, 5.13.0-1021-azure",
   "model.filename": "Cstr_14.xml",
   "model.md5": "60036526bee05e6f8ae10a63aff6d1dd",
   "solver.name": "cobrapy (glpk)",

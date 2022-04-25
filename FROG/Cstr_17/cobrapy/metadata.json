@@ -3,8 +3,8 @@
   "software.version": "0.1.6",
   "software.url": "https://doi.org/10.5281/zenodo.3708271",
   "environment": "posix, Linux, 5.13.0-1021-azure",
-  "model.filename": "Cstr_14.xml",
-  "model.md5": "60036526bee05e6f8ae10a63aff6d1dd",
-  "solver.name": "cameo (glpk)",
-  "solver.version": "0.13.6"
+  "model.filename": "Cstr_17.xml",
+  "model.md5": "2785d5015468c60b26c4740d831dbc45",
+  "solver.name": "cobrapy (glpk)",
+  "solver.version": "0.24.0"
 }
