@@ -1,0 +1,45 @@
+name: FROG analysis of all models
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+       persist-credentials: false
+       fetch-depth: 0
+       
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: python -m pip install fbc-curation
+      
+    - name: Create FROG reports for all models
+      run: |
+        fbc_curation --model ./models/Cstr_14.xml --path ./results/Cstr_14
+        fbc_curation --model ./models/Cstr_15.xml --path ./results/Cstr_15
+        fbc_curation --model ./models/Cstr_16.xml --path ./results/Cstr_16
+        fbc_curation --model ./models/Cstr_17.xml --path ./results/Cstr_17
+
+    - name: Commit FROG report
+      id: commit
+      run: |
+        git config --local user.email "famke.baeuerle@gmail.com"
+        git config --local user.name "famosab"
+        git add --all
+        if [-z "$(git status --porcelain)"]; then
+           echo "::set-output name=push::false"
+        else
+           git commit -m "Update FROG Report" -a
+           echo "::set-output name=push::true"
+        fi
+ 
+    - name: Push changes of the report
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}

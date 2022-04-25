@@ -5,7 +5,7 @@ This repository contains all changes made to the strain specific models of *Cory
 Note: creating the memote report written to `GEM_status.html` will take around 10 minutes. You will need to pull afterwards for the updated file.
 
 To access older versions of the model and the corresponding report browse the commits and choose the corresponding commit.
-## Changes to the models
+## Log of substantial changes to the models
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
 --- | --- | --- | ---
 Draft models | CarveMe v.1.5.1 | 25.08.2021 | Initial commit
@@ -16,3 +16,6 @@ Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022
 Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_annotate.py | 07.04.2022 | v5.0
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
 Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
+
+## Notes on model consistency
+The following metabolites
