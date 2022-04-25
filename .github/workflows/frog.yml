@@ -23,10 +23,10 @@ jobs:
       
     - name: Create FROG reports for all models
       run: |
-        fbc_curation --model ./models/Cstr_14.xml --path ./results/Cstr_14
-        fbc_curation --model ./models/Cstr_15.xml --path ./results/Cstr_15
-        fbc_curation --model ./models/Cstr_16.xml --path ./results/Cstr_16
-        fbc_curation --model ./models/Cstr_17.xml --path ./results/Cstr_17
+        fbc_curation --model ./models/Cstr_14.xml --path ./FROG/Cstr_14
+        fbc_curation --model ./models/Cstr_15.xml --path ./FROG/Cstr_15
+        fbc_curation --model ./models/Cstr_16.xml --path ./FROG/Cstr_16
+        fbc_curation --model ./models/Cstr_17.xml --path ./FROG/Cstr_17
 
     - name: Commit FROG report
       id: commit
