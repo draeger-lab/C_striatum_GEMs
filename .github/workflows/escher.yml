@@ -1,7 +1,10 @@
-name: ESCHER maps
+name: Basis for ESCHER maps
 
 on:
-  workflow_dispatch
+  push:
+    paths:
+    - '**.xml'
+    - 'models/'
   
 jobs:
   run:
@@ -47,7 +50,7 @@ jobs:
             df_17.to_csv('./escher/Cstr_17_FBA.csv')     
             cobra.io.save_json_model(model_17, './escher/Cstr_17.json') 
 
-    - name: Commit JSON files
+    - name: Commit JSON and FBA files
       id: commit
       run: |
         git config --local user.email "famke.baeuerle@gmail.com"
@@ -56,7 +59,7 @@ jobs:
         if [-z "$(git status --porcelain)"]; then
            echo "::set-output name=push::false"
         else
-           git commit -m "Update JSON Files" -a
+           git commit -m "Update JSON and FBA Files" -a
            echo "::set-output name=push::true"
         fi
  
