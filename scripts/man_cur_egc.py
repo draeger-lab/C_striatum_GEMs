@@ -128,8 +128,24 @@ df=pd.DataFrame.from_dict([solution.fluxes]).T
 df.to_csv('../escher/Cstr_14_FBA.csv')
 # %%
 
-model = cobra.io.read_sbml_model('../models/Cstr_14.xml')
-model.reactions.get_by_id('SIRA2').remove_from_model(remove_orphans=True)
-model.reactions.get_by_id('FPRA').remove_from_model(remove_orphans=True)
-model.reactions.get_by_id('GCDH').remove_from_model(remove_orphans=True)
-cobra.io.write_sbml_model(model, '../models/Cstr_14.xml')
+model = cobra.io.read_sbml_model('../models/Cstr_15.xml')
+try: 
+    model.reactions.get_by_id('SIRA2').remove_from_model(remove_orphans=True)
+    model.reactions.get_by_id('FPRA').remove_from_model(remove_orphans=True)
+    model.reactions.get_by_id('GCDH').remove_from_model(remove_orphans=True)
+except (KeyError):
+    pass
+cobra.io.write_sbml_model(model, '../models/Cstr_15.xml')
+# %%
+
+modelpaths = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+
+for path in modelpaths:
+    model = cobra.io.read_sbml_model(path)
+    try: 
+        model.reactions.get_by_id('SIRA2').remove_from_model(remove_orphans=True)
+        model.reactions.get_by_id('FPRA').remove_from_model(remove_orphans=True)
+        model.reactions.get_by_id('GCDH').remove_from_model(remove_orphans=True)
+    except (KeyError):
+        pass
+    cobra.io.write_sbml_model(model, path)   
