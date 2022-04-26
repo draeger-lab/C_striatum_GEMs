@@ -16,6 +16,7 @@ Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022
 Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_annotate.py | 07.04.2022 | v5.0
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
 Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
+First steps to removal of EGCs | scripts/man_cur_egc | 26.04.2022 | v7.0
 
 ## Notes on model consistency
 The following metabolites

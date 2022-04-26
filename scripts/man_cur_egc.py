@@ -38,11 +38,14 @@ def parse_reaction(eq):
 
 #%%
 from cobra import Reaction
+import numpy as np
 
 #simulate changed conditions without changing the entire model
 with model: 
     # add dissipation reactions
-    #model.reactions.get_by_id('ABTA').lower_bound = -1000.0
+    model.reactions.get_by_id('SIRA2').remove_from_model()
+    model.reactions.get_by_id('FPRA').remove_from_model()
+    model.reactions.get_by_id('GCDH').remove_from_model()
     for i, row in dissipation_rxns.iterrows():
         met_atp = parse_reaction(row['equation'])
         rxn = Reaction(row['type'])
@@ -70,6 +73,9 @@ with model:
     for i, row in dissipation_rxns.iterrows():
         model.objective = row['type']
         print('Set objective to', row['type'], ':', model.optimize().objective_value)
+        if model.optimize().objective_value > 0.0:
+            df=pd.DataFrame.from_dict([model.optimize().fluxes]).T.replace(0, np.nan).dropna(axis=0)
+            df.to_csv('../escher/fba/Cstr_14_' + str(row['type']) + '.csv')
 #%%
 def metabolite_flux_balance(metabolite, solution):
     """
@@ -121,3 +127,9 @@ print(solution.fluxes)
 df=pd.DataFrame.from_dict([solution.fluxes]).T
 df.to_csv('../escher/Cstr_14_FBA.csv')
 # %%
+
+model = cobra.io.read_sbml_model('../models/Cstr_14.xml')
+model.reactions.get_by_id('SIRA2').remove_from_model(remove_orphans=True)
+model.reactions.get_by_id('FPRA').remove_from_model(remove_orphans=True)
+model.reactions.get_by_id('GCDH').remove_from_model(remove_orphans=True)
+cobra.io.write_sbml_model(model, '../models/Cstr_14.xml')
