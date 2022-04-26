@@ -4,6 +4,7 @@ import pandas as pd
 
 model = cobra.io.read_sbml_model('../models/Cstr_14.xml')
 model
+
 #%%
 dissipation_rxns = pd.read_csv("../data/energy_dissipation_rxns.csv")
 dissipation_rxns 
@@ -111,3 +112,6 @@ for rea in model.metabolites.get_by_id(met).reactions:
         if prod == model.metabolites.get_by_id(met):
             print(rea)
 
+#%%
+
+cobra.io.save_json_model(model, "escher/test.json")

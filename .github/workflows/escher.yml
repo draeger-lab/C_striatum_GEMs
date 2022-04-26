@@ -1,0 +1,51 @@
+name: ESCHER maps
+
+on:
+  workflow_dispatch
+  
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+       persist-credentials: false
+       fetch-depth: 0
+       
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install cobra
+        python -m pip install escher
+      
+    - name: Convert all models to json
+      uses: jannekem/run-python-script-action@v1
+      with:
+          script: |
+            import cobra
+            model = cobra.io.read_sbml_model('../../models/Cstr_14.xml')    
+            cobra.io.save_json_model(model, "../../escher/Cstr_14.json")       
+
+    - name: Commit JSON files
+      id: commit
+      run: |
+        git config --local user.email "famke.baeuerle@gmail.com"
+        git config --local user.name "famosab"
+        git add --all
+        if [-z "$(git status --porcelain)"]; then
+           echo "::set-output name=push::false"
+        else
+           git commit -m "Update JSON Files" -a
+           echo "::set-output name=push::true"
+        fi
+ 
+    - name: Push changes of the report
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
