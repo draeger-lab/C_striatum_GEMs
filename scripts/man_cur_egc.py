@@ -106,12 +106,18 @@ influx = atp_flux[atp_flux > 0.0].sum()
 atp_flux
 
 #%%
-met = 'mql8_c'
+met = 'glu__L_c'
 for rea in model.metabolites.get_by_id(met).reactions:
     for prod in rea.products:
         if prod == model.metabolites.get_by_id(met):
             print(rea)
 
 #%%
-
-cobra.io.save_json_model(model, "escher/test.json")
+#Solve
+solution = model.optimize() #solution is stored at model.solution
+#Output solution
+print('Growth Rate: '+str(solution.objective_value)+' 1/h')
+print(solution.fluxes)
+df=pd.DataFrame.from_dict([solution.fluxes]).T
+df.to_csv('../escher/Cstr_14_FBA.csv')
+# %%
