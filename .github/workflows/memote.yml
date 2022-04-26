@@ -1,11 +1,12 @@
 name: Update MEMOTE and ESCHER
 
 on: 
+  workflow_dispatch:
   push:
     paths:
     - '**.xml'
     - 'models/'
-    workflow_dispatch:
+    
 
 jobs:
   run:
