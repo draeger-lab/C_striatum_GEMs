@@ -28,8 +28,8 @@ jobs:
       with:
           script: |
             import cobra
-            model = cobra.io.read_sbml_model('../../models/Cstr_14.xml')    
-            cobra.io.save_json_model(model, "../../escher/Cstr_14.json")       
+            model = cobra.io.read_sbml_model('.models/Cstr_14.xml')    
+            cobra.io.save_json_model(model, '.escher/Cstr_14.json')       
 
     - name: Commit JSON files
       id: commit
