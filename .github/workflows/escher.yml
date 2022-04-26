@@ -24,7 +24,6 @@ jobs:
         python -m pip install escher
       
     - name: Convert all models to json
-      uses: actions/checkout@v2
       uses: jannekem/run-python-script-action@v1
       with:
           script: |
