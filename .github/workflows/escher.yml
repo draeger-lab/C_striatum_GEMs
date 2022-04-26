@@ -1,10 +1,7 @@
 name: Basis for ESCHER maps
 
 on:
-  push:
-    paths:
-    - '**.xml'
-    - 'models/'
+  workflow_dispatch
   
 jobs:
   run:
