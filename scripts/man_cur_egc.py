@@ -32,7 +32,7 @@ def parse_reaction(eq):
 #%%
 model = cobra.io.read_sbml_model('../models/Cstr_14.xml')
 dissipation_rxns = pd.read_csv("../data/energy_dissipation_rxns.csv")
-
+dissipation_rxns
 #%%
 #simulate changed conditions without changing the entire model
 with model: 
@@ -82,4 +82,44 @@ for path in modelpaths:
         pass
     cobra.io.write_sbml_model(model, path)
     
-# now run cell above again -> all reactions have zero growth   
+#%%
+# test other models for EGC
+modelpaths = ['../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+dissipation_rxns = dissipation_rxns.drop(11)
+for path in modelpaths:
+    model = cobra.io.read_sbml_model(path)
+    with model: 
+    # add dissipation reactions
+        for i, row in dissipation_rxns.iterrows():
+            met_atp = parse_reaction(row['equation'])
+            rxn = Reaction(row['type'])
+            rxn.name = 'Test ' + row['type'] + ' dissipation reaction'
+            rxn.add_metabolites(met_atp)
+            model.add_reaction(rxn)
+            
+        for rxn in model.reactions:
+            if 'EX_' in rxn.id:
+                rxn.upper_bound = 0.0
+                rxn.lower_bound = 0.0
+                #print('Set exchange rxn to 0', rxn.name)
+            # set reversible reactions fluxes to [-1,1]    
+            elif rxn.reversibility: 
+                rxn.upper_bound = 1.0
+                rxn.lower_bound = -1.0
+                #print('Reversible rxn', rxn.name)
+            # irreversible reactions have fluxes [0.1]    
+            else:
+                rxn.upper_bound = 1.0
+                rxn.lower_bound = 0.0
+                #print('Irreversible rxn', rxn.name)
+
+        # optimize by choosing one of dissipation reactions as an objective
+        for i, row in dissipation_rxns.iterrows():
+            model.objective = row['type']
+            print('Set objective to', row['type'], ':', model.optimize().objective_value)
+            if model.optimize().objective_value > 0.0:
+                df=pd.DataFrame.from_dict([model.optimize().fluxes]).T.replace(0, np.nan).dropna(axis=0)
+                #df.to_csv('../escher/fba/Cstr_14_' + str(row['type']) + '.csv')
+                print(df)
+                
+# no EGC detected
