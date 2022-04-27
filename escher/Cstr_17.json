@@ -46450,6 +46450,24 @@
 }
 },
 {
+"id":"FPRA",
+"name":"",
+"metabolites":{
+"fdxox_c":1.0,
+"fdxrd_c":-1.0,
+"h_c":-1.0,
+"nadp_c":-1.0,
+"nadph_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80229_1_830",
+"annotation":{
+"bigg.reaction":"FPRA",
+"sbo":"SBO:0000200"
+}
+},
+{
 "id":"FRD2rpp",
 "name":"",
 "metabolites":{
@@ -47672,6 +47690,23 @@
 "metanetx.reaction":"MNXR100069",
 "sbo":"SBO:0000200",
 "seed.reaction":"rxn06493"
+}
+},
+{
+"id":"GCDH",
+"name":"",
+"metabolites":{
+"b2coa_c":1.0,
+"co2_c":1.0,
+"glutcoa_c":-1.0,
+"h_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80064_1_650",
+"annotation":{
+"bigg.reaction":"GCDH",
+"sbo":"SBO:0000176"
 }
 },
 {
@@ -68288,7 +68323,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"RHACOAR100",
+"bigg.reaction":[
+"RHACOAR100"
+],
 "ec-code":"1.1.1.36",
 "metanetx.reaction":"MNXR104020",
 "sbo":"SBO:0000200",
@@ -68381,7 +68418,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"RHACOAR60",
+"bigg.reaction":[
+"RHACOAR60"
+],
 "ec-code":"1.1.1.36",
 "metanetx.reaction":"MNXR104023",
 "sbo":"SBO:0000200",
@@ -68420,7 +68459,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"RHACOAR80",
+"bigg.reaction":[
+"RHACOAR80"
+],
 "ec-code":"1.1.1.36",
 "metanetx.reaction":"MNXR104024",
 "sbo":"SBO:0000200",
@@ -68583,7 +68624,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78429_1_1228",
 "annotation":{
-"bigg.reaction":"RHCCE",
+"bigg.reaction":[
+"RHCCE"
+],
 "biocyc":"META:RIBOSYLHOMOCYSTEINASE-RXN",
 "ec-code":"4.4.1.21",
 "kegg.reaction":"R01291",
@@ -68617,7 +68660,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79103_1_1978 or lcl_CP068157_1_prot_QQU80309_1_917 or (lcl_CP068157_1_prot_QQU79103_1_1978 and lcl_CP068157_1_prot_QQU79104_1_1979) or (lcl_CP068157_1_prot_QQU79104_1_1979 and lcl_CP068157_1_prot_QQU80301_1_909) or (lcl_CP068157_1_prot_QQU80310_1_918 and lcl_CP068157_1_prot_QQU80311_1_920 and lcl_CP068157_1_prot_QQU80664_1_919)",
 "annotation":{
-"bigg.reaction":"RIBabc",
+"bigg.reaction":[
+"RIBabc"
+],
 "biocyc":"META:ABC-28-RXN",
 "ec-code":"3.6.3.17",
 "metanetx.reaction":"MNXR104034",
@@ -68654,7 +68699,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79104_1_1979 and lcl_CP068157_1_prot_QQU80301_1_909",
 "annotation":{
-"bigg.reaction":"RIBabc1",
+"bigg.reaction":[
+"RIBabc1"
+],
 "metanetx.reaction":"MNXR104035",
 "rhea":[
 "29903",
@@ -68686,7 +68733,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79103_1_1978 or lcl_CP068157_1_prot_QQU79104_1_1979 or lcl_CP068157_1_prot_QQU80084_1_672",
 "annotation":{
-"bigg.reaction":"RIBabcpp",
+"bigg.reaction":[
+"RIBabcpp"
+],
 "biocyc":"META:ABC-28-RXN",
 "ec-code":"3.6.3.17",
 "metanetx.reaction":"MNXR104034",
@@ -68718,7 +68767,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"RIBtex",
+"bigg.reaction":[
+"RIBtex"
+],
 "metanetx.reaction":"MNXR104036",
 "sbo":"SBO:0000658",
 "seed.reaction":"rxn09228"
@@ -68738,7 +68789,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78823_1_1665 or lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU79169_1_2055 or lcl_CP068157_1_prot_QQU79171_1_2057 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055)",
 "annotation":{
-"bigg.reaction":"RNDR1",
+"bigg.reaction":[
+"RNDR1"
+],
 "biocyc":"META:ADPREDUCT-RXN",
 "ec-code":"1.17.4.1",
 "kegg.reaction":"R02017",
@@ -68761,7 +68814,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79169_1_2055 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055) or (lcl_CP068157_1_prot_QQU79169_1_2055 and lcl_CP068157_1_prot_QQU79170_1_2056)",
 "annotation":{
-"bigg.reaction":"RNDR1b",
+"bigg.reaction":[
+"RNDR1b"
+],
 "metanetx.reaction":"MNXR104061",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09231"
@@ -68781,7 +68836,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78823_1_1665 or lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU79171_1_2057 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055)",
 "annotation":{
-"bigg.reaction":"RNDR2",
+"bigg.reaction":[
+"RNDR2"
+],
 "biocyc":"META:GDPREDUCT-RXN",
 "ec-code":"1.17.4.1",
 "kegg.reaction":"R02019",
@@ -68804,7 +68861,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79169_1_2055 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055) or (lcl_CP068157_1_prot_QQU79169_1_2055 and lcl_CP068157_1_prot_QQU79170_1_2056)",
 "annotation":{
-"bigg.reaction":"RNDR2b",
+"bigg.reaction":[
+"RNDR2b"
+],
 "metanetx.reaction":"MNXR104063",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09232"
@@ -68824,7 +68883,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78823_1_1665 or lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU79171_1_2057 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055)",
 "annotation":{
-"bigg.reaction":"RNDR3",
+"bigg.reaction":[
+"RNDR3"
+],
 "biocyc":"META:CDPREDUCT-RXN",
 "ec-code":"1.17.4.1",
 "kegg.reaction":"R02024",
@@ -68847,7 +68908,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79169_1_2055 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055) or (lcl_CP068157_1_prot_QQU79169_1_2055 and lcl_CP068157_1_prot_QQU79170_1_2056)",
 "annotation":{
-"bigg.reaction":"RNDR3b",
+"bigg.reaction":[
+"RNDR3b"
+],
 "metanetx.reaction":"MNXR104065",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09233"
@@ -68867,7 +68930,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78823_1_1665 or lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU79169_1_2055 or lcl_CP068157_1_prot_QQU79171_1_2057 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055)",
 "annotation":{
-"bigg.reaction":"RNDR4",
+"bigg.reaction":[
+"RNDR4"
+],
 "biocyc":"META:UDPREDUCT-RXN",
 "ec-code":"1.17.4.1",
 "kegg.reaction":"R02018",
@@ -68890,7 +68955,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79169_1_2055 or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79079_1_1947) or (lcl_CP068157_1_prot_QQU79078_1_1945 and lcl_CP068157_1_prot_QQU79169_1_2055) or (lcl_CP068157_1_prot_QQU79169_1_2055 and lcl_CP068157_1_prot_QQU79170_1_2056)",
 "annotation":{
-"bigg.reaction":"RNDR4b",
+"bigg.reaction":[
+"RNDR4b"
+],
 "metanetx.reaction":"MNXR104067",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09234"
@@ -68910,7 +68977,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU80492_1_1123",
 "annotation":{
-"bigg.reaction":"RNTR1",
+"bigg.reaction":[
+"RNTR1"
+],
 "ec-code":"1.17.4.2",
 "kegg.reaction":"R02014",
 "metanetx.reaction":"MNXR104070",
@@ -68932,7 +69001,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU80492_1_1123",
 "annotation":{
-"bigg.reaction":"RNTR2",
+"bigg.reaction":[
+"RNTR2"
+],
 "ec-code":"1.17.4.2",
 "kegg.reaction":"R02020",
 "metanetx.reaction":"MNXR104073",
@@ -68954,7 +69025,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU80492_1_1123",
 "annotation":{
-"bigg.reaction":"RNTR3",
+"bigg.reaction":[
+"RNTR3"
+],
 "ec-code":"1.17.4.2",
 "kegg.reaction":"R02022",
 "metanetx.reaction":"MNXR104076",
@@ -68976,7 +69049,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79077_1_1944 or lcl_CP068157_1_prot_QQU80492_1_1123",
 "annotation":{
-"bigg.reaction":"RNTR4",
+"bigg.reaction":[
+"RNTR4"
+],
 "ec-code":"1.17.4.2",
 "kegg.reaction":"R02023",
 "metanetx.reaction":"MNXR104079",
@@ -68995,7 +69070,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79778_1_334",
 "annotation":{
-"bigg.reaction":"RPE",
+"bigg.reaction":[
+"RPE"
+],
 "biocyc":"META:RIBULP3EPIM-RXN",
 "ec-code":"5.1.3.1",
 "kegg.reaction":"R01529",
@@ -69059,7 +69136,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79164_1_2048",
 "annotation":{
-"bigg.reaction":"RPI",
+"bigg.reaction":[
+"RPI"
+],
 "ec-code":"5.3.1.6",
 "metanetx.reaction":"MNXR104084",
 "sbo":"SBO:0000377"
@@ -69078,7 +69157,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79725_1_274",
 "annotation":{
-"bigg.reaction":"RU5PP",
+"bigg.reaction":[
+"RU5PP"
+],
 "sbo":"SBO:0000176"
 }
 },
@@ -69096,7 +69177,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78912_1_1765 and lcl_CP068157_1_prot_QQU78913_1_1766",
 "annotation":{
-"bigg.reaction":"SADT",
+"bigg.reaction":[
+"SADT"
+],
 "biocyc":"META:SULFATE-ADENYLYLTRANS-RXN",
 "ec-code":"2.7.7.4",
 "kegg.reaction":"R00529",
@@ -69145,7 +69228,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SALCHS4FER1",
+"bigg.reaction":[
+"SALCHS4FER1"
+],
 "metanetx.reaction":"MNXR104253",
 "sbo":"SBO:0000200"
 }
@@ -69166,7 +69251,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"(lcl_CP068157_1_prot_QQU78639_1_1465 and lcl_CP068157_1_prot_QQU78640_1_1466 and lcl_CP068157_1_prot_QQU80355_1_967) or (lcl_CP068157_1_prot_QQU78639_1_1465 and lcl_CP068157_1_prot_QQU78919_1_1772 and lcl_CP068157_1_prot_QQU80355_1_967)",
 "annotation":{
-"bigg.reaction":"SALCHS4FEabcpp",
+"bigg.reaction":[
+"SALCHS4FEabcpp"
+],
 "metanetx.reaction":"MNXR104256",
 "sbo":"SBO:0000657"
 }
@@ -69184,7 +69271,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SALCHS4FEtonex",
+"bigg.reaction":[
+"SALCHS4FEtonex"
+],
 "metanetx.reaction":"MNXR104258",
 "sbo":"SBO:0000654"
 }
@@ -69205,7 +69294,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78649_1_1475 or lcl_CP068157_1_prot_QQU79681_1_223",
 "annotation":{
-"bigg.reaction":"SALCHS4abcpp",
+"bigg.reaction":[
+"SALCHS4abcpp"
+],
 "metanetx.reaction":"MNXR104260",
 "sbo":"SBO:0000657"
 }
@@ -69223,7 +69314,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SALCHS4tex",
+"bigg.reaction":[
+"SALCHS4tex"
+],
 "metanetx.reaction":"MNXR104261",
 "sbo":"SBO:0000654"
 }
@@ -69275,7 +69368,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79370_1_2275",
 "annotation":{
-"bigg.reaction":"SBTD_D2",
+"bigg.reaction":[
+"SBTD_D2"
+],
 "biocyc":"META:RXN-7644",
 "ec-code":[
 "1.1.1.14",
@@ -69324,7 +69419,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SBTt2",
+"bigg.reaction":[
+"SBTt2"
+],
 "metanetx.reaction":"MNXR104291",
 "sbo":"SBO:0000659",
 "seed.reaction":"rxn05648"
@@ -69343,7 +69440,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78605_1_1424 or lcl_CP068157_1_prot_QQU79969_1_537",
 "annotation":{
-"bigg.reaction":"SDPDS",
+"bigg.reaction":[
+"SDPDS"
+],
 "biocyc":"META:SUCCDIAMINOPIMDESUCC-RXN",
 "ec-code":"3.5.1.18",
 "kegg.reaction":"R02734",
@@ -69371,7 +69470,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79659_1_198 or lcl_CP068157_1_prot_QQU79974_1_544 or lcl_CP068157_1_prot_QQU80166_1_761",
 "annotation":{
-"bigg.reaction":"SDPTA",
+"bigg.reaction":[
+"SDPTA"
+],
 "biocyc":"META:SUCCINYLDIAMINOPIMTRANS-RXN",
 "ec-code":"2.6.1.17",
 "kegg.reaction":"R04475",
@@ -69400,7 +69501,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80518_1_1154",
 "annotation":{
-"bigg.reaction":"SEPHCHCS",
+"bigg.reaction":[
+"SEPHCHCS"
+],
 "ec-code":"2.2.1.9",
 "kegg.reaction":"R08165",
 "metanetx.reaction":"MNXR104329",
@@ -69427,7 +69530,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79061_1_1927",
 "annotation":{
-"bigg.reaction":"SERAT",
+"bigg.reaction":[
+"SERAT"
+],
 "biocyc":"META:SERINE-O-ACETTRAN-RXN",
 "ec-code":"2.3.1.30",
 "kegg.reaction":"R00586",
@@ -69455,7 +69560,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79536_1_53 or lcl_CP068157_1_prot_QQU79614_1_144",
 "annotation":{
-"bigg.reaction":"SERD_L",
+"bigg.reaction":[
+"SERD_L"
+],
 "biocyc":"META:4.3.1.17-RXN",
 "ec-code":[
 "4.3.1.15",
@@ -69513,7 +69620,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79571_1_96 or lcl_CP068157_1_prot_QQU79636_1_171 or lcl_CP068157_1_prot_QQU80602_1_170",
 "annotation":{
-"bigg.reaction":"SERabc",
+"bigg.reaction":[
+"SERabc"
+],
 "metanetx.reaction":"MNXR104351",
 "sbo":"SBO:0000657",
 "seed.reaction":"rxn10883"
@@ -69532,7 +69641,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80264_1_867",
 "annotation":{
-"bigg.reaction":"SERt2r",
+"bigg.reaction":[
+"SERt2r"
+],
 "biocyc":"META:TRANS-RXN-71",
 "metanetx.reaction":"MNXR104352",
 "rhea":[
@@ -69562,7 +69673,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79537_1_54 or lcl_CP068157_1_prot_QQU80175_1_772",
 "annotation":{
-"bigg.reaction":"SERt2rpp",
+"bigg.reaction":[
+"SERt2rpp"
+],
 "biocyc":"META:TRANS-RXN-71",
 "metanetx.reaction":"MNXR104352",
 "rhea":[
@@ -69590,7 +69703,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SERtpp",
+"bigg.reaction":[
+"SERtpp"
+],
 "sbo":"SBO:0000658"
 }
 },
@@ -69606,7 +69721,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80518_1_1154",
 "annotation":{
-"bigg.reaction":"SHCHCS3",
+"bigg.reaction":[
+"SHCHCS3"
+],
 "ec-code":"4.2.99.20",
 "kegg.reaction":"R08166",
 "metanetx.reaction":[
@@ -69637,7 +69754,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80224_1_825",
 "annotation":{
-"bigg.reaction":"SHCHD2",
+"bigg.reaction":[
+"SHCHD2"
+],
 "biocyc":"META:DIMETHUROPORDEHYDROG-RXN",
 "ec-code":"1.3.1.76",
 "kegg.reaction":"R03947",
@@ -69665,7 +69784,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80224_1_825 or lcl_CP068157_1_prot_QQU80226_1_827",
 "annotation":{
-"bigg.reaction":"SHCHF",
+"bigg.reaction":[
+"SHCHF"
+],
 "biocyc":"META:SIROHEME-FERROCHELAT-RXN",
 "ec-code":"4.99.1.4",
 "kegg.reaction":"R02864",
@@ -69693,7 +69814,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SHGO",
+"bigg.reaction":[
+"SHGO"
+],
 "sbo":"SBO:0000176"
 }
 },
@@ -69711,7 +69834,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79628_1_161",
 "annotation":{
-"bigg.reaction":"SHK3Dr",
+"bigg.reaction":[
+"SHK3Dr"
+],
 "biocyc":"META:SHIKIMATE-5-DEHYDROGENASE-RXN",
 "ec-code":[
 "1.1.1.25",
@@ -69744,7 +69869,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79631_1_164",
 "annotation":{
-"bigg.reaction":"SHKK",
+"bigg.reaction":[
+"SHKK"
+],
 "biocyc":"META:SHIKIMATE-KINASE-RXN",
 "ec-code":"2.7.1.71",
 "kegg.reaction":"R02412",
@@ -69774,7 +69901,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79145_1_2023",
 "annotation":{
-"bigg.reaction":"SHSL1",
+"bigg.reaction":[
+"SHSL1"
+],
 "biocyc":"META:O-SUCCHOMOSERLYASE-RXN",
 "ec-code":"2.5.1.48",
 "kegg.reaction":"R03260",
@@ -69802,7 +69931,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SHSL2r",
+"bigg.reaction":[
+"SHSL2r"
+],
 "biocyc":"META:RXN-9384",
 "ec-code":[
 "2.5.1.-",
@@ -69835,7 +69966,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79145_1_2023",
 "annotation":{
-"bigg.reaction":"SHSL4r",
+"bigg.reaction":[
+"SHSL4r"
+],
 "biocyc":"META:METBALT-RXN",
 "ec-code":[
 "2.5.1.48",
@@ -69847,6 +69980,25 @@
 "metanetx.reaction":"MNXR104384",
 "sbo":"SBO:0000401",
 "seed.reaction":"rxn00740"
+}
+},
+{
+"id":"SIRA2",
+"name":"",
+"metabolites":{
+"fdxox_c":-6.0,
+"fdxrd_c":6.0,
+"h2o_c":-3.0,
+"h2s_c":-1.0,
+"h_c":8.0,
+"so3_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80228_1_829",
+"annotation":{
+"bigg.reaction":"SIRA2",
+"sbo":"SBO:0000176"
 }
 },
 {
@@ -69862,7 +70014,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78733_1_1566",
 "annotation":{
-"bigg.reaction":"SKMt2",
+"bigg.reaction":[
+"SKMt2"
+],
 "biocyc":"META:TRANS-RXN-27",
 "metanetx.reaction":"MNXR104393",
 "rhea":[
@@ -69891,7 +70045,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78794_1_1633",
 "annotation":{
-"bigg.reaction":"SKMt2pp",
+"bigg.reaction":[
+"SKMt2pp"
+],
 "biocyc":"META:TRANS-RXN-27",
 "metanetx.reaction":"MNXR104393",
 "rhea":[
@@ -69918,7 +70074,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SKMtex",
+"bigg.reaction":[
+"SKMtex"
+],
 "metanetx.reaction":"MNXR104394",
 "sbo":"SBO:0000658",
 "seed.reaction":"rxn09257"
@@ -70013,7 +70171,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78803_1_1643",
 "annotation":{
-"bigg.reaction":"SO3abcpp",
+"bigg.reaction":[
+"SO3abcpp"
+],
 "metanetx.reaction":"MNXR104458",
 "sbo":"SBO:0000657"
 }
@@ -70029,7 +70189,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SO3tex",
+"bigg.reaction":[
+"SO3tex"
+],
 "metanetx.reaction":"MNXR104460",
 "sbo":"SBO:0000658",
 "seed.reaction":[
@@ -70051,7 +70213,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78594_1_1409",
 "annotation":{
-"bigg.reaction":"SO4t2",
+"bigg.reaction":[
+"SO4t2"
+],
 "metanetx.reaction":"MNXR104466",
 "rhea":[
 "28574",
@@ -70082,7 +70246,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80543_1_1182",
 "annotation":{
-"bigg.reaction":"SPMDabc",
+"bigg.reaction":[
+"SPMDabc"
+],
 "biocyc":"META:ABC-24-RXN",
 "ec-code":"3.6.3.31",
 "metanetx.reaction":"MNXR104494",
@@ -70117,7 +70283,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80541_1_1180",
 "annotation":{
-"bigg.reaction":"SPMDt3pp",
+"bigg.reaction":[
+"SPMDt3pp"
+],
 "biocyc":"META:TRANS-RXN0-266",
 "metanetx.reaction":"MNXR104497",
 "rhea":[
@@ -70141,7 +70309,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SPMDtex",
+"bigg.reaction":[
+"SPMDtex"
+],
 "metanetx.reaction":"MNXR104495",
 "rhea":[
 "35039",
@@ -70169,7 +70339,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78844_1_1687",
 "annotation":{
-"bigg.reaction":"SPODM",
+"bigg.reaction":[
+"SPODM"
+],
 "biocyc":"META:SUPEROX-DISMUT-RXN",
 "ec-code":"1.15.1.1",
 "kegg.reaction":"R00275",
@@ -70198,7 +70370,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78740_1_1573 or lcl_CP068157_1_prot_QQU80000_1_575 or lcl_CP068157_1_prot_QQU80244_1_847 or lcl_CP068157_1_prot_QQU80246_1_849",
 "annotation":{
-"bigg.reaction":"SSALx",
+"bigg.reaction":[
+"SSALx"
+],
 "biocyc":"META:SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN",
 "ec-code":[
 "1.2.1.16",
@@ -70248,7 +70422,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78740_1_1573 or lcl_CP068157_1_prot_QQU80000_1_575 or lcl_CP068157_1_prot_QQU80244_1_847 or lcl_CP068157_1_prot_QQU80246_1_849",
 "annotation":{
-"bigg.reaction":"SSALy",
+"bigg.reaction":[
+"SSALy"
+],
 "biocyc":"META:SUCCSEMIALDDEHYDROG-RXN",
 "ec-code":[
 "1.2.1.16",
@@ -70281,7 +70457,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78740_1_1573",
 "annotation":{
-"bigg.reaction":"SSCOARy",
+"bigg.reaction":[
+"SSCOARy"
+],
 "biocyc":"META:RXN-8891",
 "ec-code":"1.2.1.76",
 "kegg.reaction":"R09280",
@@ -70308,7 +70486,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221 or lcl_CP068157_1_prot_QQU80522_1_1158",
 "annotation":{
-"bigg.reaction":"SUCASPtpp",
+"bigg.reaction":[
+"SUCASPtpp"
+],
 "biocyc":"META:TRANS-RXN-106A",
 "metanetx.reaction":"MNXR104611",
 "rhea":[
@@ -70335,7 +70515,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80521_1_1157 and lcl_CP068157_1_prot_QQU80529_1_1166",
 "annotation":{
-"bigg.reaction":"SUCBZL",
+"bigg.reaction":[
+"SUCBZL"
+],
 "biocyc":"META:O-SUCCINYLBENZOATE-COA-LIG-RXN",
 "ec-code":"6.2.1.26",
 "kegg.reaction":"R04030",
@@ -70362,7 +70544,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SUCBZS",
+"bigg.reaction":[
+"SUCBZS"
+],
 "biocyc":"META:O-SUCCINYLBENZOATE-COA-SYN-RXN",
 "ec-code":[
 "4.2.1.-",
@@ -70396,7 +70580,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221 or lcl_CP068157_1_prot_QQU79721_1_270",
 "annotation":{
-"bigg.reaction":"SUCCt2_3pp",
+"bigg.reaction":[
+"SUCCt2_3pp"
+],
 "biocyc":"META:TRANS-RXN-300",
 "metanetx.reaction":"MNXR104621",
 "sbo":"SBO:0000659",
@@ -70416,7 +70602,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79882_1_443",
 "annotation":{
-"bigg.reaction":"SUCCt2r",
+"bigg.reaction":[
+"SUCCt2r"
+],
 "metanetx.reaction":"MNXR104622",
 "sbo":"SBO:0000659",
 "seed.reaction":"rxn05654"
@@ -70435,7 +70623,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221 or lcl_CP068157_1_prot_QQU79721_1_270 or lcl_CP068157_1_prot_QQU80522_1_1158",
 "annotation":{
-"bigg.reaction":"SUCFUMtpp",
+"bigg.reaction":[
+"SUCFUMtpp"
+],
 "biocyc":"META:TRANS-RXN-106",
 "metanetx.reaction":"MNXR104633",
 "rhea":[
@@ -70465,7 +70655,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221 or lcl_CP068157_1_prot_QQU80522_1_1158",
 "annotation":{
-"bigg.reaction":"SUCMALtpp",
+"bigg.reaction":[
+"SUCMALtpp"
+],
 "biocyc":"META:TRANS-RXN-106B",
 "metanetx.reaction":"MNXR97456",
 "rhea":[
@@ -70491,7 +70683,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79057_1_1923",
 "annotation":{
-"bigg.reaction":"SUCOAACTr",
+"bigg.reaction":[
+"SUCOAACTr"
+],
 "biocyc":"META:RXN-8807",
 "ec-code":"2.8.3.18",
 "kegg.reaction":"R10343",
@@ -70520,7 +70714,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79057_1_1923 or (lcl_CP068157_1_prot_QQU78686_1_1517 and lcl_CP068157_1_prot_QQU80704_1_1518)",
 "annotation":{
-"bigg.reaction":"SUCOAS",
+"bigg.reaction":[
+"SUCOAS"
+],
 "biocyc":"META:SUCCCOASYN-RXN",
 "ec-code":"6.2.1.5",
 "kegg.reaction":"R00405",
@@ -70568,7 +70764,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80466_1_1097",
 "annotation":{
-"bigg.reaction":"SUCR",
+"bigg.reaction":[
+"SUCR"
+],
 "ec-code":[
 "2.4.1.10",
 "2.4.1.4",
@@ -70600,7 +70798,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"SUCRt2",
+"bigg.reaction":[
+"SUCRt2"
+],
 "biocyc":"META:TRANS-RXN-244",
 "metanetx.reaction":"MNXR104640",
 "sbo":"SBO:0000659",
@@ -70620,7 +70820,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221",
 "annotation":{
-"bigg.reaction":"SUCTARTtpp",
+"bigg.reaction":[
+"SUCTARTtpp"
+],
 "biocyc":"META:TRANS-RXN0-499",
 "metanetx.reaction":"MNXR104642",
 "rhea":[
@@ -70645,7 +70847,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80465_1_1096 or (lcl_CP068157_1_prot_QQU79517_1_33 and lcl_CP068157_1_prot_QQU79520_1_36)",
 "annotation":{
-"bigg.reaction":"SUCpts",
+"bigg.reaction":[
+"SUCpts"
+],
 "metanetx.reaction":"MNXR104643",
 "sbo":"SBO:0000657",
 "seed.reaction":[
@@ -70670,7 +70874,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78803_1_1643",
 "annotation":{
-"bigg.reaction":"SULabc",
+"bigg.reaction":[
+"SULabc"
+],
 "biocyc":[
 "META:3.6.3.25-RXN",
 "META:ABC-70-RXN"
@@ -70705,7 +70911,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"spontaneous",
 "annotation":{
-"bigg.reaction":"St",
+"bigg.reaction":[
+"St"
+],
 "metanetx.reaction":[
 "MNXR104658",
 "MNXR138845"
@@ -70798,7 +71006,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79761_1_317",
 "annotation":{
-"bigg.reaction":"TALA",
+"bigg.reaction":[
+"TALA"
+],
 "biocyc":"META:TRANSALDOL-RXN",
 "ec-code":"2.2.1.2",
 "kegg.reaction":"R01827",
@@ -70825,7 +71035,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79679_1_221",
 "annotation":{
-"bigg.reaction":"TARTt2_3pp",
+"bigg.reaction":[
+"TARTt2_3pp"
+],
 "metanetx.reaction":"MNXR104725",
 "sbo":"SBO:0000659"
 }
@@ -70846,7 +71058,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78803_1_1643",
 "annotation":{
-"bigg.reaction":"TAURabc",
+"bigg.reaction":[
+"TAURabc"
+],
 "biocyc":[
 "META:3.6.3.36-RXN",
 "META:ABC-64-RXN"
@@ -70881,7 +71095,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TCYNTtex",
+"bigg.reaction":[
+"TCYNTtex"
+],
 "metanetx.reaction":"MNXR104749",
 "sbo":"SBO:0000658",
 "seed.reaction":"rxn09287"
@@ -70916,7 +71132,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78714_1_1546 or lcl_CP068157_1_prot_QQU79087_1_1961",
 "annotation":{
-"bigg.reaction":"TDP",
+"bigg.reaction":[
+"TDP"
+],
 "biocyc":"META:RXN0-3542",
 "ec-code":[
 "3.6.1",
@@ -70949,7 +71167,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79971_1_539",
 "annotation":{
-"bigg.reaction":"THDPS",
+"bigg.reaction":[
+"THDPS"
+],
 "biocyc":"META:TETHYDPICSUCC-RXN",
 "ec-code":"2.3.1.117",
 "kegg.reaction":"R04365",
@@ -70977,7 +71197,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78823_1_1665 or lcl_CP068157_1_prot_QQU79107_1_1982 or lcl_CP068157_1_prot_QQU79528_1_44 or (lcl_CP068157_1_prot_QQU78707_1_1539 and lcl_CP068157_1_prot_QQU79107_1_1982) or (lcl_CP068157_1_prot_QQU78707_1_1539 and lcl_CP068157_1_prot_QQU79528_1_44)",
 "annotation":{
-"bigg.reaction":"THIORDXi",
+"bigg.reaction":[
+"THIORDXi"
+],
 "biocyc":"META:RXN0-267",
 "ec-code":[
 "1.11.1.15",
@@ -71004,7 +71226,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80495_1_1127 and lcl_CP068157_1_prot_QQU80496_1_1128",
 "annotation":{
-"bigg.reaction":"THMabc",
+"bigg.reaction":[
+"THMabc"
+],
 "biocyc":"META:ABC-32-RXN",
 "metanetx.reaction":[
 "MNXR104827",
@@ -71035,7 +71259,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80400_1_1022",
 "annotation":{
-"bigg.reaction":"THRA",
+"bigg.reaction":[
+"THRA"
+],
 "biocyc":"META:THREONINE-ALDOLASE-RXN",
 "ec-code":[
 "4.1.2.48",
@@ -71065,7 +71291,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"THRA2",
+"bigg.reaction":[
+"THRA2"
+],
 "sbo":"SBO:0000176"
 }
 },
@@ -71083,7 +71311,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78453_1_1252",
 "annotation":{
-"bigg.reaction":"THRD",
+"bigg.reaction":[
+"THRD"
+],
 "biocyc":"META:THREODEHYD-RXN",
 "ec-code":"1.1.1.103",
 "kegg.reaction":"R01465",
@@ -71111,7 +71341,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79381_1_2287 or lcl_CP068157_1_prot_QQU79536_1_53",
 "annotation":{
-"bigg.reaction":"THRD_L",
+"bigg.reaction":[
+"THRD_L"
+],
 "biocyc":"META:THREDEHYD-RXN",
 "ec-code":"4.3.1.19",
 "kegg.reaction":"R00996",
@@ -71139,7 +71371,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79308_1_2207",
 "annotation":{
-"bigg.reaction":"THRS",
+"bigg.reaction":[
+"THRS"
+],
 "biocyc":"META:THRESYN-RXN",
 "ec-code":"4.2.3.1",
 "kegg.reaction":"R01466",
@@ -71170,7 +71404,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79571_1_96 or lcl_CP068157_1_prot_QQU79636_1_171 or lcl_CP068157_1_prot_QQU80602_1_170",
 "annotation":{
-"bigg.reaction":"THRabc",
+"bigg.reaction":[
+"THRabc"
+],
 "metanetx.reaction":"MNXR104849",
 "sbo":"SBO:0000657",
 "seed.reaction":[
@@ -71195,7 +71431,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79571_1_96",
 "annotation":{
-"bigg.reaction":"THRabcpp",
+"bigg.reaction":[
+"THRabcpp"
+],
 "metanetx.reaction":"MNXR104849",
 "sbo":"SBO:0000657",
 "seed.reaction":[
@@ -71217,7 +71455,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78576_1_1389 or lcl_CP068157_1_prot_QQU79214_1_2102 or lcl_CP068157_1_prot_QQU80673_1_1028",
 "annotation":{
-"bigg.reaction":"THRt2pp",
+"bigg.reaction":[
+"THRt2pp"
+],
 "biocyc":"META:TRANS-RXN0-0244",
 "metanetx.reaction":"MNXR104851",
 "rhea":[
@@ -71246,7 +71486,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79023_1_1887",
 "annotation":{
-"bigg.reaction":"THRt2r",
+"bigg.reaction":[
+"THRt2r"
+],
 "biocyc":"META:TRANS-RXN-72",
 "metanetx.reaction":"MNXR104850",
 "rhea":[
@@ -71284,7 +71526,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79434_1_2349 or lcl_CP068157_1_prot_QQU80013_1_591",
 "annotation":{
-"bigg.reaction":"THZPSN",
+"bigg.reaction":[
+"THZPSN"
+],
 "metanetx.reaction":"MNXR104858",
 "sbo":"SBO:0000399",
 "seed.reaction":"rxn09310"
@@ -71333,7 +71577,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80622_1_316",
 "annotation":{
-"bigg.reaction":"TKT1",
+"bigg.reaction":[
+"TKT1"
+],
 "ec-code":"2.2.1.1",
 "metanetx.reaction":"MNXR104868",
 "sbo":"SBO:0000402"
@@ -71352,7 +71598,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80622_1_316",
 "annotation":{
-"bigg.reaction":"TKT2",
+"bigg.reaction":[
+"TKT2"
+],
 "biocyc":"META:2TRANSKETO-RXN",
 "ec-code":"2.2.1.1",
 "kegg.reaction":"R01830",
@@ -71380,7 +71628,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TMDK2",
+"bigg.reaction":[
+"TMDK2"
+],
 "sbo":"SBO:0000216"
 }
 },
@@ -71398,7 +71648,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79671_1_211",
 "annotation":{
-"bigg.reaction":"TMDPK",
+"bigg.reaction":[
+"TMDPK"
+],
 "biocyc":"META:THIAMIN-PYROPHOSPHOKINASE-RXN",
 "ec-code":"2.7.6.2",
 "kegg.reaction":"R00619",
@@ -71429,7 +71681,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TMDPP",
+"bigg.reaction":[
+"TMDPP"
+],
 "biocyc":"META:THYM-PHOSPH-RXN",
 "ec-code":[
 "2.4.2.2",
@@ -71460,7 +71714,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80138_1_732",
 "annotation":{
-"bigg.reaction":"TMDS",
+"bigg.reaction":[
+"TMDS"
+],
 "ec-code":"2.1.1.45",
 "kegg.reaction":"R02101",
 "metanetx.reaction":"MNXR104889",
@@ -71489,7 +71745,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79490_1_1",
 "annotation":{
-"bigg.reaction":"TMDS3",
+"bigg.reaction":[
+"TMDS3"
+],
 "ec-code":"2.1.1.148",
 "kegg.reaction":"R06613",
 "metanetx.reaction":"MNXR104890",
@@ -71515,7 +71773,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79803_1_362",
 "annotation":{
-"bigg.reaction":"TMPK",
+"bigg.reaction":[
+"TMPK"
+],
 "biocyc":"META:THI-P-KIN-RXN",
 "ec-code":"2.7.4.16",
 "kegg.reaction":"R00617",
@@ -71544,7 +71804,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79437_1_2352",
 "annotation":{
-"bigg.reaction":"TMPPP",
+"bigg.reaction":[
+"TMPPP"
+],
 "biocyc":"META:THI-P-SYN-RXN",
 "ec-code":"2.5.1.3",
 "kegg.reaction":"R03223",
@@ -71587,7 +71849,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TOLtpp",
+"bigg.reaction":[
+"TOLtpp"
+],
 "metanetx.reaction":"MNXR104917",
 "sbo":"SBO:0000658",
 "seed.reaction":[
@@ -71607,7 +71871,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79766_1_322",
 "annotation":{
-"bigg.reaction":"TPI",
+"bigg.reaction":[
+"TPI"
+],
 "biocyc":"META:TRIOSEPISOMERIZATION-RXN",
 "ec-code":"5.3.1.1",
 "kegg.reaction":"R01015",
@@ -71674,7 +71940,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78707_1_1539 or lcl_CP068157_1_prot_QQU78708_1_1540 or lcl_CP068157_1_prot_QQU78823_1_1665",
 "annotation":{
-"bigg.reaction":"TRDR",
+"bigg.reaction":[
+"TRDR"
+],
 "biocyc":"META:THIOREDOXIN-REDUCT-NADPH-RXN",
 "ec-code":[
 "1.6.4.5",
@@ -71699,7 +71967,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79020_1_1883",
 "annotation":{
-"bigg.reaction":"TRE6PP",
+"bigg.reaction":[
+"TRE6PP"
+],
 "biocyc":"META:TREHALOSEPHOSPHA-RXN",
 "ec-code":"3.1.3.12",
 "kegg.reaction":[
@@ -71732,7 +72002,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79021_1_1885",
 "annotation":{
-"bigg.reaction":"TRE6PS",
+"bigg.reaction":[
+"TRE6PS"
+],
 "biocyc":"META:TREHALOSE6PSYN-RXN",
 "ec-code":"2.4.1.15",
 "kegg.reaction":[
@@ -71769,7 +72041,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80311_1_920 and lcl_CP068157_1_prot_QQU80664_1_919",
 "annotation":{
-"bigg.reaction":"TREabc",
+"bigg.reaction":[
+"TREabc"
+],
 "metanetx.reaction":"MNXR104930",
 "sbo":"SBO:0000657",
 "seed.reaction":"rxn10839"
@@ -71788,7 +72062,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"(lcl_CP068157_1_prot_QQU79517_1_33 and lcl_CP068157_1_prot_QQU79520_1_36) or (lcl_CP068157_1_prot_QQU79517_1_33 and lcl_CP068157_1_prot_QQU79520_1_36 and lcl_CP068157_1_prot_QQU80465_1_1096)",
 "annotation":{
-"bigg.reaction":"TREpts",
+"bigg.reaction":[
+"TREpts"
+],
 "ec-code":"2.7.1.69",
 "metanetx.reaction":"MNXR104931",
 "sbo":"SBO:0000657",
@@ -71812,7 +72088,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78726_1_1559 or (lcl_CP068157_1_prot_QQU78725_1_1558 and lcl_CP068157_1_prot_QQU78726_1_1559)",
 "annotation":{
-"bigg.reaction":"TRPS1",
+"bigg.reaction":[
+"TRPS1"
+],
 "biocyc":"META:TRYPSYN-RXN",
 "ec-code":"4.2.1.20",
 "kegg.reaction":"R02722",
@@ -71840,7 +72118,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78726_1_1559 or (lcl_CP068157_1_prot_QQU78725_1_1558 and lcl_CP068157_1_prot_QQU78726_1_1559)",
 "annotation":{
-"bigg.reaction":"TRPS2",
+"bigg.reaction":[
+"TRPS2"
+],
 "biocyc":"META:RXN0-2382",
 "ec-code":[
 "4.2.1.122",
@@ -71870,7 +72150,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78726_1_1559 or (lcl_CP068157_1_prot_QQU78725_1_1558 and lcl_CP068157_1_prot_QQU78726_1_1559)",
 "annotation":{
-"bigg.reaction":"TRPS3",
+"bigg.reaction":[
+"TRPS3"
+],
 "biocyc":"META:RXN0-2381",
 "ec-code":[
 "4.1.2.8",
@@ -71922,7 +72204,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TRSARr",
+"bigg.reaction":[
+"TRSARr"
+],
 "biocyc":"META:RXN0-5289",
 "ec-code":[
 "1.1.1",
@@ -71974,7 +72258,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78803_1_1643",
 "annotation":{
-"bigg.reaction":"TSULabc",
+"bigg.reaction":[
+"TSULabc"
+],
 "biocyc":"META:ABC-7-RXN",
 "ec-code":"3.6.3.25",
 "metanetx.reaction":"MNXR104964",
@@ -72008,7 +72294,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78907_1_1758 or lcl_CP068157_1_prot_QQU80368_1_982",
 "annotation":{
-"bigg.reaction":"TYRTA",
+"bigg.reaction":[
+"TYRTA"
+],
 "biocyc":"META:TYROSINE-AMINOTRANSFERASE-RXN",
 "ec-code":[
 "2.6.1.1",
@@ -72095,7 +72383,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80245_1_848",
 "annotation":{
-"bigg.reaction":"TYRt2rpp",
+"bigg.reaction":[
+"TYRt2rpp"
+],
 "biocyc":"META:TRANS-RXN-77",
 "metanetx.reaction":"MNXR105003",
 "rhea":[
@@ -72125,7 +72415,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"TYRtex",
+"bigg.reaction":[
+"TYRtex"
+],
 "biocyc":"META:RXN66-446",
 "metanetx.reaction":"MNXR105002",
 "sbo":"SBO:0000658",
@@ -72151,7 +72443,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79351_1_2255",
 "annotation":{
-"bigg.reaction":"UAAGDS",
+"bigg.reaction":[
+"UAAGDS"
+],
 "ec-code":"6.3.2.13",
 "metanetx.reaction":"MNXR105013",
 "sbo":"SBO:0000176"
@@ -72170,7 +72464,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79064_1_1930",
 "annotation":{
-"bigg.reaction":"UAGCVT",
+"bigg.reaction":[
+"UAGCVT"
+],
 "biocyc":"META:UDPNACETYLGLUCOSAMENOLPYRTRANS-RXN",
 "ec-code":"2.5.1.7",
 "kegg.reaction":"R00660",
@@ -72199,7 +72495,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80047_1_630",
 "annotation":{
-"bigg.reaction":"UAGDP",
+"bigg.reaction":[
+"UAGDP"
+],
 "ec-code":"2.7.7.23",
 "metanetx.reaction":"MNXR105033",
 "reactome":[
@@ -72240,7 +72538,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79356_1_2260",
 "annotation":{
-"bigg.reaction":"UAGPT2",
+"bigg.reaction":[
+"UAGPT2"
+],
 "biocyc":"META:RXN-8976",
 "ec-code":"2.4.1.227",
 "kegg.reaction":[
@@ -72290,7 +72590,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79356_1_2260",
 "annotation":{
-"bigg.reaction":"UAGPT3",
+"bigg.reaction":[
+"UAGPT3"
+],
 "biocyc":"META:NACGLCTRANS-RXN",
 "ec-code":"2.4.1.227",
 "kegg.reaction":[
@@ -72327,7 +72629,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79354_1_2258",
 "annotation":{
-"bigg.reaction":"UAMAGS",
+"bigg.reaction":[
+"UAMAGS"
+],
 "biocyc":"META:UDP-NACMURALA-GLU-LIG-RXN",
 "ec-code":"6.3.2.9",
 "kegg.reaction":"R02783",
@@ -72361,7 +72665,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79357_1_2261",
 "annotation":{
-"bigg.reaction":"UAMAS",
+"bigg.reaction":[
+"UAMAS"
+],
 "biocyc":"META:UDP-NACMUR-ALA-LIG-RXN",
 "ec-code":"6.3.2.8",
 "kegg.reaction":"R03193",
@@ -72396,7 +72702,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78432_1_1231 or lcl_CP068157_1_prot_QQU79946_1_511",
 "annotation":{
-"bigg.reaction":"UAPGR",
+"bigg.reaction":[
+"UAPGR"
+],
 "biocyc":"META:UDPNACETYLMURAMATEDEHYDROG-RXN",
 "ec-code":"1.3.1.98",
 "kegg.reaction":"R03192",
@@ -72428,7 +72736,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80617_1_277",
 "annotation":{
-"bigg.reaction":"UDCPDP",
+"bigg.reaction":[
+"UDCPDP"
+],
 "metanetx.reaction":"MNXR105042",
 "rhea":[
 "17069",
@@ -72453,7 +72763,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79258_1_2151",
 "annotation":{
-"bigg.reaction":"UDPDPS",
+"bigg.reaction":[
+"UDPDPS"
+],
 "metanetx.reaction":"MNXR105052",
 "sbo":"SBO:0000176"
 }
@@ -72472,7 +72784,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79258_1_2151",
 "annotation":{
-"bigg.reaction":"UDPDPS2",
+"bigg.reaction":[
+"UDPDPS2"
+],
 "metanetx.reaction":"MNXR105053",
 "sbo":"SBO:0000176"
 }
@@ -72488,7 +72802,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79533_1_49",
 "annotation":{
-"bigg.reaction":"UDPG4E",
+"bigg.reaction":[
+"UDPG4E"
+],
 "biocyc":"META:UDPGLUCEPIM-RXN",
 "ec-code":"5.1.3.2",
 "kegg.reaction":"R00291",
@@ -72538,7 +72854,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80296_1_904",
 "annotation":{
-"bigg.reaction":"UGLT",
+"bigg.reaction":[
+"UGLT"
+],
 "biocyc":"META:GALACTURIDYLYLTRANS-RXN",
 "ec-code":"2.7.7.12",
 "kegg.reaction":"R00955",
@@ -72590,7 +72908,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79352_1_2256",
 "annotation":{
-"bigg.reaction":"UGMDDS",
+"bigg.reaction":[
+"UGMDDS"
+],
 "ec-code":"6.3.2.10",
 "metanetx.reaction":"MNXR105094",
 "sbo":"SBO:0000176"
@@ -72612,7 +72932,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"UM3PL",
+"bigg.reaction":[
+"UM3PL"
+],
 "metanetx.reaction":[
 "MNXR105115",
 "MNXR143440"
@@ -72633,7 +72955,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79451_1_2367 and lcl_CP068157_1_prot_QQU79677_1_219",
 "annotation":{
-"bigg.reaction":"UMPK",
+"bigg.reaction":[
+"UMPK"
+],
 "biocyc":"META:RXN-12002",
 "ec-code":[
 "2.7.4.14",
@@ -72665,7 +72989,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"UNK5",
+"bigg.reaction":[
+"UNK5"
+],
 "metanetx.reaction":"MNXR105129",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09950"
@@ -72685,7 +73011,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80224_1_825",
 "annotation":{
-"bigg.reaction":"UPP3MT",
+"bigg.reaction":[
+"UPP3MT"
+],
 "biocyc":"META:RXN-13403",
 "ec-code":"2.1.1.107",
 "kegg.reaction":"R03194",
@@ -72712,7 +73040,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80552_1_1192",
 "annotation":{
-"bigg.reaction":"UPP3S",
+"bigg.reaction":[
+"UPP3S"
+],
 "biocyc":"META:UROGENIIISYN-RXN",
 "ec-code":"4.2.1.75",
 "kegg.reaction":"R03165",
@@ -72756,7 +73086,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80549_1_1188",
 "annotation":{
-"bigg.reaction":"UPPDC1",
+"bigg.reaction":[
+"UPPDC1"
+],
 "biocyc":"META:UROGENDECARBOX-RXN",
 "ec-code":"4.1.1.37",
 "kegg.reaction":"R03197",
@@ -72804,7 +73136,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79792_1_349 or lcl_CP068157_1_prot_QQU80339_1_950",
 "annotation":{
-"bigg.reaction":"UPPRT",
+"bigg.reaction":[
+"UPPRT"
+],
 "biocyc":"META:URACIL-PRIBOSYLTRANS-RXN",
 "ec-code":"2.4.2.9",
 "kegg.reaction":"R00966",
@@ -72832,7 +73166,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79516_1_32",
 "annotation":{
-"bigg.reaction":"URAt2",
+"bigg.reaction":[
+"URAt2"
+],
 "biocyc":"META:TRANS-RXN-132",
 "metanetx.reaction":"MNXR105148",
 "rhea":[
@@ -72861,7 +73197,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79516_1_32",
 "annotation":{
-"bigg.reaction":"URAt2pp",
+"bigg.reaction":[
+"URAt2pp"
+],
 "biocyc":"META:TRANS-RXN-132",
 "metanetx.reaction":"MNXR105148",
 "rhea":[
@@ -72888,7 +73226,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"URAtex",
+"bigg.reaction":[
+"URAtex"
+],
 "biocyc":"META:TRANS-RXN0-560",
 "metanetx.reaction":"MNXR105147",
 "rhea":[
@@ -72916,7 +73256,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79939_1_503",
 "annotation":{
-"bigg.reaction":"URCN",
+"bigg.reaction":[
+"URCN"
+],
 "biocyc":"META:UROCANATE-HYDRATASE-RXN",
 "ec-code":"4.2.1.49",
 "kegg.reaction":"R02914",
@@ -72960,7 +73302,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"UREASE",
+"bigg.reaction":[
+"UREASE"
+],
 "ec-code":"6.3.4.6",
 "kegg.reaction":"R00774",
 "metanetx.reaction":"MNXR105149",
@@ -72985,7 +73329,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"UREAt",
+"bigg.reaction":[
+"UREAt"
+],
 "biocyc":"META:TRANS-RXN0-460",
 "metanetx.reaction":"MNXR105156",
 "reactome":[
@@ -73055,7 +73401,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79481_1_2400",
 "annotation":{
-"bigg.reaction":"URIH",
+"bigg.reaction":[
+"URIH"
+],
 "biocyc":"META:URIDINE-NUCLEOSIDASE-RXN",
 "ec-code":"3.2.2.3",
 "kegg.reaction":"R01080",
@@ -73083,7 +73431,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80754_1_2225",
 "annotation":{
-"bigg.reaction":"VALTA",
+"bigg.reaction":[
+"VALTA"
+],
 "biocyc":"META:BRANCHED-CHAINAMINOTRANSFERVAL-RXN",
 "ec-code":[
 "2.6.1.42",
@@ -73117,7 +73467,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79571_1_96 or lcl_CP068157_1_prot_QQU79636_1_171 or lcl_CP068157_1_prot_QQU80602_1_170",
 "annotation":{
-"bigg.reaction":"VALabc",
+"bigg.reaction":[
+"VALabc"
+],
 "biocyc":"META:ABC-36-RXN",
 "metanetx.reaction":"MNXR105187",
 "rhea":[
@@ -73153,7 +73505,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79571_1_96 or lcl_CP068157_1_prot_QQU80586_1_21",
 "annotation":{
-"bigg.reaction":"VALabcpp",
+"bigg.reaction":[
+"VALabcpp"
+],
 "biocyc":"META:ABC-36-RXN",
 "metanetx.reaction":"MNXR105187",
 "rhea":[
@@ -73186,7 +73540,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_1550 or lcl_CP068157_1_prot_QQU80660_1_846 or lcl_CP068157_1_prot_QQU80749_1_2125 or (lcl_CP068157_1_prot_1550 and lcl_CP068157_1_prot_QQU78717_1_1549)",
 "annotation":{
-"bigg.reaction":"VALt2r",
+"bigg.reaction":[
+"VALt2r"
+],
 "metanetx.reaction":"MNXR105188",
 "sbo":"SBO:0000659",
 "seed.reaction":[
@@ -73208,7 +73564,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"VALtex",
+"bigg.reaction":[
+"VALtex"
+],
 "biocyc":"META:TRANS-RXN0-269",
 "metanetx.reaction":"MNXR105190",
 "rhea":[
@@ -73237,7 +73595,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"VCACT",
+"bigg.reaction":[
+"VCACT"
+],
 "metanetx.reaction":"MNXR105195",
 "sbo":"SBO:0000176"
 }
@@ -73254,7 +73614,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78786_1_1624 or lcl_CP068157_1_prot_QQU80068_1_654",
 "annotation":{
-"bigg.reaction":"VECOAH",
+"bigg.reaction":[
+"VECOAH"
+],
 "metanetx.reaction":"MNXR105198",
 "sbo":"SBO:0000176"
 }
@@ -73272,7 +73634,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80368_1_982",
 "annotation":{
-"bigg.reaction":"VPAMTr",
+"bigg.reaction":[
+"VPAMTr"
+],
 "biocyc":"META:VALINE-PYRUVATE-AMINOTRANSFER-RXN",
 "ec-code":"2.6.1.66",
 "kegg.reaction":"R01215",
@@ -73300,7 +73664,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78595_1_1410 or lcl_CP068157_1_prot_QQU78988_1_1846",
 "annotation":{
-"bigg.reaction":"XPPT",
+"bigg.reaction":[
+"XPPT"
+],
 "biocyc":"META:XANPRIBOSYLTRAN-RXN",
 "ec-code":[
 "2.4.2.22",
@@ -73331,7 +73697,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"XTSNt2",
+"bigg.reaction":[
+"XTSNt2"
+],
 "biocyc":"META:TRANS-RXN-31",
 "metanetx.reaction":"MNXR105246",
 "rhea":[
@@ -73363,7 +73731,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79102_1_1977",
 "annotation":{
-"bigg.reaction":"XYLabc",
+"bigg.reaction":[
+"XYLabc"
+],
 "metanetx.reaction":"MNXR105268",
 "rhea":[
 "29899",
@@ -73393,7 +73763,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"XYLt",
+"bigg.reaction":[
+"XYLt"
+],
 "metanetx.reaction":"MNXR105270",
 "sbo":"SBO:0000658",
 "seed.reaction":[
@@ -73415,7 +73787,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78829_1_1671 or lcl_CP068157_1_prot_QQU79374_1_2279 or lcl_CP068157_1_prot_QQU79480_1_2398 or lcl_CP068157_1_prot_QQU80438_1_1068",
 "annotation":{
-"bigg.reaction":"YUMPS",
+"bigg.reaction":[
+"YUMPS"
+],
 "metanetx.reaction":"MNXR103310",
 "sbo":"SBO:0000176"
 }
@@ -73436,7 +73810,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78747_1_1581",
 "annotation":{
-"bigg.reaction":"ZN2abcpp",
+"bigg.reaction":[
+"ZN2abcpp"
+],
 "biocyc":"META:RXN0-5205",
 "ec-code":"3.6.3.5",
 "metanetx.reaction":"MNXR105277",
@@ -73466,7 +73842,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80640_1_576",
 "annotation":{
-"bigg.reaction":"ZN2t3pp",
+"bigg.reaction":[
+"ZN2t3pp"
+],
 "biocyc":"META:TRANS-RXN0-200",
 "metanetx.reaction":"MNXR105278",
 "rhea":[
@@ -73497,7 +73875,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80397_1_1018 or lcl_CP068157_1_prot_QQU80433_1_1060",
 "annotation":{
-"bigg.reaction":"ZN2t4pp",
+"bigg.reaction":[
+"ZN2t4pp"
+],
 "metanetx.reaction":"MNXR105279",
 "sbo":"SBO:0000660",
 "seed.reaction":"rxn05315"
@@ -73519,7 +73899,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU78827_1_1669 or lcl_CP068157_1_prot_QQU79155_1_2038 or lcl_CP068157_1_prot_QQU79820_1_380 or lcl_CP068157_1_prot_QQU80545_1_1184",
 "annotation":{
-"bigg.reaction":"ZNabc",
+"bigg.reaction":[
+"ZNabc"
+],
 "biocyc":"META:ABC-63-RXN",
 "ec-code":"3.6.3.5",
 "metanetx.reaction":"MNXR105281",
@@ -73552,7 +73934,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU79017_1_1880 or lcl_CP068157_1_prot_QQU80527_1_1163 or (lcl_CP068157_1_prot_QQU79017_1_1880 and lcl_CP068157_1_prot_QQU80679_1_1164) or (lcl_CP068157_1_prot_QQU80527_1_1163 and lcl_CP068157_1_prot_QQU80528_1_1165)",
 "annotation":{
-"bigg.reaction":"ZNabcpp",
+"bigg.reaction":[
+"ZNabcpp"
+],
 "biocyc":"META:ABC-63-RXN",
 "ec-code":"3.6.3.5",
 "metanetx.reaction":"MNXR105281",
@@ -73582,7 +73966,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"araphe3",
+"bigg.reaction":[
+"araphe3"
+],
 "sbo":"SBO:0000176"
 }
 },
@@ -73599,7 +73985,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"aratyr2",
+"bigg.reaction":[
+"aratyr2"
+],
 "sbo":"SBO:0000176"
 }
 },
@@ -73616,7 +74004,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_QQU80238_1_840",
 "annotation":{
-"bigg.reaction":"ilvg",
+"bigg.reaction":[
+"ilvg"
+],
 "metanetx.reaction":"MNXR105294",
 "sbo":"SBO:0000176"
 }
@@ -73632,7 +74022,9 @@
 "upper_bound":0.0,
 "gene_reaction_rule":"lcl_CP068157_1_prot_553",
 "annotation":{
-"bigg.reaction":"r2465_1",
+"bigg.reaction":[
+"r2465_1"
+],
 "sbo":"SBO:0000658"
 }
 },
@@ -77225,7 +77617,9 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"ATPM",
+"bigg.reaction":[
+"ATPM"
+],
 "biocyc":"META:ATPASE-RXN",
 "ec-code":[
 "3.6.1.15",
@@ -77313,7 +77707,7 @@
 "genes":[
 {
 "id":"spontaneous",
-"name":"G_spontaneous",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -77376,7 +77770,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_1288",
-"name":"G_lcl_CP068157_1_prot_1288",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -77631,7 +78025,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_769",
-"name":"G_lcl_CP068157_1_prot_769",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -77702,7 +78096,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_647",
-"name":"G_lcl_CP068157_1_prot_647",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -77997,7 +78391,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_2020",
-"name":"G_lcl_CP068157_1_prot_2020",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -79684,14 +80078,14 @@
 },
 {
 "id":"lcl_CP068157_1_prot_620",
-"name":"G_lcl_CP068157_1_prot_620",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
 },
 {
 "id":"lcl_CP068157_1_prot_621",
-"name":"G_lcl_CP068157_1_prot_621",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -79789,6 +80183,14 @@
 "name":"formate/nitrite transporter family protein [Corynebacterium striatum]",
 "annotation":{
 "ncbiprotein":"QQU80459",
+"sbo":"SBO:0000243"
+}
+},
+{
+"id":"lcl_CP068157_1_prot_QQU80229_1_830",
+"name":"FAD-dependent oxidoreductase [Corynebacterium striatum]",
+"annotation":{
+"ncbiprotein":"QQU80229",
 "sbo":"SBO:0000243"
 }
 },
@@ -80802,7 +81204,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_974",
-"name":"G_lcl_CP068157_1_prot_974",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -80865,7 +81267,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_1550",
-"name":"G_lcl_CP068157_1_prot_1550",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -81136,7 +81538,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_729",
-"name":"G_lcl_CP068157_1_prot_729",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -81623,7 +82025,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_2334",
-"name":"G_lcl_CP068157_1_prot_2334",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -82845,6 +83247,14 @@
 }
 },
 {
+"id":"lcl_CP068157_1_prot_QQU80228_1_829",
+"name":"nitrite/sulfite reductase [Corynebacterium striatum]",
+"annotation":{
+"ncbiprotein":"QQU80228",
+"sbo":"SBO:0000243"
+}
+},
+{
 "id":"lcl_CP068157_1_prot_QQU78733_1_1566",
 "name":"MHS family MFS transporter [Corynebacterium striatum]",
 "annotation":{
@@ -83326,7 +83736,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_553",
-"name":"G_lcl_CP068157_1_prot_553",
+"name":"",
 "annotation":{
 "sbo":"SBO:0000243"
 }
