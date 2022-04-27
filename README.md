@@ -21,3 +21,9 @@ Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v7.1
 
 ## Notes on model consistency
 The following metabolites
+
+## Tricks
+Revert only model files:
+1. search for commit hash in commit history
+2. `git checkout [commit ID] -- path/to/file``
+3. commit and push
