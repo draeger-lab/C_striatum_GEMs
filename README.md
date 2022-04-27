@@ -16,8 +16,7 @@ Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022
 Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_annotate.py | 07.04.2022 | v5.0
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
 Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
-Removed energy generating cycles | scripts/man_cur_egc | 26.04.2022 | v7.0
-Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v7.1
+Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v6.2
 
 ## Notes on model consistency
 The following metabolites
@@ -25,5 +24,5 @@ The following metabolites
 ## Tricks
 Revert only model files:
 1. search for commit hash in commit history
-2. `git checkout [commit ID] -- path/to/file``
+2. `git checkout [commit ID] -- path/to/file`
 3. commit and push

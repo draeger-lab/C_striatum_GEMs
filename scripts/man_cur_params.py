@@ -24,3 +24,36 @@ for path in modelpaths:
         if param.isSetUnits() == False:
             param.setUnits('mmol_per_gDW_per_hr')
     writeSBMLToFile(model.getSBMLDocument(), path)
+    
+#%%
+model = load_model_libsbml(modelpaths[0])
+for reac in model.getListOfReactions():
+    if reac.getPlugin('fbc').isSetLowerFluxBound():
+        pass
+    elif reac.getPlugin('fbc').isSetUpperFluxBound():
+        pass
+    else:
+        print(reac.getId())
+
+
+#%%
+from bioservices import KEGG
+
+k = KEGG()
+
+#%%
+rea2enz = k.link('enzyme','reaction')
+enz2cst = k.link('cstr', 'enzyme')
+
+#%%
+import pandas as pd
+data = pd.DataFrame([x.split('\t') for x in rea2enz.split('\n')]).rename({0:'Reactions', 1:'EC-Code'}, axis=1)
+data
+#%%
+data2 = pd.DataFrame([x.split('\t') for x in enz2cst.split('\n')]).rename({1:'GPR', 0:'EC-Code'}, axis=1)
+data2
+
+dataf = data.merge(data2)
+
+dataf.loc[dataf['Reactions'] == 'rn:R00859']
+
