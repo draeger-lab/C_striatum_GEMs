@@ -5,6 +5,8 @@ This repository contains all changes made to the strain specific models of *Cory
 Note: creating the memote report written to `GEM_status.html` will take around 10 minutes. You will need to pull afterwards for the updated file.
 
 To access older versions of the model and the corresponding report browse the commits and choose the corresponding commit.
+
+Please link specific additions to the respective issues to track the work you did (#1: model changes, #2: analysis / simulation).
 ## Log of substantial changes to the models
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
 --- | --- | --- | ---
