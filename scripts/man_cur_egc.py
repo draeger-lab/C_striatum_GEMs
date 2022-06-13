@@ -66,7 +66,7 @@ with model:
         print('Set objective to', row['type'], ':', model.optimize().objective_value)
         if model.optimize().objective_value > 0.0:
             df=pd.DataFrame.from_dict([model.optimize().fluxes]).T.replace(0, np.nan).dropna(axis=0)
-            df.to_csv('../escher/fba/Cstr_14_' + str(row['type']) + '.csv')
+            df.to_csv('../escher/egc/Cstr_14_' + str(row['type']) + '.csv')
 
 # %%
 # remove the suspicious reactions
@@ -112,6 +112,13 @@ for path in modelpaths:
                 rxn.upper_bound = 1.0
                 rxn.lower_bound = 0.0
                 #print('Irreversible rxn', rxn.name)
+        
+        try: 
+            model.reactions.get_by_id('SIRA2').remove_from_model(remove_orphans=True)
+            model.reactions.get_by_id('FPRA').remove_from_model(remove_orphans=True)
+            model.reactions.get_by_id('GCDH').remove_from_model(remove_orphans=True)
+        except (KeyError):
+            pass
 
         # optimize by choosing one of dissipation reactions as an objective
         for i, row in dissipation_rxns.iterrows():
