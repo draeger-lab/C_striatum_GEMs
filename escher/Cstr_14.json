@@ -12782,7 +12782,7 @@
 "name":"Dodecanoyl-ACP (n-C12:0ACP)",
 "compartment":"c",
 "charge":-1,
-"formula":"C23H43N2O8PR",
+"formula":"C23H45N2O8PR",
 "annotation":{
 "bigg.metabolite":"ddcaACP",
 "metanetx.chemical":"MNXM89851",
@@ -19589,7 +19589,7 @@
 "name":"Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)",
 "compartment":"c",
 "charge":-1,
-"formula":"C27H49N2O8PR",
+"formula":"C27H51N2O8PR",
 "annotation":{
 "bigg.metabolite":"hdeACP",
 "metanetx.chemical":"MNXM89949",
@@ -25211,7 +25211,7 @@
 "name":"Octanoyl-ACP (n-C8:0ACP)",
 "compartment":"c",
 "charge":-1,
-"formula":"C19H35N2O8PR",
+"formula":"C19H37N2O8PR",
 "annotation":{
 "bigg.metabolite":"ocACP",
 "metanetx.chemical":"MNXM90185",
@@ -31828,7 +31828,7 @@
 "name":"Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)",
 "compartment":"c",
 "charge":-1,
-"formula":"C25H45N2O8PR",
+"formula":"C25H47N2O8PR",
 "annotation":{
 "bigg.metabolite":"tdeACP",
 "metanetx.chemical":"MNXM162426",
@@ -32458,7 +32458,7 @@
 "name":"Oxidized thioredoxin",
 "compartment":"c",
 "charge":0,
-"formula":"C10H12N4O4RS2",
+"formula":"C10H12N4O42R",
 "annotation":{
 "bigg.metabolite":"trdox",
 "biocyc":"META:Ox-Thioredoxin",
@@ -32484,7 +32484,7 @@
 "name":"Reduced thioredoxin",
 "compartment":"c",
 "charge":0,
-"formula":"C10H14N4O4RS2",
+"formula":"C10H14N4O42R",
 "annotation":{
 "bigg.metabolite":"trdrd",
 "biocyc":"META:Red-Thioredoxin",
@@ -35286,7 +35286,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52286_1_1768",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"2MAHMP",
@@ -35971,7 +35971,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"6ATHAtexi",
@@ -36016,7 +36016,7 @@
 "ACP_c":-1.0,
 "amp_c":1.0,
 "atp_c":-1.0,
-"h_c":1.0,
+"h_c":-1.0,
 "hdcea_c":-1.0,
 "hdeACP_c":1.0,
 "ppi_c":1.0
@@ -36025,7 +36025,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"2.0 protons added to reactants to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AACPS4",
@@ -36042,14 +36042,14 @@
 "atp_c":-1.0,
 "ddcaACP_c":1.0,
 "ddca_c":-1.0,
-"h_c":1.0,
+"h_c":-1.0,
 "ppi_c":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"2.0 protons added to reactants to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AACPS7",
@@ -36065,7 +36065,7 @@
 "ACP_c":-1.0,
 "amp_c":1.0,
 "atp_c":-1.0,
-"h_c":1.0,
+"h_c":-1.0,
 "ocACP_c":1.0,
 "octa_c":-1.0,
 "ppi_c":1.0
@@ -36074,7 +36074,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"2.0 protons added to reactants to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AACPS9",
@@ -36097,7 +36097,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53190_1_107",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AALDH",
@@ -36979,7 +36979,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACLS_d",
@@ -37021,7 +37021,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52430_1_1923",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACLSb",
@@ -37116,7 +37116,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACOAD20f",
@@ -37137,7 +37137,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACOAD21f",
@@ -37158,7 +37158,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACOAD23f",
@@ -37179,7 +37179,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-6.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACOAD24f",
@@ -37364,7 +37364,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53962_1_998 or lcl_CP066290_1_prot_QQE54260_1_57",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACP1_FMN",
@@ -37550,7 +37550,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ACSPHAC121",
@@ -39152,7 +39152,7 @@
 "metabolites":{
 "1hdec9eg3p_c":-1.0,
 "ACP_c":1.0,
-"h_c":-1.0,
+"h_c":1.0,
 "hdeACP_c":-1.0,
 "pa161_c":1.0
 },
@@ -39160,7 +39160,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_1590",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AGPAT161",
@@ -39326,7 +39326,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53805_1_823",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AHMMPS_1",
@@ -39347,7 +39347,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52800_1_2349",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AHSERL2",
@@ -39382,7 +39382,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AHSERL4",
@@ -39499,7 +39499,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52874_1_2429 or (lcl_CP066290_1_prot_QQE52873_1_2428 and lcl_CP066290_1_prot_QQE52874_1_2429)",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AIRCr",
@@ -41307,7 +41307,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AMPEP11",
@@ -41390,7 +41390,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AMPEP15",
@@ -41453,7 +41453,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AMPEP18",
@@ -41636,7 +41636,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53805_1_823",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"AMPMS2",
@@ -42876,7 +42876,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52912_1_2480",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ASCBpts",
@@ -43222,7 +43222,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53056_1_2640",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ASPO5",
@@ -43252,7 +43252,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53056_1_2640",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ASPO6",
@@ -43633,7 +43633,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53514_1_482",
 "notes":{
-"Inferred":"6.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ATPPRT",
@@ -44147,7 +44147,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52366_1_1856",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"BTS3r",
@@ -44929,7 +44929,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CDAPPA160190",
@@ -44951,7 +44951,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CDAPPA190",
@@ -45397,7 +45397,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53510_1_478",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CIGAMS",
@@ -45419,7 +45419,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CLPNH120pp",
@@ -45462,7 +45462,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CLPNH141pp",
@@ -45506,7 +45506,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CLPNH161pp",
@@ -45549,7 +45549,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CLPNH181pp",
@@ -45873,7 +45873,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52994_1_2572 and lcl_CP066290_1_prot_QQE52995_1_2573 and lcl_CP066290_1_prot_QQE53377_1_324",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CMCBTFL",
@@ -45895,7 +45895,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52994_1_2572 and lcl_CP066290_1_prot_QQE52995_1_2573 and lcl_CP066290_1_prot_QQE53377_1_324",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CMCBTFU",
@@ -46696,7 +46696,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52218_1_1690 or lcl_CP066290_1_prot_QQE52220_1_1692",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CTECOAI6",
@@ -46971,7 +46971,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE51935_1_1368 or lcl_CP066290_1_prot_QQE51981_1_1417 or lcl_CP066290_1_prot_QQE52848_1_2402",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CYANST",
@@ -47043,7 +47043,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53477_1_441 and lcl_CP066290_1_prot_QQE53916_1_945 and lcl_CP066290_1_prot_QQE53918_1_947 and lcl_CP066290_1_prot_QQE54178_1_1246",
 "notes":{
-"Inferred":"26.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CYO1b",
@@ -47065,7 +47065,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-26.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CYO4pp",
@@ -47085,7 +47085,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54202_1_1271",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"CYSS",
@@ -47675,7 +47675,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD",
@@ -47701,7 +47701,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD2",
@@ -47724,7 +47724,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD4",
@@ -47747,7 +47747,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD5",
@@ -47768,7 +47768,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD7",
@@ -47791,7 +47791,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAAD8",
@@ -47812,7 +47812,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DACL",
@@ -47897,7 +47897,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAGK120",
@@ -47940,7 +47940,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAGK141",
@@ -47984,7 +47984,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAGK161",
@@ -48027,7 +48027,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAGK181",
@@ -48190,7 +48190,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAPADHL",
@@ -48243,7 +48243,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DAPAT",
@@ -48371,7 +48371,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53768_1_783",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN120",
@@ -48418,7 +48418,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN141",
@@ -48465,7 +48465,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53791_1_808",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN160190",
@@ -48487,7 +48487,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53768_1_783",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN161",
@@ -48534,7 +48534,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53768_1_783",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN181",
@@ -48558,7 +48558,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53791_1_808",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DASYN190190",
@@ -48602,7 +48602,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DB4PS",
@@ -48680,7 +48680,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DCPDPS",
@@ -49285,7 +49285,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52629_1_2154",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DHNAOT",
@@ -49967,7 +49967,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DLYSAD",
@@ -50010,7 +50010,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53780_1_797",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DMALRED",
@@ -50093,7 +50093,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53227_1_152 or lcl_CP066290_1_prot_QQE53601_1_579",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"DMPPS",
@@ -51802,13 +51802,14 @@
 "ACP_c":1.0,
 "ddcaACP_c":-1.0,
 "ddca_c":1.0,
-"h2o_c":-1.0
+"h2o_c":-1.0,
+"h_c":2.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54229_1_1299",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FA120ACPHi",
@@ -51823,6 +51824,7 @@
 "metabolites":{
 "ACP_c":1.0,
 "h2o_c":-1.0,
+"h_c":2.0,
 "tdeACP_c":-1.0,
 "ttdcea_c":1.0
 },
@@ -51830,7 +51832,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54229_1_1299",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FA141ACPHi",
@@ -51845,6 +51847,7 @@
 "metabolites":{
 "ACP_c":1.0,
 "h2o_c":-1.0,
+"h_c":2.0,
 "hdcea_c":1.0,
 "hdeACP_c":-1.0
 },
@@ -51852,7 +51855,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54229_1_1299",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FA161ACPHi",
@@ -51867,6 +51870,7 @@
 "metabolites":{
 "ACP_c":1.0,
 "h2o_c":-1.0,
+"h_c":2.0,
 "ocACP_c":-1.0,
 "octa_c":1.0
 },
@@ -51874,7 +51878,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53243_1_172",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FA80ACPHi",
@@ -51966,7 +51970,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53643_1_633",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FACOAE141",
@@ -52272,7 +52276,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52584_1_2105 or lcl_CP066290_1_prot_QQE52586_1_2107",
 "notes":{
-"Inferred":"4.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FACOAL141t2pp",
@@ -52566,7 +52570,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FACOALT60t2pp",
@@ -52587,7 +52591,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52006_1_1447",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FADMQOR",
@@ -52659,7 +52663,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52221_1_1693 and lcl_CP066290_1_prot_QQE53165_1_75 and lcl_CP066290_1_prot_QQE54262_1_68",
 "notes":{
-"Inferred":"-12.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FAO1",
@@ -52688,7 +52692,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52221_1_1693 and lcl_CP066290_1_prot_QQE53165_1_75 and lcl_CP066290_1_prot_QQE54262_1_68",
 "notes":{
-"Inferred":"-14.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FAO10",
@@ -52717,7 +52721,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52221_1_1693 and lcl_CP066290_1_prot_QQE53165_1_75 and lcl_CP066290_1_prot_QQE54262_1_68",
 "notes":{
-"Inferred":"-12.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FAO11",
@@ -52746,7 +52750,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52221_1_1693 and lcl_CP066290_1_prot_QQE53165_1_75 and lcl_CP066290_1_prot_QQE54262_1_68",
 "notes":{
-"Inferred":"-14.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FAO2",
@@ -52776,7 +52780,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52221_1_1693 and lcl_CP066290_1_prot_QQE53165_1_75 and lcl_CP066290_1_prot_QQE54262_1_68",
 "notes":{
-"Inferred":"-16.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FAO3",
@@ -53021,7 +53025,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54097_1_1154",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FASC141ACP",
@@ -53130,7 +53134,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53502_1_467",
 "notes":{
-"Inferred":"6.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FCLT2",
@@ -53345,7 +53349,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FDMOtau",
@@ -53554,7 +53558,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"spontaneous",
 "notes":{
-"Inferred":"12.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FE3DCITCH",
@@ -53578,7 +53582,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52373_1_1863 or lcl_CP066290_1_prot_QQE52616_1_2138 or lcl_CP066290_1_prot_QQE54285_1_304 or (lcl_CP066290_1_prot_QQE52616_1_2138 and lcl_CP066290_1_prot_QQE53013_1_2596)",
 "notes":{
-"Inferred":"-12.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FE3DCITabcpp",
@@ -53959,7 +53963,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"6.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FETRANS",
@@ -54110,7 +54114,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52395_1_1885 or lcl_CP066290_1_prot_QQE53626_1_612",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FMNRx",
@@ -54148,7 +54152,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52395_1_1885",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FMNRx2",
@@ -54391,7 +54395,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52952_1_2525",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"FPRA",
@@ -54904,14 +54908,13 @@
 "1hdec9eg3p_c":1.0,
 "ACP_c":1.0,
 "glyc3p_c":-1.0,
-"h_c":-2.0,
 "hdeACP_c":-1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"-2.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"G3PAT161",
@@ -55755,7 +55758,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53428_1_385",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GDPDPK",
@@ -55842,7 +55845,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53428_1_385",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GDPTPDP",
@@ -55872,7 +55875,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53198_1_118",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GDTPR",
@@ -56722,7 +56725,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52887_1_2445 or lcl_CP066290_1_prot_QQE53164_1_74",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLUTCOADHc",
@@ -57874,7 +57877,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYCYSAP",
@@ -57897,7 +57900,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54098_1_1155",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYCYSabc",
@@ -58335,7 +58338,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYLEUAP",
@@ -58358,7 +58361,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54098_1_1155",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYLEUtr",
@@ -58625,7 +58628,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53609_1_589",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYTYRAP",
@@ -58648,7 +58651,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54098_1_1155",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GLYTYRabc",
@@ -59604,7 +59607,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53634_1_623",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GTPDPK",
@@ -61492,7 +61495,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53643_1_633",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"HATBH",
@@ -62535,7 +62538,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53227_1_152",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"HMEDR",
@@ -62557,7 +62560,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53785_1_802",
 "notes":{
-"Inferred":"6.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"HMEDS",
@@ -62597,7 +62600,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53541_1_511 or lcl_CP066290_1_prot_QQE54014_1_1060",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"HMPK1",
@@ -62644,7 +62647,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"HMR_6515",
@@ -64088,7 +64091,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53601_1_579",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"IPDPS",
@@ -64542,7 +64545,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"4.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"KAT21",
@@ -64596,7 +64599,7 @@
 "upper_bound":0.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53280_1_216",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"KGD2",
@@ -65744,7 +65747,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53050_1_2634",
 "notes":{
-"Inferred":"-26.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"L_LACD",
@@ -66469,7 +66472,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MBCOAi",
@@ -66537,7 +66540,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE51937_1_1370",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MCBTS3",
@@ -66699,7 +66702,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53968_1_1004 or lcl_CP066290_1_prot_QQE54229_1_1299",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MCOATA",
@@ -67199,7 +67202,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MECDPDH",
@@ -67223,7 +67226,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MECDPDH4E",
@@ -67469,7 +67472,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52324_1_1809",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"METS",
@@ -68860,7 +68863,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52194_1_1662 or lcl_CP066290_1_prot_QQE52288_1_1770 or lcl_CP066290_1_prot_QQE52487_1_1986 or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE52487_1_1986) or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE53890_1_916) or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE52487_1_1986 and lcl_CP066290_1_prot_QQE53890_1_916)",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MPTG",
@@ -68881,7 +68884,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52288_1_1770 or lcl_CP066290_1_prot_QQE52487_1_1986 or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE52487_1_1986) or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE53890_1_916) or (lcl_CP066290_1_prot_QQE52288_1_1770 and lcl_CP066290_1_prot_QQE52487_1_1986 and lcl_CP066290_1_prot_QQE53890_1_916)",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MPTG2",
@@ -68925,7 +68928,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54218_1_1288",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MSHS",
@@ -69101,7 +69104,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52323_1_1808",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MTHFR2",
@@ -69131,7 +69134,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52323_1_1808",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"MTHFR3",
@@ -69416,7 +69419,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52659_1_2190",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"NACGS",
@@ -70838,7 +70841,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53174_1_86",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"NMO",
@@ -72514,7 +72517,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"OCTDPS",
@@ -73752,7 +73755,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PAPA120pp",
@@ -73795,7 +73798,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PAPA141pp",
@@ -73839,7 +73842,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PAPA161pp",
@@ -73882,7 +73885,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PAPA181pp",
@@ -73904,7 +73907,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53892_1_918",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PAPPT3",
@@ -74102,7 +74105,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52430_1_1923",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PDC",
@@ -74519,7 +74522,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PEAOpp",
@@ -75420,7 +75423,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP120pp",
@@ -75443,7 +75446,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP140pp",
@@ -75465,7 +75468,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP141pp",
@@ -75487,7 +75490,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53995_1_1039",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP160",
@@ -75511,7 +75514,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP160pp",
@@ -75535,7 +75538,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP161pp",
@@ -75559,7 +75562,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP180pp",
@@ -75583,7 +75586,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-3.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGPP181pp",
@@ -75606,7 +75609,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA120",
@@ -75629,7 +75632,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA140",
@@ -75651,7 +75654,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA141",
@@ -75672,7 +75675,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53751_1_762",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA160",
@@ -75695,7 +75698,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA161",
@@ -75718,7 +75721,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA180",
@@ -75742,7 +75745,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"3.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PGSA181",
@@ -75920,7 +75923,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PHER",
@@ -75943,7 +75946,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53703_1_706",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PHET",
@@ -76137,7 +76140,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PLIPA1A161pp",
@@ -76465,7 +76468,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53541_1_511",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PMPK",
@@ -77059,7 +77062,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53428_1_385",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PPGPPDP",
@@ -77283,7 +77286,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PPRDNDH",
@@ -77336,7 +77339,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54225_1_1295",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PRAIS",
@@ -77426,7 +77429,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54238_1_1308",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PRASCSi",
@@ -77472,7 +77475,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53513_1_481",
 "notes":{
-"Inferred":"-6.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PRATPP",
@@ -77508,7 +77511,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54234_1_1304",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PRFGS",
@@ -77585,7 +77588,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE51998_1_1437",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PROD2",
@@ -77684,7 +77687,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"PROR",
@@ -79045,7 +79048,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53055_1_2639",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"QULNS",
@@ -79142,7 +79145,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54333_1_778",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RBFK",
@@ -79192,7 +79195,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53465_1_426",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RBFSa",
@@ -79219,7 +79222,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53463_1_424",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RBFSb",
@@ -79454,7 +79457,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"4.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RECOAH22",
@@ -79684,7 +79687,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE53643_1_633",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RHACOAE121",
@@ -80167,7 +80170,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"-4.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RHACOAR121d5",
@@ -81073,7 +81076,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"4.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SALCHS4FER2",
@@ -81843,7 +81846,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52957_1_2530",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SHCHD2",
@@ -81874,7 +81877,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52955_1_2528 or lcl_CP066290_1_prot_QQE52957_1_2530",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SHCHF",
@@ -82005,7 +82008,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SHSL2",
@@ -82072,7 +82075,7 @@
 "upper_bound":0.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52953_1_2526",
 "notes":{
-"Inferred":"-5.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SIRA2",
@@ -82245,7 +82248,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52820_1_2370",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SMIA1",
@@ -82316,7 +82319,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52820_1_2370",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SMIA2abc",
@@ -83188,7 +83191,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52812_1_2361",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SULR",
@@ -83588,7 +83591,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
-"Inferred":"2.0 protons added to reactants to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"TETDHpp2",
@@ -84325,7 +84328,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54338_1_824",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"TMPPP",
@@ -85676,7 +85679,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE54010_1_1056",
 "notes":{
-"Inferred":"-1.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"UDPDPS2",
@@ -87141,7 +87144,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"lcl_CP066290_1_prot_QQE52943_1_2515",
 "notes":{
-"Inferred":"-2.0 protons added to products to balance equation."
+"Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ilvg",
