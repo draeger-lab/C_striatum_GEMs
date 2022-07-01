@@ -48274,27 +48274,6 @@
 }
 },
 {
-"id":"FPRA",
-"name":"",
-"metabolites":{
-"fdxox_c":1.0,
-"fdxrd_c":-1.0,
-"h_c":-2.0,
-"nadp_c":-1.0,
-"nadph_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80229_1_830",
-"notes":{
-"Inferred":"1.0 protons added to reactants to balance equation."
-},
-"annotation":{
-"bigg.reaction":"FPRA",
-"sbo":"SBO:0000200"
-}
-},
-{
 "id":"FRD2rpp",
 "name":"",
 "metabolites":{
@@ -49640,26 +49619,6 @@
 "metanetx.reaction":"MNXR100069",
 "sbo":"SBO:0000200",
 "seed.reaction":"rxn06493"
-}
-},
-{
-"id":"GCDH",
-"name":"",
-"metabolites":{
-"b2coa_c":1.0,
-"co2_c":1.0,
-"glutcoa_c":-1.0,
-"h_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80064_1_650",
-"notes":{
-"Inferred":"0.0 protons added to products to balance equation."
-},
-"annotation":{
-"bigg.reaction":"GCDH",
-"sbo":"SBO:0000176"
 }
 },
 {
@@ -74237,28 +74196,6 @@
 }
 },
 {
-"id":"SIRA2",
-"name":"",
-"metabolites":{
-"fdxox_c":-6.0,
-"fdxrd_c":6.0,
-"h2o_c":-3.0,
-"h2s_c":-1.0,
-"h_c":13.0,
-"so3_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"lcl_CP068157_1_prot_QQU80228_1_829",
-"notes":{
-"Inferred":"-5.0 protons added to products to balance equation."
-},
-"annotation":{
-"bigg.reaction":"SIRA2",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"SKMt2",
 "name":"SKMt2",
 "metabolites":{
@@ -82130,7 +82067,7 @@
 "genes":[
 {
 "id":"spontaneous",
-"name":"",
+"name":"G_spontaneous",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -82193,7 +82130,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_1288",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_1288",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -82448,7 +82385,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_769",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_769",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -82519,7 +82456,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_647",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_647",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -82814,7 +82751,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_2020",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_2020",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -84501,14 +84438,14 @@
 },
 {
 "id":"lcl_CP068157_1_prot_620",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_620",
 "annotation":{
 "sbo":"SBO:0000243"
 }
 },
 {
 "id":"lcl_CP068157_1_prot_621",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_621",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -84606,14 +84543,6 @@
 "name":"formate/nitrite transporter family protein [Corynebacterium striatum]",
 "annotation":{
 "ncbiprotein":"QQU80459",
-"sbo":"SBO:0000243"
-}
-},
-{
-"id":"lcl_CP068157_1_prot_QQU80229_1_830",
-"name":"FAD-dependent oxidoreductase [Corynebacterium striatum]",
-"annotation":{
-"ncbiprotein":"QQU80229",
 "sbo":"SBO:0000243"
 }
 },
@@ -85627,7 +85556,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_974",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_974",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -85690,7 +85619,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_1550",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_1550",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -85961,7 +85890,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_729",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_729",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -86448,7 +86377,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_2334",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_2334",
 "annotation":{
 "sbo":"SBO:0000243"
 }
@@ -87670,14 +87599,6 @@
 }
 },
 {
-"id":"lcl_CP068157_1_prot_QQU80228_1_829",
-"name":"nitrite/sulfite reductase [Corynebacterium striatum]",
-"annotation":{
-"ncbiprotein":"QQU80228",
-"sbo":"SBO:0000243"
-}
-},
-{
 "id":"lcl_CP068157_1_prot_QQU78733_1_1566",
 "name":"MHS family MFS transporter [Corynebacterium striatum]",
 "annotation":{
@@ -88159,7 +88080,7 @@
 },
 {
 "id":"lcl_CP068157_1_prot_553",
-"name":"",
+"name":"G_lcl_CP068157_1_prot_553",
 "annotation":{
 "sbo":"SBO:0000243"
 }
