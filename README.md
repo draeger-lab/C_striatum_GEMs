@@ -19,6 +19,8 @@ Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/man_cur_an
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
 Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
 Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v6.2
+Used MCC tool on all strains | scripts/man_cur_mcc.py | 01.07.2022 | v7.0
+Removed SIRA2, FPRA and GCDH from all strains | scripts/man_cur_egc.py | 01.07.2022 | v7.1
 
 ## Notes on model consistency
 The following metabolites
