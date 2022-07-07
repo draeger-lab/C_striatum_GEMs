@@ -54,3 +54,18 @@ writeSBMLToFile(mod_14.getSBMLDocument(),'../models/Cstr_14.xml')
 writeSBMLToFile(mod_15.getSBMLDocument(),'../models/Cstr_15.xml')
 writeSBMLToFile(mod_16.getSBMLDocument(),'../models/Cstr_16.xml')
 writeSBMLToFile(mod_17.getSBMLDocument(),'../models/Cstr_17.xml')
+
+#%%
+# remove duplicates found during manual curation
+from cobra.io import write_sbml_model
+from refinegems import load_model_cobra
+modelpaths_to_change = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+for mod in modelpaths_to_change:
+    model = load_model_cobra(mod)
+    try:
+        model.reactions.get_by_id('PNCDC_1').remove_from_model()
+        model.reactions.get_by_id('NP1_1').remove_from_model()
+        model.reactions.get_by_id('NADDPp_1').remove_from_model()
+    except (KeyError):
+        print('not in model')
+    write_sbml_model(model, mod)
