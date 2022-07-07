@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '**.xml'
     - 'models/Cstr_14.xml'
     - 'models/Cstr_15.xml'
     - 'models/Cstr_16.xml'
