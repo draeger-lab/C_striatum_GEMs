@@ -5,10 +5,7 @@ on:
   push:
     paths:
     - '**.xml'
-    - 'models/Cstr_14.xml'
-    - 'models/Cstr_15.xml'
-    - 'models/Cstr_16.xml'
-    - 'models/Cstr_17.xml'
+    - 'models/'
 
 jobs:
   run:
