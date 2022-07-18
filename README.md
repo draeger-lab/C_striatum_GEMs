@@ -7,6 +7,8 @@ Note: creating the memote report written to `GEM_status.html` will take around 1
 To access older versions of the model and the corresponding report browse the commits and choose the corresponding commit.
 
 Please link specific additions to the respective issues to track the work you did (#1: model changes, #2: analysis / simulation).
+
+More information on what to expect in the different folder is given in separate READMEs located in the folders.
 ## Log of substantial changes to the models
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
 --- | --- | --- | ---
@@ -21,9 +23,6 @@ Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
 Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v6.2
 Used MCC tool on all strains | scripts/man_cur_mcc.py | 01.07.2022 | v7.0
 Removed SIRA2, FPRA and GCDH from all strains | scripts/man_cur_egc.py | 01.07.2022 | v7.1
-
-## Notes on model consistency
-The following metabolites
 
 ## Tricks
 Revert only model files:
