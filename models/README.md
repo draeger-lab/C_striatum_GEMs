@@ -2,7 +2,7 @@
 
 This folder contains all `**.xml` files coding for Genome Scale Metabolic Models. In this case we have four strain specific models and one model of the core metabolism for *Corynebacterium striatum*. 
 
-The reconstructions are based on the following NCBI accessions. The Genome files were linked by BacDrive via DSMZ.
+The reconstructions are based on the following NCBI accessions. The Genome files were linked by BacDrive via DSMZ and can be downloaded either from the NCBI or PATRIC.
 
 **Number** | **Name** | **DSM-number** | **NCBI accession** | **Other**
 --- | --- | --- | --- | ---
