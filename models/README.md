@@ -10,6 +10,5 @@ The reconstructions are based on the following NCBI accessions:
 15 | FDAARGOS\_1197 | 45711 | CP069514 | 
 16 | FDAARGOS\_1115 | 7184 | CP068158 |  
 17 | FDAARGOS\_1116 | 7185 | CP068157 | 
---- | --- | --- | --- | ---
 
 The `Cstr_core.xml` model was drafted by comparing the four strain specific models and only keeping common reactions and metabolites. It is not very developed at this point and rather conceptual then useful.
