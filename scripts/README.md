@@ -3,7 +3,7 @@
 This folder contains manual curation scripts that were used to investigate and / or manipulate the models denoted in the `models` folder.
 
 **script** | **usage**  | **refinegems**
---- | --- 
+--- | --- | ---
 man_cur_annotate | manual annotations inferred from `data/manual_curation.xlsx`| implemented 18.07.22
 man_cur_charges | addition of manually researched charges and charges from the *P. putida* model | -
 man_cur_coremodel | drafting a core model from multiple strain specific models | possible
