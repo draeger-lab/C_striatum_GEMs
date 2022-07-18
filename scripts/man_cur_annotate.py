@@ -69,7 +69,7 @@ model = load_model_libsbml(path)
 print(metab_only1_ann(model))
 
 #%% load manual_annotations.xlsx
-man_ann = pd.read_excel('../data/manual_annotations.xlsx').drop(['Name', 'FORMULA', 'Notiz'], axis=1).fillna(0)
+man_ann = pd.read_excel('../data/manual_curation.xlsx', 'metab').drop(['Name', 'FORMULA', 'Notiz'], axis=1).fillna(0)
 man_ann['PUBCHEM'] = man_ann['PUBCHEM'].astype(int)
 man_ann
 
