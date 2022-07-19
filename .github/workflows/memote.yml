@@ -8,6 +8,7 @@ on:
     - 'models/Cstr_15.xml'
     - 'models/Cstr_16.xml'
     - 'models/Cstr_17.xml'
+    - 'models/Cstr_KC-Na-01.xml'
 
 jobs:
   run:
@@ -58,10 +59,14 @@ jobs:
             df_17 = pd.DataFrame.from_dict([model_17.optimize().fluxes]).T
             df_17.to_csv('./escher/Cstr_17_FBA.csv')     
             cobra.io.save_json_model(model_17, './escher/Cstr_17.json')
+            model_KC = cobra.io.read_sbml_model('./models/Cstr_KC-Na-01.xml')
+            df_KC = pd.DataFrame.from_dict([model_KC.optimize().fluxes]).T
+            df_KC.to_csv('./escher/Cstr_KC-Na-01_FBA.csv')     
+            cobra.io.save_json_model(model_KC, './escher/Cstr_KC-Na-01.json')
       
     - name: Create memote report in difference mode for all models
       run: |
-        memote report diff --filename "GEM_status.html" models/Cstr_14.xml models/Cstr_15.xml models/Cstr_16.xml models/Cstr_17.xml
+        memote report diff --filename "GEM_status.html" models/Cstr_14.xml models/Cstr_15.xml models/Cstr_16.xml models/Cstr_17.xml models/Cstr_KC-Na-01.xml
 
     - name: Commit ESCHER basics and memote report
       id: commit
