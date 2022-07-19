@@ -12,3 +12,5 @@ The reconstructions are based on the following NCBI accessions. The Genome files
 17 | FDAARGOS\_1116 | [7185](https://www.dsmz.de/collection/catalogue/details/culture/DSM-7185) | [CP068157](https://www.ncbi.nlm.nih.gov/nuccore/CP068157) | 
 
 The `Cstr_core.xml` model was drafted by comparing the four strain specific models and only keeping common reactions and metabolites. It is not very developed at this point and rather conceptual then useful.
+
+`Cstr_KC-Na-01.xml` was created by Tanja Urz in a research project and curated by Famke Bäuerle in a research project prior to this thesis. It provides information on the strain `KC-Na-01` which is not available for laboratory experiments but is the only strain present in the KEGG database.
