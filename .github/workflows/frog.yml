@@ -23,14 +23,57 @@ jobs:
 
     - name: Install dependencies
       run: python -m pip install fbc-curation
-      
-    - name: Create FROG reports for all models
+        
+    - name: Create FROG report
       run: |
-        fbc_curation --model ./models/Cstr_14.xml --path ./FROG/Cstr_14
-        fbc_curation --model ./models/Cstr_15.xml --path ./FROG/Cstr_15
-        fbc_curation --model ./models/Cstr_16.xml --path ./FROG/Cstr_16
-        fbc_curation --model ./models/Cstr_17.xml --path ./FROG/Cstr_17
-        fbc_curation --model ./models/Cstr_KC-Na-01.xml --path ./FROG/Cstr_KC-Na-01
+        runfrog -i ./models/Cstr_14.xml -o ./FROG/Cstr_14_FROG.omex
+        runfrog -i ./models/Cstr_15.xml -o ./FROG/Cstr_15_FROG.omex
+        runfrog -i ./models/Cstr_16.xml -o ./FROG/Cstr_16_FROG.omex
+        runfrog -i ./models/Cstr_17.xml -o ./FROG/Cstr_17_FROG.omex
+        runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01_FROG.omex
+      
+    - name: Unzip Omex files for easier access
+      run: |
+        unzip ./FROG/Cstr_14_FROG.omex -d ./FROG/Cstr_14
+        rm ./FROG/Cstr_14/model.xml
+        rm ./FROG/Cstr_14/manifest.xml
+        cp -R ./FROG/Cstr_14/FROG/cameo ./FROG/Cstr_14
+        rm -R ./FROG/Cstr_14/FROG/cameo
+        cp -R ./FROG/Cstr_14/FROG/cobrapy ./FROG/Cstr_14
+        rm -R ./FROG/Cstr_14/FROG/cobrapy
+        rm -r ./FROG/Cstr_14/FROG/
+        unzip ./FROG/Cstr_15_FROG.omex -d ./FROG/Cstr_15
+        rm ./FROG/Cstr_15/model.xml
+        rm ./FROG/Cstr_15/manifest.xml
+        cp -R ./FROG/Cstr_15/FROG/cameo ./FROG/Cstr_15
+        rm -R ./FROG/Cstr_15/FROG/cameo
+        cp -R ./FROG/Cstr_15/FROG/cobrapy ./FROG/Cstr_15
+        rm -R ./FROG/Cstr_15/FROG/cobrapy
+        rm -r ./FROG/Cstr_15/FROG/
+        unzip ./FROG/Cstr_16_FROG.omex -d ./FROG/Cstr_16
+        rm ./FROG/Cstr_16/model.xml
+        rm ./FROG/Cstr_16/manifest.xml
+        cp -R ./FROG/Cstr_16/FROG/cameo ./FROG/Cstr_16
+        rm -R ./FROG/Cstr_16/FROG/cameo
+        cp -R ./FROG/Cstr_16/FROG/cobrapy ./FROG/Cstr_16
+        rm -R ./FROG/Cstr_16/FROG/cobrapy
+        rm -r ./FROG/Cstr_16/FROG/
+        unzip ./FROG/Cstr_17_FROG.omex -d ./FROG/Cstr_17
+        rm ./FROG/Cstr_17/model.xml
+        rm ./FROG/Cstr_17/manifest.xml
+        cp -R ./FROG/Cstr_17/FROG/cameo ./FROG/Cstr_17
+        rm -R ./FROG/Cstr_17/FROG/cameo
+        cp -R ./FROG/Cstr_17/FROG/cobrapy ./FROG/Cstr_17
+        rm -R ./FROG/Cstr_17/FROG/cobrapy
+        rm -r ./FROG/Cstr_17/FROG/
+        unzip ./FROG/Cstr_KC-Na-01_FROG.omex -d ./FROG/Cstr_KC-Na-01
+        rm ./FROG/Cstr_KC-Na-01/model.xml
+        rm ./FROG/Cstr_KC-Na-01/manifest.xml
+        cp -R ./FROG/Cstr_KC-Na-01/FROG/cameo ./FROG/Cstr_KC-Na-01
+        rm -R ./FROG/Cstr_KC-Na-01/FROG/cameo
+        cp -R ./FROG/Cstr_KC-Na-01/FROG/cobrapy ./FROG/Cstr_KC-Na-01
+        rm -R ./FROG/Cstr_KC-Na-01/FROG/cobrapy
+        rm -r ./FROG/Cstr_KC-Na-01/FROG/
 
     - name: Commit FROG report
       id: commit
