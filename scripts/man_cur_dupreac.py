@@ -69,3 +69,17 @@ for mod in modelpaths_to_change:
     except (KeyError):
         print('not in model')
     write_sbml_model(model, mod)
+    
+#%%
+# remove duplicates found with metabolic maps
+from cobra.io import write_sbml_model
+from refinegems import load_model_cobra
+modelpaths_to_change = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+for mod in modelpaths_to_change:
+    model = load_model_cobra(mod)
+    print(model.reactions.get_by_id('GNKr'))
+    try:
+        model.reactions.get_by_id('GNK').remove_from_model()
+    except (KeyError):
+        print('not in model')
+    write_sbml_model(model, mod)
