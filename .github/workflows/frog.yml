@@ -30,6 +30,7 @@ jobs:
         fbc_curation --model ./models/Cstr_15.xml --path ./FROG/Cstr_15
         fbc_curation --model ./models/Cstr_16.xml --path ./FROG/Cstr_16
         fbc_curation --model ./models/Cstr_17.xml --path ./FROG/Cstr_17
+        fbc_curation --model ./models/Cstr_KC-Na-01.xml --path ./FROG/Cstr_KC-Na-01
 
     - name: Commit FROG report
       id: commit
