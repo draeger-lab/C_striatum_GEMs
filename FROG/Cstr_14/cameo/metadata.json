@@ -1,10 +1,22 @@
 {
-  "software.name": "fbc_curation",
-  "software.version": "0.1.6",
-  "software.url": "https://doi.org/10.5281/zenodo.3708271",
-  "environment": "posix, Linux, 5.13.0-1021-azure",
-  "model.filename": "Cstr_14.xml",
-  "model.md5": "60036526bee05e6f8ae10a63aff6d1dd",
-  "solver.name": "cameo (glpk)",
-  "solver.version": "0.13.6"
+  "model_location": "./model.xml",
+  "model_md5": "87269a611af0224075a06fae1727bd3a",
+  "frog_id": "cameo_tsv",
+  "frog_software": {
+    "name": "fbc_curation",
+    "version": "0.2.0",
+    "url": "https://doi.org/10.5281/zenodo.3708271"
+  },
+  "curators": [],
+  "software": {
+    "name": "cameo",
+    "version": "0.13.6",
+    "url": "https://github.com/opencobra/cobrapy"
+  },
+  "solver": {
+    "name": "glpk",
+    "version": "5.0",
+    "url": null
+  },
+  "environment": "posix, Linux, 5.15.0-1014-azure"
 }
