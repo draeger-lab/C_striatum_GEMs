@@ -1,7 +1,7 @@
 {
   "model_location": "./model.xml",
-  "model_md5": "0f1412717de845fdeff171a6858226d6",
-  "frog_id": "cameo_tsv",
+  "model_md5": "2a30ce4eb3a8144bfa429291f500ecc6",
+  "frog_id": "cobrapy_tsv",
   "frog_software": {
     "name": "fbc_curation",
     "version": "0.2.0",
@@ -9,8 +9,8 @@
   },
   "curators": [],
   "software": {
-    "name": "cameo",
-    "version": "0.13.6",
+    "name": "cobrapy",
+    "version": "0.25.0",
     "url": "https://github.com/opencobra/cobrapy"
   },
   "solver": {

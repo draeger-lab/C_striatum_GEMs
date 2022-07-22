@@ -1,2 +1,2 @@
 model	objective	status	value
-Cstr_16.xml	objective	optimal	38.317038
+./model.xml	obj	optimal	38.31703840546652

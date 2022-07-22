@@ -1,10 +1,22 @@
 {
-  "software.name": "fbc_curation",
-  "software.version": "0.1.6",
-  "software.url": "https://doi.org/10.5281/zenodo.3708271",
-  "environment": "posix, Linux, 5.13.0-1021-azure",
-  "model.filename": "Cstr_15.xml",
-  "model.md5": "b7b8b6164924a6ffe1b2ef3cfba440d7",
-  "solver.name": "cobrapy (glpk)",
-  "solver.version": "0.24.0"
+  "model_location": "./model.xml",
+  "model_md5": "62af25451881b01a9fcc163f03789893",
+  "frog_id": "cobrapy_tsv",
+  "frog_software": {
+    "name": "fbc_curation",
+    "version": "0.2.0",
+    "url": "https://doi.org/10.5281/zenodo.3708271"
+  },
+  "curators": [],
+  "software": {
+    "name": "cobrapy",
+    "version": "0.25.0",
+    "url": "https://github.com/opencobra/cobrapy"
+  },
+  "solver": {
+    "name": "glpk",
+    "version": "5.0",
+    "url": null
+  },
+  "environment": "posix, Linux, 5.15.0-1014-azure"
 }
