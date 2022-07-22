@@ -37,32 +37,32 @@ jobs:
         unzip ./FROG/Cstr_14_FROG.omex -d ./FROG/Cstr_14
         rm ./FROG/Cstr_14/model.xml
         rm ./FROG/Cstr_14/manifest.xml
-        mv ./FROG/Cstr_14/FROG/cameo ./FROG/Cstr_14
-        mv ./FROG/Cstr_14/FROG/cobrapy ./FROG/Cstr_14
+        mv -f ./FROG/Cstr_14/FROG/cameo ./FROG/Cstr_14
+        mv -f ./FROG/Cstr_14/FROG/cobrapy ./FROG/Cstr_14
         rm -r ./FROG/Cstr_14/FROG/
         unzip ./FROG/Cstr_15_FROG.omex -d ./FROG/Cstr_15
         rm ./FROG/Cstr_15/model.xml
         rm ./FROG/Cstr_15/manifest.xml
-        mv ./FROG/Cstr_15/FROG/cameo ./FROG/Cstr_15
-        mv ./FROG/Cstr_15/FROG/cobrapy ./FROG/Cstr_15
+        mv -f ./FROG/Cstr_15/FROG/cameo ./FROG/Cstr_15
+        mv -f ./FROG/Cstr_15/FROG/cobrapy ./FROG/Cstr_15
         rm -r ./FROG/Cstr_15/FROG/
         unzip ./FROG/Cstr_16_FROG.omex -d ./FROG/Cstr_16
         rm ./FROG/Cstr_16/model.xml
         rm ./FROG/Cstr_16/manifest.xml
-        mv ./FROG/Cstr_16/FROG/cameo ./FROG/Cstr_16
-        mv ./FROG/Cstr_16/FROG/cobrapy ./FROG/Cstr_16
+        mv -f ./FROG/Cstr_16/FROG/cameo ./FROG/Cstr_16
+        mv -f ./FROG/Cstr_16/FROG/cobrapy ./FROG/Cstr_16
         rm -r ./FROG/Cstr_16/FROG/
         unzip ./FROG/Cstr_17_FROG.omex -d ./FROG/Cstr_17
         rm ./FROG/Cstr_17/model.xml
         rm ./FROG/Cstr_17/manifest.xml
-        mv ./FROG/Cstr_17/FROG/cameo ./FROG/Cstr_17
-        mv ./FROG/Cstr_17/FROG/cobrapy ./FROG/Cstr_17
+        mv -f ./FROG/Cstr_17/FROG/cameo ./FROG/Cstr_17
+        mv -f ./FROG/Cstr_17/FROG/cobrapy ./FROG/Cstr_17
         rm -r ./FROG/Cstr_17/FROG/
         unzip ./FROG/Cstr_KC-Na-01_FROG.omex -d ./FROG/Cstr_KC-Na-01
         rm ./FROG/Cstr_KC-Na-01/model.xml
         rm ./FROG/Cstr_KC-Na-01/manifest.xml
-        mv ./FROG/Cstr_KC-Na-01/FROG/cameo ./FROG/Cstr_KC-Na-01
-        mv ./FROG/Cstr_KC-Na-01/FROG/cobrapy ./FROG/Cstr_KC-Na-01
+        mv -f ./FROG/Cstr_KC-Na-01/FROG/cameo ./FROG/Cstr_KC-Na-01
+        mv -f ./FROG/Cstr_KC-Na-01/FROG/cobrapy ./FROG/Cstr_KC-Na-01
         rm -r ./FROG/Cstr_KC-Na-01/FROG/
 
     - name: Commit FROG report
