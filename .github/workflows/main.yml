@@ -22,13 +22,15 @@ jobs:
       run: python -m pip install markupsafe==2.0.1
 
     - name: Install dependencies
+      run: python -m pip install fbc-curation
+        
+    - name: Commit FROG report
       run: |
-        python -m pip install fbc-curation
-        fbc_curation --model ./models/Cstr_14.xml --path ./FROG/Cstr_14
-        fbc_curation --model ./models/Cstr_15.xml --path ./FROG/Cstr_15
-        fbc_curation --model ./models/Cstr_16.xml --path ./FROG/Cstr_16
-        fbc_curation --model ./models/Cstr_17.xml --path ./FROG/Cstr_17
-        fbc_curation --model ./models/Cstr_KC-Na-01.xml --path ./FROG/Cstr_KC-Na-01
+        runfrog -i ./models/Cstr_14.xml -o ./FROG/Cstr_14
+        runfrog -i ./models/Cstr_15.xml -o ./FROG/Cstr_15
+        runfrog -i ./models/Cstr_16.xml -o ./FROG/Cstr_16
+        runfrog -i ./models/Cstr_17.xml -o ./FROG/Cstr_17
+        runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01
 
     - name: Commit FROG report
       id: commit
