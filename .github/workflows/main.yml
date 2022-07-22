@@ -26,11 +26,11 @@ jobs:
         
     - name: Commit FROG report
       run: |
-        runfrog -i ./models/Cstr_14.xml -o ./FROG/Cstr_14
-        runfrog -i ./models/Cstr_15.xml -o ./FROG/Cstr_15
-        runfrog -i ./models/Cstr_16.xml -o ./FROG/Cstr_16
-        runfrog -i ./models/Cstr_17.xml -o ./FROG/Cstr_17
-        runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01
+        runfrog -i ./models/Cstr_14.xml -o ./FROG/Cstr_14_FROG.omex
+        runfrog -i ./models/Cstr_15.xml -o ./FROG/Cstr_15_FROG.omex
+        runfrog -i ./models/Cstr_16.xml -o ./FROG/Cstr_16_FROG.omex
+        runfrog -i ./models/Cstr_17.xml -o ./FROG/Cstr_17_FROG.omex
+        runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01_FROG.omex
 
     - name: Commit FROG report
       id: commit
