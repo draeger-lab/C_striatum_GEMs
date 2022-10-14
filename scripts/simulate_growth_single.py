@@ -46,6 +46,10 @@ def m9(model):
     model.reactions.EX_pi_e.lower_bound=-1000
     #model.reactions.EX_cbl1_e.lower_bound=-.01 # off for 14, 15, 16, 17, KC
     model.reactions.EX_o2_e.lower_bound=-20
+    #model.reactions.EX_ala_B_e.lower_bound=-1000 # for 15 (minimal requirement)
+    #model.reactions.EX_cgly_e.lower_bound=-1000 # for 15, 16 (minimal requirement)
+    model.reactions.EX_pnto__R_e.lower_bound=-1000 # for 16, 17 (minimal requirement)
+    model.reactions.EX_nmn_e.lower_bound=-1000 # for 17 (minimal requirement)
     return model
 
 def m9_leu(model):
