@@ -22,7 +22,7 @@ EX_acald_e	0.0
 EX_acgam_e	0.0
 EX_actn__R_e	0.0
 EX_acysbmn_e	0.0
-EX_ala_B_e	0.0
+EX_ala_B_e	0.24186989892981922
 EX_ala_L_asp__L_e	0.0
 EX_ala_L_glu__L_e	0.0
 EX_ala_L_thr__L_e	0.0
@@ -56,7 +56,7 @@ EX_4crsol_e	0.0
 EX_cu2_e	0.0
 EX_cu_e	0.0
 EX_cyan_e	0.0
-EX_cys__L_e	2.5007852319695697e-12
+EX_cys__L_e	0.0
 EX_dag181d9_e	0.0
 EX_dag182d9d12_e	0.0
 EX_dca_e	0.0
@@ -140,7 +140,7 @@ EX_peamn_e	0.0
 EX_phe__L_e	0.0
 EX_pheme_e	0.0
 EX_pime_e	0.0
-EX_pnto__R_e	0.0
+EX_pnto__R_e	0.2418753279489318
 EX_ppa_e	0.0
 EX_ppap_e	0.0
 EX_pro__L_e	0.0

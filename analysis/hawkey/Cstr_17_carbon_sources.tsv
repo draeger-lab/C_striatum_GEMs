@@ -52,7 +52,7 @@ EX_btd_RR_e	0.0
 EX_but_e	0.0
 EX_bz_e	0.0
 EX_ca2_e	0.0
-EX_cgly_e	0.0
+EX_cgly_e	0.2412955329287073
 EX_chol_e	0.0
 EX_cit_e	0.0
 EX_cl_e	0.0
@@ -63,7 +63,7 @@ EX_4crsol_e	0.0
 EX_cu2_e	0.0
 EX_cu_e	0.0
 EX_cyan_e	0.0
-EX_cys__L_e	0.0
+EX_cys__L_e	0.18887271716963866
 EX_dag181d9_e	0.0
 EX_dag182d9d12_e	0.0
 EX_dca_e	0.0
@@ -103,7 +103,7 @@ EX_glygly_e	0.0
 EX_glyglygln_e	0.0
 EX_glymet_e	0.0
 EX_glyser_e	0.0
-EX_gthrd_e	0.0
+EX_gthrd_e	0.20909336265895626
 EX_gua_e	0.0
 EX_hdca_e	0.0
 EX_his__L_e	0.0

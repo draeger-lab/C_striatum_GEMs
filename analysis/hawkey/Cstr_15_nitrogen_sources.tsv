@@ -7,7 +7,7 @@ EX_LalaLglu_e	0.0
 EX_abg4_e	0.0
 EX_acgam_e	0.0
 EX_acysbmn_e	0.0
-EX_ala_B_e	0.0
+EX_ala_B_e	0.7613446507964347
 EX_ala_L_asp__L_e	0.0
 EX_ala_L_glu__L_e	0.0
 EX_ala_L_thr__L_e	0.0
@@ -83,7 +83,7 @@ EX_orn__L_e	0.0
 EX_peamn_e	0.0
 EX_phe__L_e	0.0
 EX_pheme_e	0.0
-EX_pnto__R_e	0.0
+EX_pnto__R_e	0.7613555019181663
 EX_pro__L_e	0.0
 EX_progly_e	0.0
 EX_prohisglu_e	0.0
