@@ -9,6 +9,15 @@ To access older versions of the model and the corresponding report browse the co
 Please link specific additions to the respective issues to track the work you did (#1: model changes, #2: analysis / simulation, #3: novel additions).
 
 More information on what to expect in the different folder is given in separate READMEs located in the folders.
+
+## *Corynebacterium striatum*
+*Corynebacterium striatum*, a gram-positive and non-sporulating rod, has recently been discovered for its pathogenic properties. Even though it has been known since the early 20th cen- tury, C.striatum was often disregarded as a pathogen since it is part of the typical human skin microbiota [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5655097/). Nevertheless, it was found that, especially in immunocompromised patients, C.striatum can be the source for diseases such as Chronic Obstructive Pulmonary Disease, also
+known as COPD or pneumonia [2](https://jidc.org/index.php/journal/article/view/31954008). Not only is *C. striatum* active within the respiratory tract, but it was also attributed to long-standing open wound infections [3](http://europepmc.org/article/MED/28208859) and prolonged hospitalizations [4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037610/).
+
+<img src="./data/Cstr_16_TSB.png" height="200"
+title="Colony morphology <i>C. striatum</i>"
+style="display: inline-block; margin: 0 auto; max-width: 300px"/>
+
 ## Log of substantial changes to the models
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
 --- | --- | --- | ---
