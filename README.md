@@ -6,7 +6,7 @@ Note: creating the memote report written to `GEM_status.html` will take around 1
 
 To access older versions of the model and the corresponding report browse the commits and choose the corresponding commit.
 
-Please link specific additions to the respective issues to track the work you did (#1: model changes, #2: analysis / simulation).
+Please link specific additions to the respective issues to track the work you did (#1: model changes, #2: analysis / simulation, #3: novel additions).
 
 More information on what to expect in the different folder is given in separate READMEs located in the folders.
 ## Log of substantial changes to the models
