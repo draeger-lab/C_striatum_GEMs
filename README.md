@@ -14,7 +14,7 @@ More information on what to expect in the different folder is given in separate 
 <img align="right" src="./data/Cstr_16_TSB.png" height="200"
 title="Colony morphology <i>C. striatum</i>"
 style="display: inline-block; margin: 0 auto; max-width: 300px"/>
-*Corynebacterium striatum*, a gram-positive and non-sporulating rod, has recently been discovered for its pathogenic properties. Even though it has been known since the early 20th cen- tury, C.striatum was often disregarded as a pathogen since it is part of the typical human skin microbiota<sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5655097/)</sup>. Nevertheless, it was found that, especially in immunocompromised patients, C.striatum can be the source for diseases such as Chronic Obstructive Pulmonary Disease, also known as COPD or pneumonia<sup>[2](https://jidc.org/index.php/journal/article/view/31954008)</sup>. Not only is *C. striatum* active within the respiratory tract, but it was also attributed to long-standing open wound infections<sup>[3](http://europepmc.org/article/MED/28208859)</sup> and prolonged hospitalizations<sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037610/)</sup>.
+*Corynebacterium striatum*, a gram-positive and non-sporulating rod, has recently been discovered for its pathogenic properties. Even though it has been known since the early 20th century, C.striatum was often disregarded as a pathogen since it is part of the typical human skin microbiota<sup>[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5655097/)</sup>. Nevertheless, it was found that, especially in immunocompromised patients, C.striatum can be the source for diseases such as Chronic Obstructive Pulmonary Disease, also known as COPD or pneumonia<sup>[2](https://jidc.org/index.php/journal/article/view/31954008)</sup>. Not only is *C. striatum* active within the respiratory tract, but it was also attributed to long-standing open wound infections<sup>[3](http://europepmc.org/article/MED/28208859)</sup> and prolonged hospitalizations<sup>[4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6037610/)</sup>.
 
 ## Log of substantial changes to the models
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
@@ -36,3 +36,13 @@ Revert only model files:
 1. search for commit hash in commit history
 2. `git checkout [commit ID] -- path/to/file`
 3. commit and push
+
+## Software 
+**Name** | **Version** | **More Information**
+--- | --- | --- 
+diamond | 2.0.11 | [github wiki](https://github.com/bbuchfink/diamond/wiki)
+CPLEX | 20.1.0 | [product website](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio)
+CarveMe | 1.5.1 | [docs](https://carveme.readthedocs.io/en/latest/)
+libSBML | 5.19.0 | [github](https://github.com/sbmlteam/libsbml)
+COBRApy | 0.25.0 | [docs](https://cobrapy.readthedocs.io/en/latest/)
+refineGEMs | 0.0.1 | [repository](https://github.com/draeger-lab/refinegems)
