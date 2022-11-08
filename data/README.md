@@ -1,6 +1,6 @@
 # /data/
 
-This folder contains all data used in the curation of the models which can be found in the `models` folder.
+This folder contains all external data used in the curation of the models which can be found in the `models` folder.
 
 - `genomes/.` holds all `.fasta` and `.gff` files of the strains
 - `energy_dissipation_rxns.csv` contains reaction definitions used to find so called Energy-Generating-Cycles (EGC)
