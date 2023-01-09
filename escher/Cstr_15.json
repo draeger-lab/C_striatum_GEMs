@@ -75597,7 +75597,7 @@
 },
 {
 "id":"EX_actn__R_e",
-"name":"EX actn R LPAREN e RPAREN ",
+"name":"EX actn R LPAREN e RPAREN",
 "metabolites":{
 "actn__R_e":-1.0
 },
@@ -75614,7 +75614,7 @@
 },
 {
 "id":"EX_acysbmn_e",
-"name":"EX acysbmn LPAREN e RPAREN ",
+"name":"EX acysbmn LPAREN e RPAREN",
 "metabolites":{
 "acysbmn_e":-1.0
 },
@@ -75944,7 +75944,7 @@
 },
 {
 "id":"EX_bmn_e",
-"name":"EX bmn LPAREN e RPAREN ",
+"name":"EX bmn LPAREN e RPAREN",
 "metabolites":{
 "bmn_e":-1.0
 },
@@ -77120,7 +77120,7 @@
 },
 {
 "id":"EX_ind3ac_e",
-"name":"EX ind3ac LPAREN e RPAREN ",
+"name":"EX ind3ac LPAREN e RPAREN",
 "metabolites":{
 "ind3ac_e":-1.0
 },
@@ -77383,7 +77383,7 @@
 },
 {
 "id":"EX_malthp_e",
-"name":"EX malthp LPAREN e RPAREN ",
+"name":"EX malthp LPAREN e RPAREN",
 "metabolites":{
 "malthp_e":-1.0
 },
@@ -77839,7 +77839,7 @@
 },
 {
 "id":"EX_pime_e",
-"name":"EX pime LPAREN e RPAREN ",
+"name":"EX pime LPAREN e RPAREN",
 "metabolites":{
 "pime_e":-1.0
 },
@@ -78034,7 +78034,7 @@
 },
 {
 "id":"EX_s_e",
-"name":"EX s LPAREN e RPAREN ",
+"name":"EX s LPAREN e RPAREN",
 "metabolites":{
 "s_e":-1.0
 },
@@ -78796,6 +78796,20 @@
 ],
 "sbo":"SBO:0000167",
 "seed.reaction":"rxn02128"
+}
+},
+{
+"id":"EX_na1_e",
+"name":"Sodium exchange",
+"metabolites":{
+"na1_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"bigg.reaction":"EX_na1_e",
+"sbo":"SBO:0000627"
 }
 }
 ],
@@ -84836,7 +84850,6 @@
 }
 ],
 "id":"fda_1197",
-"name":"",
 "compartments":{
 "c":"default",
 "e":"default",

@@ -72990,7 +72990,7 @@
 },
 {
 "id":"RNTR1",
-"name":"Ribonucleoside triphosphate reductase  ATP ",
+"name":"Ribonucleoside triphosphate reductase  ATP",
 "metabolites":{
 "atp_c":-1.0,
 "datp_c":1.0,
@@ -73015,7 +73015,7 @@
 },
 {
 "id":"RNTR2",
-"name":"Ribonucleoside triphosphate reductase  GTP ",
+"name":"Ribonucleoside triphosphate reductase  GTP",
 "metabolites":{
 "dgtp_c":1.0,
 "gtp_c":-1.0,
@@ -73040,7 +73040,7 @@
 },
 {
 "id":"RNTR3",
-"name":"Ribonucleoside triphosphate reductase  CTP ",
+"name":"Ribonucleoside triphosphate reductase  CTP",
 "metabolites":{
 "ctp_c":-1.0,
 "dctp_c":1.0,
@@ -73065,7 +73065,7 @@
 },
 {
 "id":"RNTR4",
-"name":"Ribonucleoside triphosphate reductase  UTP ",
+"name":"Ribonucleoside triphosphate reductase  UTP",
 "metabolites":{
 "dutp_c":1.0,
 "h2o_c":1.0,
@@ -73248,7 +73248,7 @@
 },
 {
 "id":"SALCHS4FER1",
-"name":"Salmochelin S4 Fe III reduction Fe III unloading ",
+"name":"Salmochelin S4 Fe III reduction Fe III unloading",
 "metabolites":{
 "fad_c":1.0,
 "fadh2_c":-1.0,
@@ -73270,7 +73270,7 @@
 },
 {
 "id":"SALCHS4FEabcpp",
-"name":"Salmochelin S4 Fe III transport via ABC system periplasm ",
+"name":"Salmochelin S4 Fe III transport via ABC system periplasm",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
@@ -73294,7 +73294,7 @@
 },
 {
 "id":"SALCHS4FEtonex",
-"name":"Salmochelin S4 Fe III transport via ton system extracellular ",
+"name":"Salmochelin S4 Fe III transport via ton system extracellular",
 "metabolites":{
 "h_c":1.0,
 "h_p":-1.0,
@@ -73315,7 +73315,7 @@
 },
 {
 "id":"SALCHS4abcpp",
-"name":"Salmochelin S4 transport via ABC system periplasm ",
+"name":"Salmochelin S4 transport via ABC system periplasm",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
@@ -73339,7 +73339,7 @@
 },
 {
 "id":"SALCHS4tex",
-"name":"Salmochelin S4 transport secretion periplasm ",
+"name":"Salmochelin S4 transport secretion periplasm",
 "metabolites":{
 "h_c":1.0,
 "h_p":-1.0,
@@ -73399,7 +73399,7 @@
 },
 {
 "id":"SBTD_D2",
-"name":"D sorbitol dehydrogenase  D fructose producing ",
+"name":"D sorbitol dehydrogenase  D fructose producing",
 "metabolites":{
 "fru_c":1.0,
 "h_c":1.0,
@@ -75741,7 +75741,7 @@
 },
 {
 "id":"TMDK2",
-"name":"Thymidine kinase GTPThymidine ",
+"name":"Thymidine kinase GTPThymidine",
 "metabolites":{
 "dtmp_c":1.0,
 "gdp_c":1.0,
@@ -78723,7 +78723,7 @@
 },
 {
 "id":"EX_actn__R_e",
-"name":"EX actn R LPAREN e RPAREN ",
+"name":"EX actn R LPAREN e RPAREN",
 "metabolites":{
 "actn__R_e":-1.0
 },
@@ -78740,7 +78740,7 @@
 },
 {
 "id":"EX_acysbmn_e",
-"name":"EX acysbmn LPAREN e RPAREN ",
+"name":"EX acysbmn LPAREN e RPAREN",
 "metabolites":{
 "acysbmn_e":-1.0
 },
@@ -79070,7 +79070,7 @@
 },
 {
 "id":"EX_bmn_e",
-"name":"EX bmn LPAREN e RPAREN ",
+"name":"EX bmn LPAREN e RPAREN",
 "metabolites":{
 "bmn_e":-1.0
 },
@@ -79087,7 +79087,7 @@
 },
 {
 "id":"EX_btd_RR_e",
-"name":" R R  2 3 Butanediol exchange",
+"name":"R R  2 3 Butanediol exchange",
 "metabolites":{
 "btd_RR_e":-1.0
 },
@@ -80240,7 +80240,7 @@
 },
 {
 "id":"EX_ind3ac_e",
-"name":"EX ind3ac LPAREN e RPAREN ",
+"name":"EX ind3ac LPAREN e RPAREN",
 "metabolites":{
 "ind3ac_e":-1.0
 },
@@ -80503,7 +80503,7 @@
 },
 {
 "id":"EX_malthp_e",
-"name":"EX malthp LPAREN e RPAREN ",
+"name":"EX malthp LPAREN e RPAREN",
 "metabolites":{
 "malthp_e":-1.0
 },
@@ -81194,7 +81194,7 @@
 },
 {
 "id":"EX_s_e",
-"name":"EX s LPAREN e RPAREN ",
+"name":"EX s LPAREN e RPAREN",
 "metabolites":{
 "s_e":-1.0
 },
@@ -81953,6 +81953,20 @@
 ],
 "sbo":"SBO:0000167",
 "seed.reaction":"rxn02128"
+}
+},
+{
+"id":"EX_na1_e",
+"name":"Sodium exchange",
+"metabolites":{
+"na1_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"bigg.reaction":"EX_na1_e",
+"sbo":"SBO:0000627"
 }
 }
 ],
@@ -87987,7 +88001,6 @@
 }
 ],
 "id":"fda_1116",
-"name":"",
 "compartments":{
 "c":"default",
 "e":"default",
