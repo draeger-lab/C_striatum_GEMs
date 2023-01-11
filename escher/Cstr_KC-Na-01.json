@@ -76045,7 +76045,7 @@
 }
 }
 ],
-"id":"CSTR",
+"id":"KC_Na_01",
 "compartments":{
 "c":"cytosol",
 "e":"extracellular space",
