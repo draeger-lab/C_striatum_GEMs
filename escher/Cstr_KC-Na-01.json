@@ -27608,7 +27608,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01212",
+"subsystem":"Fatty acid metabolism",
 "notes":{
 "Inferred":"582.0 protons added to reactants to balance equation."
 },
@@ -27681,7 +27681,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891376_1",
-"subsystem":"rn00350",
+"subsystem":"Tyrosine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -27712,7 +27712,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890497_1",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -27814,7 +27814,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890533_1 or WP_086891914_1",
-"subsystem":"rn00362",
+"subsystem":"Benzoate degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -27876,7 +27876,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005529733_1",
-"subsystem":"rn00330",
+"subsystem":"Arginine and proline metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28111,7 +28111,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28252,7 +28252,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891876_1",
-"subsystem":"rn00650",
+"subsystem":"Butanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28354,7 +28354,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890533_1 or WP_086890755_1 or WP_086891914_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28363,22 +28363,20 @@
 "biocyc":"META:ACETYL-COA-ACETYLTRANSFER-RXN",
 "ec-code":"2.3.1.9",
 "kegg.pathway":[
+"rn00630",
+"rn01200",
 "rn00071",
-"rn00072",
 "rn00280",
 "rn00310",
 "rn00362",
 "rn00380",
 "rn00620",
-"rn00630",
-"rn00640",
 "rn00650",
 "rn00720",
 "rn00900",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
 "rn01212"
 ],
 "kegg.reaction":"R00238",
@@ -28408,7 +28406,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28445,7 +28443,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28482,7 +28480,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28519,7 +28517,7 @@
 "lower_bound":-1000.0,
 "upper_bound":0.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28576,7 +28574,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28613,7 +28611,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28702,7 +28700,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890604_1 or WP_086891945_1",
-"subsystem":"rn00254",
+"subsystem":"Aflatoxin biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28711,6 +28709,7 @@
 "biocyc":"META:ACETYL-COA-CARBOXYLTRANSFER-RXN",
 "ec-code":"6.4.1.2",
 "kegg.pathway":[
+"rn01120",
 "rn00061",
 "rn00254",
 "rn00620",
@@ -28718,7 +28717,6 @@
 "rn00720",
 "rn01100",
 "rn01110",
-"rn01120",
 "rn01200",
 "rn01212"
 ],
@@ -28751,7 +28749,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28784,7 +28782,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892051_1",
-"subsystem":"rn00520",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28794,7 +28792,8 @@
 "ec-code":"5.4.2.3",
 "kegg.pathway":[
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R08193",
 "metanetx.reaction":"MNXR81466",
@@ -28884,7 +28883,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891336_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28927,7 +28926,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891335_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -28970,7 +28969,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891865_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29008,7 +29007,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890658_1 or WP_086890663_1",
-"subsystem":"rn00680",
+"subsystem":"Methane metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29052,7 +29051,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891931_1",
-"subsystem":"rn00660",
+"subsystem":"C5-Branched dibasic acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29062,7 +29061,8 @@
 "ec-code":"4.1.1.5",
 "kegg.pathway":[
 "rn00650",
-"rn00660"
+"rn00660",
+"rn01110"
 ],
 "kegg.reaction":"R02948",
 "metanetx.reaction":"MNXR68258",
@@ -29091,7 +29091,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049160175_1 or WP_086891865_1 or (WP_049160175_1 and WP_086891507_1)",
-"subsystem":"rn00770",
+"subsystem":"Pantothenate and CoA biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29100,14 +29100,14 @@
 "biocyc":"META:ACETOLACTSYN-RXN",
 "ec-code":"2.2.1.6",
 "kegg.pathway":[
+"rn01230",
 "rn00290",
 "rn00650",
 "rn00660",
 "rn00770",
 "rn01100",
 "rn01110",
-"rn01210",
-"rn01230"
+"rn01210"
 ],
 "kegg.reaction":"R00226",
 "metanetx.reaction":"MNXR68259",
@@ -29156,7 +29156,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29195,7 +29195,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29251,7 +29251,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29286,7 +29286,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29321,7 +29321,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890757_1",
-"subsystem":"rn01212",
+"subsystem":"Fatty acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29351,7 +29351,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890682_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29391,7 +29391,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891417_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29428,7 +29428,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891337_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29493,7 +29493,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892230_1",
-"subsystem":"rn00332",
+"subsystem":"Carbapenem biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29612,7 +29612,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891120_1",
-"subsystem":"rn00620",
+"subsystem":"Pyruvate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29659,7 +29659,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890763_1 or WP_086891307_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29698,7 +29698,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891687_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29800,7 +29800,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892064_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29812,6 +29812,7 @@
 "rn00230",
 "rn01100",
 "rn01110",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R00127",
@@ -29919,7 +29920,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29958,7 +29959,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890435_1 or WP_086892209_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -29993,7 +29994,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891286_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30003,7 +30004,8 @@
 "ec-code":"2.4.2.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00190",
 "metanetx.reaction":"MNXR68290",
@@ -30033,7 +30035,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890628_1 and WP_086890629_1",
-"subsystem":"rn00920",
+"subsystem":"Sulfur metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30073,7 +30075,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890748_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30085,6 +30087,7 @@
 "rn00230",
 "rn00250",
 "rn01100",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R01083",
@@ -30113,7 +30116,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890748_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30156,7 +30159,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890657_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30168,6 +30171,7 @@
 "rn00230",
 "rn00250",
 "rn01100",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R01135",
@@ -30197,7 +30201,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892201_1",
-"subsystem":"rn00520",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30372,7 +30376,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891334_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30414,7 +30418,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890630_1",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30472,7 +30476,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891762_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30512,7 +30516,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891930_1 or (WP_086891858_1 and WP_086892476_1) or (WP_086891930_1 and WP_086892476_1)",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -30620,7 +30624,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890523_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30728,7 +30732,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891064_1 or WP_086891480_1",
-"subsystem":"rn00550",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30737,7 +30741,7 @@
 "biocyc":"META:DALADALALIG-RXN",
 "ec-code":"6.3.2.4",
 "kegg.pathway":[
-"rn00473",
+"rn00470",
 "rn00550",
 "rn01100"
 ],
@@ -30762,7 +30766,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892045_1",
-"subsystem":"rn00473",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30771,7 +30775,7 @@
 "biocyc":"META:ALARACECAT-RXN",
 "ec-code":"5.1.1.1",
 "kegg.pathway":[
-"rn00473",
+"rn00470",
 "rn01100"
 ],
 "kegg.reaction":"R00401",
@@ -30845,7 +30849,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891642_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30857,14 +30861,14 @@
 ],
 "ec-code":"2.6.1.2",
 "kegg.pathway":[
+"rn01230",
 "rn00220",
 "rn00250",
 "rn00710",
 "rn01100",
 "rn01120",
 "rn01200",
-"rn01210",
-"rn01230"
+"rn01210"
 ],
 "kegg.reaction":"R00258",
 "metanetx.reaction":"MNXR32635",
@@ -30916,7 +30920,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891518_1 or WP_086892196_1",
-"subsystem":"rn00625",
+"subsystem":"Chloroalkane and chloroalkene degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -30956,7 +30960,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890509_1",
-"subsystem":"rn00643",
+"subsystem":"Styrene degradation",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -30999,7 +31003,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00380",
+"subsystem":"Tryptophan metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31036,7 +31040,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005529733_1 or WP_086890509_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31080,7 +31084,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005529733_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31195,7 +31199,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892358_1",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31338,7 +31342,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00520",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31378,7 +31382,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00520",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31388,7 +31392,8 @@
 "ec-code":"2.7.1.60",
 "kegg.pathway":[
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R02705",
 "metanetx.reaction":"MNXR26557",
@@ -31559,7 +31564,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890854_1 or WP_086892373_1",
-"subsystem":"rn00480",
+"subsystem":"Glutathione metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31640,7 +31645,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890493_1 or WP_086890494_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31683,7 +31688,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890493_1 or WP_086890494_1 or (WP_086890493_1 and WP_086890495_1) or (WP_086890494_1 and WP_086890495_1)",
-"subsystem":"rn00405",
+"subsystem":"Phenazine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31721,7 +31726,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891272_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31789,7 +31794,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00310",
+"subsystem":"Lysine degradation",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -31848,7 +31853,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891269_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -31915,7 +31920,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00310",
+"subsystem":"Lysine degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32134,7 +32139,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32196,7 +32201,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891341_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32242,7 +32247,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891340_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32326,7 +32331,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892248_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32335,14 +32340,14 @@
 "biocyc":"META:ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN",
 "ec-code":"1.2.1.11",
 "kegg.pathway":[
+"rn01230",
 "rn00260",
 "rn00270",
 "rn00300",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01210",
-"rn01230"
+"rn01210"
 ],
 "kegg.reaction":"R02291",
 "metanetx.reaction":"MNXR832",
@@ -32400,7 +32405,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891035_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32650,7 +32655,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891465_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32691,7 +32696,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892249_1",
-"subsystem":"rn00261",
+"subsystem":"Monobactam biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32700,6 +32705,7 @@
 "biocyc":"META:ASPARTATEKIN-RXN",
 "ec-code":"2.7.2.4",
 "kegg.pathway":[
+"rn01210",
 "rn00260",
 "rn00261",
 "rn00270",
@@ -32707,7 +32713,6 @@
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01210",
 "rn01230"
 ],
 "kegg.reaction":"R00480",
@@ -32846,7 +32851,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890622_1 or WP_086891642_1 or WP_086891994_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -32858,6 +32863,7 @@
 ],
 "ec-code":"2.6.1.1",
 "kegg.pathway":[
+"rn01210",
 "rn00220",
 "rn00250",
 "rn00710",
@@ -32865,7 +32871,6 @@
 "rn01110",
 "rn01120",
 "rn01200",
-"rn01210",
 "rn01230"
 ],
 "kegg.reaction":"R00355",
@@ -32965,7 +32970,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891402_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"6.0 protons added to reactants to balance equation."
 },
@@ -33055,7 +33060,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890374_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -33096,7 +33101,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890374_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -33338,7 +33343,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890502_1",
-"subsystem":"rn00362",
+"subsystem":"Benzoate degradation",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -33418,7 +33423,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891462_1 or WP_086891463_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -33725,7 +33730,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00541",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -33736,7 +33741,8 @@
 "kegg.pathway":[
 "rn00520",
 "rn00541",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R02426",
 "metanetx.reaction":"MNXR15051",
@@ -33766,7 +33772,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891735_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -33973,7 +33979,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890372_1 or WP_086892309_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34010,7 +34016,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34050,7 +34056,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891310_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34090,7 +34096,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890494_1",
-"subsystem":"rn00130",
+"subsystem":"Ubiquinone and other terpenoid-quinone biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34487,7 +34493,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890501_1",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34763,7 +34769,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891568_1 or (WP_086891566_1 and WP_086891568_1)",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"-2.0 protons added to products to balance equation."
 },
@@ -34794,7 +34800,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890932_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34882,7 +34888,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891782_1 or WP_086891961_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -34894,14 +34900,14 @@
 ],
 "ec-code":"2.3.3.3",
 "kegg.pathway":[
+"rn01230",
 "rn00020",
 "rn00630",
 "rn01100",
 "rn01110",
 "rn01120",
 "rn01200",
-"rn01210",
-"rn01230"
+"rn01210"
 ],
 "kegg.reaction":"R00351",
 "metanetx.reaction":"MNXR1298",
@@ -35341,7 +35347,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890780_1",
-"subsystem":"rn00920",
+"subsystem":"Sulfur metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -35499,7 +35505,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891185_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35509,7 +35515,8 @@
 "ec-code":"3.2.2.8",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02137",
 "metanetx.reaction":"MNXR68617",
@@ -35535,7 +35542,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35545,7 +35552,8 @@
 "ec-code":"2.7.1.48",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00513",
 "metanetx.reaction":"MNXR1376",
@@ -35575,7 +35583,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35585,7 +35593,8 @@
 "ec-code":"2.7.1.48",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00517",
 "metanetx.reaction":"MNXR68618",
@@ -35610,7 +35619,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892415_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35620,7 +35629,8 @@
 "ec-code":"2.7.4.25",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00512",
 "metanetx.reaction":"MNXR68619",
@@ -35649,7 +35659,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892415_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35659,7 +35669,8 @@
 "ec-code":"2.7.4.25",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01665",
 "metanetx.reaction":"MNXR68625",
@@ -35708,7 +35719,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890480_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35718,7 +35729,8 @@
 "ec-code":"2.7.4.3",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01547",
 "metanetx.reaction":"MNXR68634",
@@ -35896,7 +35908,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891584_1",
-"subsystem":"rn00300",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35906,6 +35918,7 @@
 "ec-code":"4.1.1.20",
 "kegg.pathway":[
 "rn00300",
+"rn00470",
 "rn01100",
 "rn01110",
 "rn01120",
@@ -35936,7 +35949,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891211_1",
-"subsystem":"rn00300",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -35946,6 +35959,7 @@
 "ec-code":"5.1.1.7",
 "kegg.pathway":[
 "rn00300",
+"rn00470",
 "rn01100",
 "rn01110",
 "rn01120",
@@ -36220,7 +36234,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36437,7 +36451,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891047_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36478,7 +36492,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891460_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36488,7 +36502,8 @@
 "ec-code":"2.7.4.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02090",
 "metanetx.reaction":"MNXR68689",
@@ -36561,7 +36576,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891509_1",
-"subsystem":"rn00770",
+"subsystem":"Pantothenate and CoA biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36603,7 +36618,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891509_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36645,7 +36660,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(WP_086891250_1 and WP_086892397_1) or (WP_086891250_1 and WP_086891251_1 and WP_086892397_1)",
-"subsystem":"rn00561",
+"subsystem":"Glycerolipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36681,7 +36696,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890827_1",
-"subsystem":"rn01053",
+"subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36844,7 +36859,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891775_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36887,7 +36902,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890874_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -36969,7 +36984,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890701_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37088,7 +37103,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891464_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37152,7 +37167,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37238,7 +37253,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890700_1 or WP_086891633_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37303,7 +37318,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891312_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37343,7 +37358,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891313_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37471,7 +37486,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891168_1",
-"subsystem":"rn00620",
+"subsystem":"Pyruvate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37502,7 +37517,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891050_1 or WP_086892103_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37543,7 +37558,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891322_1 or WP_086891673_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -37577,7 +37592,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890510_1 or WP_086891371_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37618,7 +37633,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890510_1 or WP_086891371_1 or WP_086891609_1 or WP_086892305_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37659,7 +37674,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891323_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37699,7 +37714,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37735,7 +37750,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890707_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37828,7 +37843,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892180_1",
-"subsystem":"rn00030",
+"subsystem":"Pentose phosphate pathway",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37889,7 +37904,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891850_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37899,7 +37914,8 @@
 "ec-code":"2.7.4.9",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02094",
 "metanetx.reaction":"MNXR68764",
@@ -37925,7 +37941,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37935,7 +37951,8 @@
 "ec-code":"2.7.1.21",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02099",
 "metanetx.reaction":"MNXR1812",
@@ -37961,7 +37978,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891262_1 or WP_086891703_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -37971,7 +37988,8 @@
 "ec-code":"3.6.1.23",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02100",
 "metanetx.reaction":"MNXR1816",
@@ -38001,7 +38019,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891160_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38042,7 +38060,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891266_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38085,7 +38103,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891444_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38126,7 +38144,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01212",
+"subsystem":"Fatty acid metabolism",
 "notes":{
 "Inferred":"-2.0 protons added to products to balance equation."
 },
@@ -38155,7 +38173,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1 or WP_086890687_1",
-"subsystem":"rn00627",
+"subsystem":"Aminobenzoate degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38164,6 +38182,7 @@
 "biocyc":"META:RXN-11667",
 "ec-code":"4.2.1.55",
 "kegg.pathway":[
+"rn01100",
 "rn00071",
 "rn00310",
 "rn00362",
@@ -38171,7 +38190,6 @@
 "rn00627",
 "rn00650",
 "rn00720",
-"rn01100",
 "rn01110",
 "rn01120",
 "rn01200",
@@ -38218,7 +38236,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38254,7 +38272,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38290,7 +38308,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38326,7 +38344,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38361,7 +38379,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38397,7 +38415,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38433,7 +38451,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146705_1",
-"subsystem":"rn01040",
+"subsystem":"Biosynthesis of unsaturated fatty acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38466,7 +38484,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146700_1 or WP_049146705_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38501,7 +38519,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891700_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38594,7 +38612,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890757_1",
-"subsystem":"rn00333",
+"subsystem":"Prodigiosin biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38626,7 +38644,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890757_1",
-"subsystem":"rn01100",
+"subsystem":"Metabolic pathways",
 "notes":{
 "Inferred":"-579.0 protons added to products to balance equation."
 },
@@ -38835,7 +38853,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890758_1",
-"subsystem":"rn01040",
+"subsystem":"Biosynthesis of unsaturated fatty acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -38895,7 +38913,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01040",
+"subsystem":"Biosynthesis of unsaturated fatty acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -39085,7 +39103,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890927_1 or WP_086892149_1 or WP_086892198_1",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -39847,7 +39865,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890654_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -39888,7 +39906,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891678_1 or WP_086891811_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -39919,7 +39937,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891414_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -39961,7 +39979,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891279_1",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40018,7 +40036,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891654_1 or WP_086892071_1",
-"subsystem":"rn00680",
+"subsystem":"Methane metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40658,7 +40676,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891706_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40734,7 +40752,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00940",
+"subsystem":"Phenylpropanoid biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40792,7 +40810,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891606_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -40832,7 +40850,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891184_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40874,7 +40892,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890375_1 or WP_086890484_1 or WP_086891297_1",
-"subsystem":"rn01057",
+"subsystem":"Biosynthesis of type II polyketide products",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40913,7 +40931,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890375_1 or WP_086891297_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -40973,7 +40991,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891775_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41034,7 +41052,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891028_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41280,7 +41298,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891748_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41316,7 +41334,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891399_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41353,7 +41371,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891679_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41525,7 +41543,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891708_1",
-"subsystem":"rn00520",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41535,7 +41553,8 @@
 "ec-code":"2.3.1.157",
 "kegg.pathway":[
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R05332",
 "metanetx.reaction":"MNXR2417",
@@ -41565,7 +41584,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00500",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41577,7 +41596,8 @@
 "rn00500",
 "rn00520",
 "rn00541",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00956",
 "metanetx.reaction":"MNXR71287",
@@ -41607,7 +41627,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892194_1",
-"subsystem":"rn00525",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41621,7 +41641,8 @@
 "rn00525",
 "rn00541",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R02328",
 "metanetx.reaction":"MNXR69063",
@@ -41644,7 +41665,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892123_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41778,7 +41799,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890589_1 or WP_086891481_1",
-"subsystem":"rn00564",
+"subsystem":"Glycerophospholipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41813,7 +41834,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"spontaneous",
-"subsystem":"rn00332",
+"subsystem":"Carbapenem biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -41853,7 +41874,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890893_1",
-"subsystem":"rn00332",
+"subsystem":"Carbapenem biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42086,12 +42107,17 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891814_1",
+"subsystem":"Galactose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"GALS3",
 "ec-code":"3.2.1.22",
+"kegg.pathway":[
+"rn00052",
+"rn01100"
+],
 "kegg.reaction":[
 "R01101",
 "R06091"
@@ -42113,7 +42139,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891924_1 or WP_086892384_1",
-"subsystem":"rn00052",
+"subsystem":"Galactose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42192,7 +42218,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891747_1",
-"subsystem":"rn00040",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42201,6 +42227,7 @@
 "biocyc":"META:GLUC1PURIDYLTRANS-RXN",
 "ec-code":"2.7.7.9",
 "kegg.pathway":[
+"rn01110",
 "rn00040",
 "rn00052",
 "rn00500",
@@ -42208,8 +42235,8 @@
 "rn00541",
 "rn00561",
 "rn01100",
-"rn01110",
-"rn01240"
+"rn01240",
+"rn01250"
 ],
 "kegg.reaction":"R00289",
 "metanetx.reaction":"MNXR69105",
@@ -42257,7 +42284,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891444_1 or WP_086891717_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42302,7 +42329,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892453_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42345,6 +42372,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890658_1",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42352,6 +42380,11 @@
 "bigg.reaction":"GART",
 "biocyc":"META:GARTRANSFORMYL2-RXN",
 "ec-code":"2.1.2.-",
+"kegg.pathway":[
+"rn00230",
+"rn01100",
+"rn01110"
+],
 "kegg.reaction":"R06974",
 "metanetx.reaction":"MNXR2552",
 "rhea":[
@@ -42381,7 +42414,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890374_1",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42418,7 +42451,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892371_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42470,7 +42503,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892479_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42525,7 +42558,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00051",
+"subsystem":"Fructose and mannose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42587,7 +42620,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892046_1",
-"subsystem":"rn00520",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42597,7 +42630,8 @@
 "kegg.pathway":[
 "rn00250",
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00768",
 "metanetx.reaction":"MNXR79233",
@@ -42627,7 +42661,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42664,7 +42698,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892125_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42706,7 +42740,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891688_1",
-"subsystem":"rn00460",
+"subsystem":"Cyanoamino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42714,6 +42748,7 @@
 "bigg.reaction":"GHMT2r",
 "ec-code":"2.1.2.1",
 "kegg.pathway":[
+"rn01120",
 "rn00260",
 "rn00460",
 "rn00630",
@@ -42721,7 +42756,6 @@
 "rn00680",
 "rn01100",
 "rn01110",
-"rn01120",
 "rn01200",
 "rn01230",
 "rn01240"
@@ -42754,7 +42788,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891460_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -42764,7 +42798,8 @@
 "ec-code":"2.7.4.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00332",
 "metanetx.reaction":"MNXR69138",
@@ -42965,7 +43000,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00310",
+"subsystem":"Lysine degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43191,7 +43226,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891628_1",
-"subsystem":"rn00500",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43203,7 +43238,8 @@
 "rn00500",
 "rn00520",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R00948",
 "metanetx.reaction":"MNXR33815",
@@ -43285,7 +43321,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890888_1",
-"subsystem":"rn00332",
+"subsystem":"Carbapenem biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43462,7 +43498,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890759_1 or WP_086891102_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43501,7 +43537,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890800_1",
-"subsystem":"rn00471",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43510,7 +43546,7 @@
 "biocyc":"META:GLUTRACE-RXN",
 "ec-code":"5.1.1.3",
 "kegg.pathway":[
-"rn00471",
+"rn00470",
 "rn01100"
 ],
 "kegg.reaction":"R00260",
@@ -43622,7 +43658,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891917_1",
-"subsystem":"rn00071",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43659,7 +43695,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892139_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43696,7 +43732,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892506_1",
-"subsystem":"rn00970",
+"subsystem":"Aminoacyl-tRNA biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43728,7 +43764,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891865_1",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43792,7 +43828,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005529733_1",
-"subsystem":"rn00561",
+"subsystem":"Glycerolipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43949,7 +43985,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891114_1",
-"subsystem":"rn00561",
+"subsystem":"Glycerolipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -43994,7 +44030,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891114_1",
-"subsystem":"rn00030",
+"subsystem":"Pentose phosphate pathway",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44003,6 +44039,7 @@
 "biocyc":"META:GKI-RXN",
 "ec-code":"2.7.1.31",
 "kegg.pathway":[
+"rn01120",
 "rn00030",
 "rn00260",
 "rn00561",
@@ -44010,7 +44047,6 @@
 "rn00680",
 "rn01100",
 "rn01110",
-"rn01120",
 "rn01200"
 ],
 "kegg.reaction":"R08572",
@@ -44087,7 +44123,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890889_1 or WP_086892125_1",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44124,7 +44160,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890889_1",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44244,7 +44280,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891611_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44307,7 +44343,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890591_1",
-"subsystem":"rn00561",
+"subsystem":"Glycerolipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44415,7 +44451,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892484_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44425,7 +44461,8 @@
 "ec-code":"6.3.5.2",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01231",
 "metanetx.reaction":"MNXR32727",
@@ -44455,7 +44492,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891372_1",
-"subsystem":"rn00030",
+"subsystem":"Pentose phosphate pathway",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44502,7 +44539,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892472_1",
-"subsystem":"rn00030",
+"subsystem":"Pentose phosphate pathway",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44562,7 +44599,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049191711_1",
-"subsystem":"rn00564",
+"subsystem":"Glycerophospholipid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44594,7 +44631,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891050_1 or WP_086891691_1 or WP_086892103_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44656,7 +44693,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44666,7 +44703,8 @@
 "ec-code":"2.7.1.73",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01228",
 "metanetx.reaction":"MNXR2817",
@@ -44763,7 +44801,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890699_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44821,7 +44859,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44863,7 +44901,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891287_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -44948,7 +44986,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890390_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -44958,7 +44996,8 @@
 "ec-code":"2.4.2.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01229",
 "metanetx.reaction":"MNXR69194",
@@ -45006,7 +45045,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45168,7 +45207,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45177,6 +45216,7 @@
 "biocyc":"META:RXN-11662",
 "ec-code":"1.1.1.35",
 "kegg.pathway":[
+"rn01120",
 "rn00071",
 "rn00310",
 "rn00380",
@@ -45184,7 +45224,6 @@
 "rn00720",
 "rn01100",
 "rn01110",
-"rn01120",
 "rn01200",
 "rn01212"
 ],
@@ -45233,7 +45272,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45271,7 +45310,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45309,7 +45348,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45347,7 +45386,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45384,7 +45423,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45421,7 +45460,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45459,7 +45498,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45497,7 +45536,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049146698_1 or WP_086891915_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45563,7 +45602,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891915_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45600,7 +45639,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00930",
+"subsystem":"Caprolactam degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45737,7 +45776,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891913_1 or WP_086892137_1",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45843,7 +45882,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891043_1",
-"subsystem":"rn00524",
+"subsystem":"Neomycin, kanamycin and gentamicin biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45886,7 +45925,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00051",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -45897,7 +45936,8 @@
 "kegg.pathway":[
 "rn00051",
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R01326",
 "metanetx.reaction":"MNXR2949",
@@ -45923,7 +45963,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892077_1",
-"subsystem":"rn00500",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46209,7 +46249,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891099_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46245,7 +46285,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891810_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46287,7 +46327,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892223_1",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46385,7 +46425,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891376_1 or WP_086892367_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -46426,7 +46466,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00362",
+"subsystem":"Benzoate degradation",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -46462,7 +46502,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00622",
+"subsystem":"Xylene degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46504,7 +46544,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891376_1",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46586,7 +46626,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00790",
+"subsystem":"Folate biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46625,7 +46665,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01220",
+"subsystem":"Degradation of aromatic compounds",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46685,7 +46725,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46721,7 +46761,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890889_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46767,7 +46807,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890889_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46812,7 +46852,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891583_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46856,7 +46896,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891583_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46900,7 +46940,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892482_1",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46940,7 +46980,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891582_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -46982,7 +47022,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890340_1 or WP_086891100_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47044,7 +47084,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890390_1 or WP_086890697_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47054,7 +47094,8 @@
 "ec-code":"2.4.2.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01132",
 "metanetx.reaction":"MNXR69265",
@@ -47134,7 +47175,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892370_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47285,7 +47326,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47323,7 +47364,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891984_1",
-"subsystem":"rn00480",
+"subsystem":"Glutathione metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47364,7 +47405,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891497_1",
-"subsystem":"rn01053",
+"subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47406,7 +47447,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01053",
+"subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47585,7 +47626,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891105_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47626,7 +47667,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891101_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47668,7 +47709,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890492_1 or WP_086890494_1 or WP_086891108_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47813,7 +47854,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892372_1",
-"subsystem":"rn00966",
+"subsystem":"Glucosinolate biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47856,7 +47897,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891762_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47898,7 +47939,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891501_1 or (WP_086892032_1 and WP_086892033_1)",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47909,7 +47950,8 @@
 "kegg.pathway":[
 "rn00230",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01232"
 ],
 "kegg.reaction":"R01130",
 "metanetx.reaction":"MNXR3100",
@@ -47938,7 +47980,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890339_1 or WP_086890903_1",
-"subsystem":"rn00380",
+"subsystem":"Tryptophan metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -47994,7 +48036,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891423_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48004,7 +48046,8 @@
 "ec-code":"3.2.2.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01770",
 "metanetx.reaction":"MNXR69281",
@@ -48164,7 +48207,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890923_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48235,7 +48278,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891502_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48272,7 +48315,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891484_1 and WP_086891485_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48309,7 +48352,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891484_1 and WP_086891485_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48349,7 +48392,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892252_1",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48393,17 +48436,13 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"ITCY",
 "ec-code":"2.7.1.48",
-"kegg.pathway":[
-"rn00240",
-"rn01100"
-],
 "kegg.reaction":"R00962",
 "metanetx.reaction":"MNXR73711",
 "sbo":"SBO:0000216"
@@ -48420,7 +48459,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891602_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -48530,7 +48569,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891506_1",
-"subsystem":"rn00770",
+"subsystem":"Pantothenate and CoA biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48632,7 +48671,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn01212",
+"subsystem":"Fatty acid metabolism",
 "notes":{
 "Inferred":"-22.0 protons added to products to balance equation."
 },
@@ -48791,7 +48830,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48800,22 +48839,20 @@
 "biocyc":"META:ACETYL-COA-ACETYLTRANSFER-RXN",
 "ec-code":"2.3.1.9",
 "kegg.pathway":[
+"rn00630",
+"rn01200",
 "rn00071",
-"rn00072",
 "rn00280",
 "rn00310",
 "rn00362",
 "rn00380",
 "rn00620",
-"rn00630",
-"rn00640",
 "rn00650",
 "rn00720",
 "rn00900",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
 "rn01212"
 ],
 "kegg.reaction":"R00238",
@@ -48845,7 +48882,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48882,7 +48919,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48919,7 +48956,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48956,7 +48993,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -48993,7 +49030,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -49030,7 +49067,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890755_1",
-"subsystem":"rn00062",
+"subsystem":"Fatty acid elongation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -49230,7 +49267,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005529733_1",
-"subsystem":"rn00620",
+"subsystem":"Pyruvate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -49361,7 +49398,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892323_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -49509,7 +49546,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892372_1",
-"subsystem":"rn00966",
+"subsystem":"Glucosinolate biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -49889,7 +49926,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00310",
+"subsystem":"Lysine degradation",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -49971,7 +50008,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891914_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50238,7 +50275,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891861_1",
-"subsystem":"rn00051",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50252,7 +50289,8 @@
 "rn00541",
 "rn01100",
 "rn01110",
-"rn01240"
+"rn01240",
+"rn01250"
 ],
 "kegg.reaction":"R00885",
 "metanetx.reaction":"MNXR3412",
@@ -50282,7 +50320,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891861_1",
-"subsystem":"rn00051",
+"subsystem":"Fructose and mannose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50374,7 +50412,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891243_1",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50447,7 +50485,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891962_1",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50484,7 +50522,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50520,7 +50558,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890757_1",
-"subsystem":"rn01212",
+"subsystem":"Fatty acid metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -50781,7 +50819,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890518_1 or WP_086890870_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -50790,6 +50828,7 @@
 "biocyc":"META:MALATE-DEH-RXN",
 "ec-code":"1.1.1.37",
 "kegg.pathway":[
+"rn01110",
 "rn00020",
 "rn00620",
 "rn00630",
@@ -50797,7 +50836,6 @@
 "rn00710",
 "rn00720",
 "rn01100",
-"rn01110",
 "rn01120",
 "rn01200"
 ],
@@ -50926,7 +50964,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890719_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51011,7 +51049,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890718_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51084,7 +51122,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891458_1",
-"subsystem":"rn00270",
+"subsystem":"Biosynthesis of various plant secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51094,6 +51132,7 @@
 "ec-code":"2.5.1.6",
 "kegg.pathway":[
 "rn00270",
+"rn00999",
 "rn01100",
 "rn01110",
 "rn01230",
@@ -51127,7 +51166,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51208,7 +51247,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890448_1 or WP_086891084_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -51249,7 +51288,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890448_1 or WP_086891084_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51291,6 +51330,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890578_1 or (WP_086890559_1 and WP_086890578_1)",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51301,6 +51341,10 @@
 "META:1.8.4.14-RXN"
 ],
 "ec-code":"1.8.4.14",
+"kegg.pathway":[
+"rn00270",
+"rn01100"
+],
 "kegg.reaction":[
 "R02025",
 "R07606",
@@ -51343,7 +51387,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890765_1 or spontaneous",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51399,7 +51443,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891104_1 or WP_086891261_1",
-"subsystem":"rn00562",
+"subsystem":"Inositol phosphate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51668,6 +51712,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51675,6 +51720,10 @@
 "bigg.reaction":"MMCD",
 "biocyc":"META:METHYLMALONYL-COA-DECARBOXYLASE-RXN",
 "ec-code":"4.1.1.9",
+"kegg.pathway":[
+"rn00640",
+"rn01100"
+],
 "kegg.reaction":[
 "R00923",
 "R05373"
@@ -51744,7 +51793,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00622",
+"subsystem":"Xylene degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -51917,7 +51966,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52102,7 +52151,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890872_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52295,7 +52344,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890630_1",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52334,7 +52383,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891399_1 or WP_086892001_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52372,7 +52421,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892001_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52410,7 +52459,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892001_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52446,7 +52495,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890449_1",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -52530,6 +52579,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891941_1",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52537,6 +52587,10 @@
 "bigg.reaction":"MTI",
 "biocyc":"META:5.4.99.16-RXN",
 "ec-code":"5.4.99.16",
+"kegg.pathway":[
+"rn00500",
+"rn01100"
+],
 "kegg.reaction":[
 "R01557",
 "R06218"
@@ -52738,7 +52792,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891529_1 or WP_086891828_1",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -52954,7 +53008,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891347_1",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53047,7 +53101,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892351_1",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53223,7 +53277,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53233,7 +53287,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00330",
 "metanetx.reaction":"MNXR69528",
@@ -53258,7 +53313,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53269,6 +53324,7 @@
 "kegg.pathway":[
 "rn00240",
 "rn01100",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R00156",
@@ -53298,7 +53354,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53309,6 +53365,7 @@
 "kegg.pathway":[
 "rn00240",
 "rn01100",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R00570",
@@ -53338,7 +53395,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53348,7 +53405,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02093",
 "metanetx.reaction":"MNXR69532",
@@ -53373,7 +53431,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53383,7 +53441,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01857",
 "metanetx.reaction":"MNXR69533",
@@ -53408,7 +53467,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53418,7 +53477,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02331",
 "metanetx.reaction":"MNXR69534",
@@ -53443,7 +53503,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53453,7 +53513,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02326",
 "metanetx.reaction":"MNXR69535",
@@ -53478,7 +53539,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53488,7 +53549,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01137",
 "metanetx.reaction":"MNXR55765",
@@ -53513,7 +53575,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_034657564_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53523,7 +53585,8 @@
 "ec-code":"2.7.4.6",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00722",
 "metanetx.reaction":"MNXR69536",
@@ -53814,7 +53877,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -53876,7 +53939,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890894_1",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54127,7 +54190,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890447_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54137,7 +54200,8 @@
 "ec-code":"3.1.3.89",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02102",
 "metanetx.reaction":"MNXR3871",
@@ -54162,7 +54226,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890447_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54172,7 +54236,8 @@
 "ec-code":"3.1.3.5",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00963",
 "metanetx.reaction":"MNXR3875",
@@ -54197,7 +54262,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891288_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54207,7 +54272,8 @@
 "ec-code":"3.1.3.5",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00963",
 "metanetx.reaction":"MNXR3875",
@@ -54232,7 +54298,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54242,7 +54308,8 @@
 "ec-code":"3.1.3.91",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00511",
 "metanetx.reaction":"MNXR3877",
@@ -54267,7 +54334,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890447_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54277,7 +54344,8 @@
 "ec-code":"3.1.3.89",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01569",
 "metanetx.reaction":"MNXR3878",
@@ -54303,7 +54371,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890636_1 or WP_086891395_1 or WP_086891842_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54313,7 +54381,9 @@
 "ec-code":"3.6.4.9",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01110",
+"rn01232"
 ],
 "kegg.reaction":"R00086",
 "metanetx.reaction":"MNXR892",
@@ -54339,7 +54409,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891842_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54349,7 +54419,8 @@
 "ec-code":"3.6.1.5",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00719",
 "metanetx.reaction":"MNXR69556",
@@ -54375,7 +54446,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891842_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54385,7 +54456,8 @@
 "ec-code":"3.6.5.6",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00335",
 "metanetx.reaction":"MNXR69558",
@@ -54411,7 +54483,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891842_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54421,7 +54493,8 @@
 "ec-code":"3.6.1.5",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00569",
 "metanetx.reaction":"MNXR55788",
@@ -54447,7 +54520,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891703_1 or WP_086892305_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54483,7 +54556,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890803_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54493,7 +54566,8 @@
 "ec-code":"3.6.1.66",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02720",
 "metanetx.reaction":"MNXR3896",
@@ -54519,7 +54593,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891703_1 or WP_086892305_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54529,7 +54603,8 @@
 "ec-code":"3.6.1.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00426",
 "metanetx.reaction":"MNXR3897",
@@ -54555,7 +54630,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891482_1 or WP_086891609_1 or WP_086891703_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54565,7 +54640,8 @@
 "ec-code":"3.6.1.65",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01668",
 "metanetx.reaction":"MNXR3898",
@@ -54591,7 +54667,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891482_1 or WP_086891609_1 or WP_086891703_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54601,7 +54677,8 @@
 "ec-code":"3.6.1.8",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00515",
 "metanetx.reaction":"MNXR3899",
@@ -54657,7 +54734,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891703_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54667,7 +54744,8 @@
 "ec-code":"3.6.1.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00087",
 "metanetx.reaction":"MNXR3901",
@@ -54723,7 +54801,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891703_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54733,7 +54811,8 @@
 "ec-code":"3.6.1.8",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00662",
 "metanetx.reaction":"MNXR3903",
@@ -54759,7 +54838,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890803_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54769,7 +54848,8 @@
 "ec-code":"3.6.1.8",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00720",
 "metanetx.reaction":"MNXR3904",
@@ -54794,7 +54874,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890949_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -54804,7 +54884,8 @@
 "ec-code":"3.1.5.1",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01856",
 "metanetx.reaction":"MNXR69563",
@@ -55096,7 +55177,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890807_1 or WP_086890809_1 or (WP_086890807_1 and WP_086890809_1)",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55136,7 +55217,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891338_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55264,7 +55345,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892103_1",
-"subsystem":"rn01110",
+"subsystem":"Biosynthesis of secondary metabolites",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -55348,7 +55429,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891783_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55388,7 +55469,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"spontaneous",
-"subsystem":"rn00290",
+"subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55426,7 +55507,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891461_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55489,7 +55570,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890503_1",
-"subsystem":"rn00622",
+"subsystem":"Xylene degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55640,7 +55721,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891335_1 or WP_086891966_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55701,7 +55782,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890651_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55741,7 +55822,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00630",
+"subsystem":"Glyoxylate and dicarboxylate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55894,7 +55975,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890505_1 or WP_086891871_1 or WP_086892212_1",
-"subsystem":"rn00310",
+"subsystem":"Lysine degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55936,7 +56017,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890632_1",
-"subsystem":"rn00250",
+"subsystem":"Alanine, aspartate and glutamate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -55977,7 +56058,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892142_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56015,7 +56096,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892142_1",
-"subsystem":"rn01230",
+"subsystem":"Biosynthesis of amino acids",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56216,7 +56297,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892310_1",
-"subsystem":"rn01120",
+"subsystem":"Microbial metabolism in diverse environments",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -56299,7 +56380,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890706_1 or WP_086890871_1",
-"subsystem":"rn00410",
+"subsystem":"beta-Alanine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56473,7 +56554,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890559_1 or WP_086890627_1",
-"subsystem":"rn00920",
+"subsystem":"Sulfur metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56510,7 +56591,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891262_1 or WP_086891954_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56550,7 +56631,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56591,7 +56672,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(WP_086890992_1 and WP_086891030_1) or (WP_086890992_1 and WP_086891030_1 and WP_086892188_1)",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56710,7 +56791,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892367_1 or WP_086892370_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56919,7 +57000,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56960,7 +57041,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891521_1",
-"subsystem":"rn00680",
+"subsystem":"Methane metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -56994,7 +57075,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890807_1 or WP_086890809_1 or (WP_086890807_1 and WP_086890809_1)",
-"subsystem":"rn00620",
+"subsystem":"Pyruvate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57201,7 +57282,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00520",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57211,7 +57292,8 @@
 "ec-code":"5.4.2.10",
 "kegg.pathway":[
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R02060",
 "metanetx.reaction":"MNXR4183",
@@ -57241,7 +57323,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891503_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57250,14 +57332,14 @@
 "biocyc":"META:PGLYCDEHYDROG-RXN",
 "ec-code":"1.1.1.95",
 "kegg.pathway":[
+"rn01230",
 "rn00260",
 "rn00270",
 "rn00680",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R01513",
 "metanetx.reaction":"MNXR4184",
@@ -57284,7 +57366,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891770_1",
-"subsystem":"rn00500",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57317,7 +57399,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891443_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57361,7 +57443,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891442_1",
-"subsystem":"rn00030",
+"subsystem":"Pentose phosphate pathway",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57401,7 +57483,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890577_1 or WP_086892122_1 or WP_086892498_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57413,14 +57495,14 @@
 ],
 "ec-code":"5.4.2.12",
 "kegg.pathway":[
+"rn01230",
 "rn00010",
 "rn00260",
 "rn00680",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R01518",
 "metanetx.reaction":"MNXR4195",
@@ -57447,7 +57529,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890896_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -57459,14 +57541,14 @@
 ],
 "ec-code":"5.4.2.12",
 "kegg.pathway":[
+"rn01230",
 "rn00010",
 "rn00260",
 "rn00680",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R01518",
 "metanetx.reaction":"MNXR4195",
@@ -57493,7 +57575,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890786_1 or WP_086891404_1",
-"subsystem":"rn00521",
+"subsystem":"Streptomycin biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58065,7 +58147,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891642_1",
-"subsystem":"rn00960",
+"subsystem":"Tropane, piperidine and pyridine alkaloid biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58489,7 +58571,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891858_1 or WP_086892051_1",
-"subsystem":"rn00051",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58503,7 +58585,8 @@
 "rn00541",
 "rn01100",
 "rn01110",
-"rn01240"
+"rn01240",
+"rn01250"
 ],
 "kegg.reaction":"R01818",
 "metanetx.reaction":"MNXR4351",
@@ -58532,7 +58615,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58574,7 +58657,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891376_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -58615,7 +58698,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891689_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58766,7 +58849,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890663_1 or WP_086890727_1",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58867,7 +58950,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892136_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58911,7 +58994,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891991_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58950,7 +59033,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892424_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -58991,7 +59074,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890610_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59000,14 +59083,14 @@
 "biocyc":"META:PEPCARBOXYKIN-RXN",
 "ec-code":"4.1.1.49",
 "kegg.pathway":[
+"rn01200",
 "rn00010",
 "rn00020",
 "rn00620",
 "rn00710",
 "rn01100",
 "rn01110",
-"rn01120",
-"rn01200"
+"rn01120"
 ],
 "kegg.reaction":"R00341",
 "metanetx.reaction":"MNXR4383",
@@ -59035,7 +59118,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890604_1 or WP_086891952_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59044,14 +59127,14 @@
 "biocyc":"META:PROPIONYL-COA-CARBOXY-RXN",
 "ec-code":"6.4.1.3",
 "kegg.pathway":[
+"rn01200",
 "rn00280",
 "rn00630",
 "rn00640",
 "rn00720",
 "rn01100",
 "rn01110",
-"rn01120",
-"rn01200"
+"rn01120"
 ],
 "kegg.reaction":"R01859",
 "metanetx.reaction":"MNXR83988",
@@ -59113,7 +59196,7 @@
 "lower_bound":-1000.0,
 "upper_bound":0.0,
 "gene_reaction_rule":"WP_086891260_1",
-"subsystem":"rn00500",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59150,7 +59233,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891487_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -59271,7 +59354,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892424_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59314,7 +59397,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892424_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59373,7 +59456,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890582_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59439,7 +59522,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890747_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59471,7 +59554,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890492_1 or WP_086891103_1 or WP_086892519_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59514,7 +59597,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890760_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"1.0 protons added to reactants to balance equation."
 },
@@ -59553,7 +59636,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891106_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59597,7 +59680,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890749_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59638,7 +59721,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891403_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"-6.0 protons added to products to balance equation."
 },
@@ -59684,7 +59767,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890752_1",
-"subsystem":"rn00230",
+"subsystem":"Purine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59722,7 +59805,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891103_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -59826,7 +59909,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890632_1",
-"subsystem":"rn00332",
+"subsystem":"Carbapenem biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60028,7 +60111,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891841_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60111,7 +60194,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891783_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60120,14 +60203,14 @@
 "biocyc":"META:PSERTRANSAM-RXN",
 "ec-code":"2.6.1.52",
 "kegg.pathway":[
+"rn01230",
 "rn00260",
 "rn00270",
 "rn00680",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R04173",
 "metanetx.reaction":"MNXR32268",
@@ -60185,7 +60268,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_005531569_1 or WP_086892141_1 or WP_086892350_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60252,7 +60335,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00640",
+"subsystem":"Propanoate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60291,7 +60374,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890662_1",
-"subsystem":"rn00680",
+"subsystem":"Methane metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60336,7 +60419,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891472_1",
-"subsystem":"rn01240",
+"subsystem":"Biosynthesis of cofactors",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60440,7 +60523,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00330",
+"subsystem":"Arginine and proline metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60500,7 +60583,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890632_1",
-"subsystem":"rn00330",
+"subsystem":"Arginine and proline metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60536,7 +60619,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892367_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60576,7 +60659,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892367_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60616,7 +60699,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892367_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60656,7 +60739,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890592_1 or WP_086892367_1 or WP_086892370_1 or WP_086892444_1",
-"subsystem":"rn00750",
+"subsystem":"Vitamin B6 metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60697,7 +60780,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892003_1 or WP_086892379_1",
-"subsystem":"rn00010",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60706,15 +60789,13 @@
 "biocyc":"META:PEPDEPHOS-RXN",
 "ec-code":"2.7.1.40",
 "kegg.pathway":[
+"rn01230",
 "rn00010",
-"rn00230",
 "rn00620",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230",
-"rn01240"
+"rn01200"
 ],
 "kegg.reaction":"R00200",
 "metanetx.reaction":"MNXR4545",
@@ -60857,12 +60938,17 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892076_1",
+"subsystem":"Galactose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RAFH",
 "ec-code":"3.2.1.26",
+"kegg.pathway":[
+"rn00052",
+"rn01100"
+],
 "kegg.reaction":[
 "R02410",
 "R06100"
@@ -60884,7 +60970,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891184_1 or WP_086891404_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60926,7 +61012,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891449_1 and WP_086891451_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -60966,7 +61052,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891449_1 and WP_086891451_1",
-"subsystem":"rn00740",
+"subsystem":"Riboflavin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61048,7 +61134,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_061920295_1",
-"subsystem":"rn00270",
+"subsystem":"Cysteine and methionine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61187,7 +61273,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890559_1 or WP_086890791_1 or WP_086890861_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61197,7 +61283,8 @@
 "ec-code":"1.17.4.1",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02017",
 "metanetx.reaction":"MNXR84118",
@@ -61239,7 +61326,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890559_1 or WP_086890791_1 or (WP_046645813_1 and WP_086890792_1)",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61249,7 +61336,8 @@
 "ec-code":"1.17.4.1",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02019",
 "metanetx.reaction":"MNXR84120",
@@ -61291,7 +61379,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890559_1 or WP_086890791_1 or (WP_046645813_1 and WP_086890792_1) or (WP_086890792_1 and WP_086890861_1)",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61301,7 +61389,8 @@
 "ec-code":"1.17.4.1",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02024",
 "metanetx.reaction":"MNXR84122",
@@ -61343,7 +61432,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890559_1 or WP_086890791_1 or WP_086890861_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61353,7 +61442,8 @@
 "ec-code":"1.17.4.1",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02018",
 "metanetx.reaction":"MNXR84124",
@@ -61395,7 +61485,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892090_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61404,7 +61494,8 @@
 "ec-code":"1.17.4.2",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02014",
 "metanetx.reaction":"MNXR84127",
@@ -61424,7 +61515,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892090_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61433,7 +61524,8 @@
 "ec-code":"1.17.4.2",
 "kegg.pathway":[
 "rn00230",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02020",
 "metanetx.reaction":"MNXR84129",
@@ -61453,7 +61545,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892090_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61462,7 +61554,8 @@
 "ec-code":"1.17.4.2",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02022",
 "metanetx.reaction":"MNXR84131",
@@ -61482,14 +61575,18 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892090_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"RNTR4",
 "ec-code":"1.17.4.2",
-"kegg.pathway":"rn00240",
+"kegg.pathway":[
+"rn00240",
+"rn01100",
+"rn01232"
+],
 "kegg.reaction":"R02023",
 "metanetx.reaction":"MNXR84133",
 "sbo":"SBO:0000200"
@@ -61505,7 +61602,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891453_1",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61514,14 +61611,14 @@
 "biocyc":"META:RIBULP3EPIM-RXN",
 "ec-code":"5.1.3.1",
 "kegg.pathway":[
+"rn01230",
 "rn00030",
 "rn00040",
 "rn00710",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R01529",
 "metanetx.reaction":"MNXR4653",
@@ -61690,7 +61787,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891720_1 or (WP_086890628_1 and WP_086890629_1)",
-"subsystem":"rn00261",
+"subsystem":"Monobactam biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61893,7 +61990,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891635_1 or WP_086892304_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -61934,7 +62031,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891642_1 or WP_086891794_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62004,7 +62101,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890779_1 or WP_086891425_1",
-"subsystem":"rn00997",
+"subsystem":"Biosynthesis of various antibiotics",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62013,14 +62110,14 @@
 "biocyc":"META:SERINE-O-ACETTRAN-RXN",
 "ec-code":"2.3.1.30",
 "kegg.pathway":[
+"rn01230",
 "rn00270",
 "rn00920",
-"rn00997",
+"rn00998",
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
-"rn01230"
+"rn01200"
 ],
 "kegg.reaction":"R00586",
 "metanetx.reaction":"MNXR4808",
@@ -62178,7 +62275,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892467_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62242,7 +62339,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892467_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62305,7 +62402,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891308_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62350,7 +62447,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891311_1",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62480,7 +62577,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00920",
+"subsystem":"Sulfur metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -62661,7 +62758,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890336_1",
-"subsystem":"rn00480",
+"subsystem":"Glutathione metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62702,7 +62799,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62743,7 +62840,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890505_1 or WP_086890509_1 or WP_086891871_1 or (WP_086890337_1 and WP_086891667_1)",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62788,7 +62885,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890337_1 or WP_086890505_1 or WP_086890509_1 or WP_086891667_1 or WP_086891871_1 or (WP_086890337_1 and WP_086891667_1)",
-"subsystem":"rn00760",
+"subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62836,7 +62933,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890505_1",
-"subsystem":"rn01200",
+"subsystem":"Carbon metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62895,7 +62992,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892114_1",
-"subsystem":"rn00130",
+"subsystem":"Ubiquinone and other terpenoid-quinone biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -62935,7 +63032,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892492_1",
-"subsystem":"rn00130",
+"subsystem":"Ubiquinone and other terpenoid-quinone biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63148,7 +63245,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890773_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63190,7 +63287,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890455_1 and WP_086890456_1",
-"subsystem":"rn00020",
+"subsystem":"Citrate cycle (TCA cycle)",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63255,12 +63352,19 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892076_1",
+"subsystem":"Galactose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"SUCR",
 "ec-code":"3.2.1.48",
+"kegg.pathway":[
+"rn00052",
+"rn00500",
+"rn01100",
+"rn01110"
+],
 "kegg.reaction":[
 "R00801",
 "R06087"
@@ -63458,7 +63562,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890479_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63491,7 +63595,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00523",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63504,7 +63608,8 @@
 "rn00523",
 "rn00541",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R06514",
 "metanetx.reaction":"MNXR74752",
@@ -63530,7 +63635,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892193_1",
-"subsystem":"rn00523",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63543,7 +63648,8 @@
 "rn00523",
 "rn00541",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R02777",
 "metanetx.reaction":"MNXR69950",
@@ -63569,7 +63675,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892193_1",
-"subsystem":"rn00523",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63582,7 +63688,8 @@
 "rn00523",
 "rn00541",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R02777",
 "metanetx.reaction":"MNXR69950",
@@ -63606,7 +63713,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890349_1 or WP_086892192_1",
-"subsystem":"rn01055",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63621,7 +63728,8 @@
 "rn00541",
 "rn01055",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01250"
 ],
 "kegg.reaction":"R06513",
 "metanetx.reaction":"MNXR5009",
@@ -63687,7 +63795,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891637_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63728,7 +63836,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00670",
+"subsystem":"One carbon pool by folate",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63851,7 +63959,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891010_1",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -63994,7 +64102,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891438_1",
-"subsystem":"rn00710",
+"subsystem":"Carbon fixation in photosynthetic organisms",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64025,7 +64133,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64035,7 +64143,8 @@
 "ec-code":"2.7.1.21",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01567",
 "metanetx.reaction":"MNXR5091",
@@ -64064,7 +64173,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891189_1 or WP_086891774_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64074,7 +64183,8 @@
 "kegg.pathway":[
 "rn00240",
 "rn00670",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R02101",
 "metanetx.reaction":"MNXR5095",
@@ -64123,7 +64233,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891478_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64163,7 +64273,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_082254282_1",
-"subsystem":"rn00730",
+"subsystem":"Thiamine metabolism",
 "notes":{
 "Inferred":"-1.0 protons added to products to balance equation."
 },
@@ -64201,7 +64311,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_046645945_1",
-"subsystem":"rn00562",
+"subsystem":"Inositol phosphate metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64210,6 +64320,7 @@
 "biocyc":"META:TRIOSEPISOMERIZATION-RXN",
 "ec-code":"5.3.1.1",
 "kegg.pathway":[
+"rn01200",
 "rn00010",
 "rn00051",
 "rn00562",
@@ -64217,7 +64328,6 @@
 "rn01100",
 "rn01110",
 "rn01120",
-"rn01200",
 "rn01230"
 ],
 "kegg.reaction":"R01015",
@@ -64272,12 +64382,17 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891547_1",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"TRE6PH",
 "ec-code":"3.2.1.93",
+"kegg.pathway":[
+"rn00500",
+"rn01100"
+],
 "kegg.reaction":[
 "R00837",
 "R06113"
@@ -64304,6 +64419,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890727_1",
+"subsystem":"Starch and sucrose metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64311,6 +64427,11 @@
 "bigg.reaction":"TRE6PP",
 "biocyc":"META:TREHALOSEPHOSPHA-RXN",
 "ec-code":"3.1.3.12",
+"kegg.pathway":[
+"rn00500",
+"rn01100",
+"rn01110"
+],
 "kegg.reaction":[
 "R02778",
 "R06228"
@@ -64423,7 +64544,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890491_1 or (WP_086890490_1 and WP_086890491_1)",
-"subsystem":"rn00260",
+"subsystem":"Glycine, serine and threonine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64462,7 +64583,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890491_1 or (WP_086890490_1 and WP_086890491_1)",
-"subsystem":"rn00400",
+"subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64498,7 +64619,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890491_1 or (WP_086890490_1 and WP_086890491_1)",
-"subsystem":"rn00402",
+"subsystem":"Biosynthesis of various plant secondary metabolites",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64509,6 +64630,7 @@
 "kegg.pathway":[
 "rn00400",
 "rn00402",
+"rn00999",
 "rn01100",
 "rn01110"
 ],
@@ -64565,7 +64687,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890915_1",
-"subsystem":"rn00380",
+"subsystem":"Tryptophan metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64794,7 +64916,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891057_1 or WP_086892256_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64831,7 +64953,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890954_1",
-"subsystem":"rn00541",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64841,7 +64963,8 @@
 "kegg.pathway":[
 "rn00520",
 "rn00541",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00414",
 "metanetx.reaction":"MNXR65542",
@@ -64866,7 +64989,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890781_1",
-"subsystem":"rn00550",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64877,7 +65000,8 @@
 "kegg.pathway":[
 "rn00520",
 "rn00550",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00660",
 "metanetx.reaction":"MNXR55980",
@@ -64903,7 +65027,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891708_1",
-"subsystem":"rn00541",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64914,7 +65038,8 @@
 "kegg.pathway":[
 "rn00520",
 "rn00541",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00416",
 "metanetx.reaction":"MNXR70013",
@@ -64944,6 +65069,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891062_1",
+"subsystem":"Peptidoglycan biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64951,6 +65077,10 @@
 "bigg.reaction":"UAGPT3",
 "biocyc":"META:NACGLCTRANS-RXN",
 "ec-code":"2.4.1.227",
+"kegg.pathway":[
+"rn00550",
+"rn01100"
+],
 "kegg.reaction":[
 "R05032",
 "R06174"
@@ -64980,7 +65110,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891060_1",
-"subsystem":"rn00471",
+"subsystem":"D-Amino acid metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -64989,7 +65119,7 @@
 "biocyc":"META:UDP-NACMURALA-GLU-LIG-RXN",
 "ec-code":"6.3.2.9",
 "kegg.pathway":[
-"rn00471",
+"rn00470",
 "rn00550",
 "rn01100"
 ],
@@ -65028,7 +65158,6 @@
 "biocyc":"META:UDP-NACMUR-ALA-LIG-RXN",
 "ec-code":"6.3.2.8",
 "kegg.pathway":[
-"rn00471",
 "rn00550",
 "rn01100"
 ],
@@ -65056,7 +65185,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892177_1",
-"subsystem":"rn00550",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65067,7 +65196,8 @@
 "kegg.pathway":[
 "rn00520",
 "rn00550",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R03192",
 "metanetx.reaction":"MNXR55988",
@@ -65249,7 +65379,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891230_1",
-"subsystem":"rn00052",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65261,7 +65391,8 @@
 "rn00052",
 "rn00520",
 "rn00541",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00291",
 "metanetx.reaction":"MNXR70029",
@@ -65288,7 +65419,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890620_1",
-"subsystem":"rn00053",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65302,7 +65433,8 @@
 "rn00520",
 "rn00541",
 "rn01100",
-"rn01240"
+"rn01240",
+"rn01250"
 ],
 "kegg.reaction":"R00286",
 "metanetx.reaction":"MNXR70030",
@@ -65331,7 +65463,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891924_1",
-"subsystem":"rn00052",
+"subsystem":"Biosynthesis of nucleotide sugars",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65342,7 +65474,8 @@
 "kegg.pathway":[
 "rn00052",
 "rn00520",
-"rn01100"
+"rn01100",
+"rn01250"
 ],
 "kegg.reaction":"R00955",
 "metanetx.reaction":"MNXR70038",
@@ -65370,7 +65503,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891058_1",
-"subsystem":"rn00300",
+"subsystem":"Lysine biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65429,7 +65562,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049063482_1 or WP_086892415_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65440,6 +65573,7 @@
 "kegg.pathway":[
 "rn00240",
 "rn01100",
+"rn01232",
 "rn01240"
 ],
 "kegg.reaction":"R00158",
@@ -65490,7 +65624,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892467_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65531,7 +65665,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892137_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65573,7 +65707,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892134_1",
-"subsystem":"rn00860",
+"subsystem":"Porphyrin metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65614,7 +65748,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891466_1 or WP_086891967_1 or WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65624,7 +65758,8 @@
 "ec-code":"2.4.2.9",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00966",
 "metanetx.reaction":"MNXR70061",
@@ -65716,7 +65851,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_049151786_1",
-"subsystem":"rn00340",
+"subsystem":"Histidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65775,7 +65910,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891185_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65785,7 +65920,8 @@
 "ec-code":"3.2.2.3",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R01080",
 "metanetx.reaction":"MNXR70066",
@@ -65815,7 +65951,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65825,7 +65961,7 @@
 "ec-code":"2.7.1.48",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01232"
 ],
 "kegg.reaction":"R00964",
 "metanetx.reaction":"MNXR5306",
@@ -65855,7 +65991,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -65865,7 +66001,8 @@
 "ec-code":"2.7.1.48",
 "kegg.pathway":[
 "rn00240",
-"rn01100"
+"rn01100",
+"rn01232"
 ],
 "kegg.reaction":"R00968",
 "metanetx.reaction":"MNXR70067",
@@ -65891,17 +66028,13 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892518_1",
-"subsystem":"rn00240",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
 "annotation":{
 "bigg.reaction":"URIK3",
 "ec-code":"2.7.1.48",
-"kegg.pathway":[
-"rn00240",
-"rn01100"
-],
 "kegg.reaction":"R00970",
 "metanetx.reaction":"MNXR70068",
 "sbo":"SBO:0000216"
@@ -66042,7 +66175,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086892372_1",
-"subsystem":"rn00966",
+"subsystem":"Glucosinolate biosynthesis",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -66051,6 +66184,7 @@
 "biocyc":"META:BRANCHED-CHAINAMINOTRANSFERVAL-RXN",
 "ec-code":"2.6.1.6",
 "kegg.pathway":[
+"rn01230",
 "rn00280",
 "rn00290",
 "rn00770",
@@ -66058,7 +66192,6 @@
 "rn01100",
 "rn01110",
 "rn01210",
-"rn01230",
 "rn01240"
 ],
 "kegg.reaction":"R01214",
@@ -66172,7 +66305,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00627",
+"subsystem":"Aminobenzoate degradation",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -66275,7 +66408,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086890390_1",
-"subsystem":"rn00230",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -66286,7 +66419,8 @@
 "kegg.pathway":[
 "rn00230",
 "rn01100",
-"rn01110"
+"rn01110",
+"rn01232"
 ],
 "kegg.reaction":"R02142",
 "metanetx.reaction":"MNXR70076",
@@ -66343,7 +66477,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -66379,7 +66513,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"WP_086891245_1",
-"subsystem":"rn00040",
+"subsystem":"Pentose and glucuronate interconversions",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -69374,6 +69508,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"spontaneous",
+"subsystem":"Nucleotide metabolism",
 "notes":{
 "Inferred":"0.0 protons added to products to balance equation."
 },
@@ -69381,6 +69516,12 @@
 "bigg.reaction":"ATPM",
 "biocyc":"META:ATPASE-RXN",
 "ec-code":"3.6.4.9",
+"kegg.pathway":[
+"rn00230",
+"rn01100",
+"rn01110",
+"rn01232"
+],
 "kegg.reaction":"R00086",
 "metanetx.reaction":"MNXR892",
 "rhea":[
