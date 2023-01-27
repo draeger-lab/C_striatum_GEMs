@@ -1,6 +1,6 @@
 
 #%%# this is a script to automatically generate and update visualization of the models
-from venn import venn, pseudovenn
+#from venn import venn, pseudovenn
 import cobra
 from libsbml import *
 import refinegems as rg
@@ -167,17 +167,15 @@ for reac in model.getListOfReactions():
     print(c.get_term('sbo','http://biomodels.net/SBO/SBO_0000' + str(reac.getSBOTerm())))
     
 #%%
-conf = pd.read_excel('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/paper/Cstr V4/results_V4.xlsx', sheet_name='confirmation').replace({'yes':1,'no':0})#.set_index('base')
-conf
+conf = pd.read_excel('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/paper/Cstr V4/results_V4.xlsx', sheet_name='in silico').replace({'yes':1,'no':0})#.set_index('base')
+s = conf[conf['data'] == 'growth on plain medium '].set_index('base').drop('data', axis=1)
+conf = pd.read_excel('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/paper/Cstr V4/results_V4.xlsx', sheet_name='in vitro').replace({'yes':1,'no':0})#.set_index('base')
+v = conf[conf['data'] == '24h-OD-fold-change > 2'].set_index('base').drop('data', axis=1)
 # %%
-conf.T['new'] = 1
-conf
-v = conf[conf['data'] == '24h-OD-fold-change > 2'].drop('data', axis=1).set_index('base')
-s = conf[conf['data'] == 'growth on plain medium '].drop('data', axis=1).set_index('base')
 con = pd.DataFrame(v == s)
 #plt.figure(figsize=(10,8))
 sns.heatmap(con, 
-            cmap='RdBu', 
+            cmap='RdYlBu', 
             linewidth=.5, 
             cbar=False,
             )
@@ -197,3 +195,50 @@ plt.tick_params(
     )
 plt.tight_layout()
 plt.savefig('../analysis/comparison/heatmap_binary_comparison.png')
+
+#%%
+conf = pd.read_excel('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/paper/Cstr V4/results_V4.xlsx', sheet_name='in silico').replace({'yes':1,'no':0})#.set_index('base')
+si = conf[conf['data'] == 'dt [min] (+missing)'].set_index('base').drop('data', axis=1)
+si
+# %%
+conf = pd.read_excel('/Users/baeuerle/Organisation/Masterarbeit/Nextcloud/master_thesis/paper/Cstr V4/results_V4.xlsx', sheet_name='in vitro').replace({'yes':1,'no':0})#.set_index('base')
+vi = conf[conf['data'] == 'dt [min] '].set_index('base').drop('data', axis=1)
+vi
+# %%
+perc = {}
+for medium in ['LB', 'RPMI']:
+    perc[medium] = (vi[vi.index == medium]/si[si.index == medium])*100 - 100
+
+df = pd.concat(perc, axis=0)
+df.index.names = None, None
+df = df.reset_index().drop('level_1',axis=1).set_index('level_0')
+df.index.name = None
+df
+# %%
+sns.heatmap(df.astype("float"), 
+            cmap='RdYlBu', 
+            linewidth=.5, 
+            vmin = -150,
+            vmax = 150,
+            #center = 0.0,
+            annot=True,
+            fmt='.0f',
+            cbar_kws = {'label':'dt difference [%]','orientation':'horizontal'}
+            )
+plt.ylabel('')
+plt.xticks(rotation=0)
+plt.yticks(rotation=0)
+plt.tick_params(
+    axis='x',          # changes apply to the x-axis
+    which='both',      # both major and minor ticks are affected
+    bottom=False,      # ticks along the bottom edge are off
+    top=False,         # ticks along the top edge are off
+    )
+plt.tick_params(
+    axis='y',          # changes apply to the x-axis
+    which='both',      # both major and minor ticks are affected
+    left=False,
+    )
+plt.tight_layout()
+plt.savefig('../analysis/comparison/heatmap_dt_comparison.png')
+# %%
