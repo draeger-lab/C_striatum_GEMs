@@ -1,6 +1,20 @@
 # /code/
 
-This folder contains manual curation scripts that were used to investigate and / or manipulate the models denoted in the `models` folder.
+This folder contains scripts that were used to investigate or manipulate the models denoted in the `models` folder.
+
+The table below shows an overview on all notebooks and scripts that were used to investigate the models and get information about their growth behavior on different media.
+
+**name** | **type** | **usage** | **author**
+--- | --- | --- | ---
+additives | notebook
+M9 | notebook
+media | notebook
+simulate_growth_single | script | carbon, nitrogen, phosophorous and sulfur sources | Hawkey et al., 2022
+single_gene_knockouts | script | gene knockouts | Hawkey et al., 2022
+visualization | script
+wetlab_transfer | notebook
+
+The table below shows an overview on all scripts that were used during the curation part of the project. In parallel I developed the refineGEMs toolbox and used functions from refineGEMs as well.
 
 **script** | **usage**  | **refinegems** | **author**
 --- | --- | --- | ---
@@ -13,4 +27,3 @@ man_cur_egc | investigation of Energy Generating Cycles | halfway implemented, n
 man_cur_growth | manual investigation of growth behaviour, slightly inconclusive (18.07.22) | - | FB
 man_cur_mcc | application of the MCC tool to all models | - | "Finn Mier"
 man_cur_params | set params and look for flux bound | possible, with polish_carveme? | FB
-simulate_growth_single | carbon, nitrogen, phosophorous and sulfur sources | possible | Hawkey et al., 2022
