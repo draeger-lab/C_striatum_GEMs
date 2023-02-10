@@ -2,6 +2,9 @@
 
 The VMH released a new version of all their models in the beginning of this year. This folder is dedicated to the model and analysing it which is why everything is kept here since it is not directly related to the curating efforts that I did with my own models.
 
+**Argument for a new model**
+A single genome-scale metabolic model (GEM) of C. striatum is available. This model represents the type strain ATCC 6940, it has a MEMOTE score of 88% and was created as a part of the Virtual Metabolic Human (VMH). Most models within the VMH are used as basis to build simulatable microbiomes (f. ex. of the gut). However, a manually curated and high quality GEM model of C. striatum was not available. VMH models also all use specific entity identifiers which are sometimes overlapping with BiGG identifiers but not always. The VMH model also holds erroneous annotations with NaN IDs or non-existing INCHI-keys. None of the GeneProducts were annotated and some of the reaction where only annotated with their respective SBO term.
+
 **Comparison to my models**
 - The new version of the model has a MEMOTE score of 88% and is better annotated. It has the following scope: 1097 metabolites, 1235 reactions and 767 genes and a metabolic coverage of 1.61.
 - (compare to starting stats of my model - memote score is 69% and it has 1396 metabolites, 2021 reactions and 773 genes, metabolic coverage above 2)
