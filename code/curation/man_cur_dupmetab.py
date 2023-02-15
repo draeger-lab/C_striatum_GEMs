@@ -1,7 +1,8 @@
 #%%
 import cobra
-from refinegems import load_model_cobra
-model = load_model_cobra('../models/Cstr_14.xml')
+import refinegems as rg
+
+model = rg.io.load_model_cobra('../models/Cstr_14.xml')
 
 #%%
 cgly = list(model.metabolites.get_by_id('cgly_c').reactions)
@@ -36,7 +37,7 @@ for rea in glycys:
 from cobra.io import write_sbml_model
 modelpaths_to_change = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
 for mod in modelpaths_to_change:
-    model = load_model_cobra(mod)
+    model = rg.io.load_model_cobra(mod)
     print(model.metabolites.get_by_id('cgly_c'))
     print(model.metabolites.get_by_id('cgly_e'))
     #model.metabolites.get_by_id('gly_cys__L_c').remove_from_model()
