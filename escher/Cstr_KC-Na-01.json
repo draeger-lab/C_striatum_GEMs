@@ -26952,6 +26952,7 @@
 "D00049"
 ],
 "metanetx.chemical":"MNXM274",
+"sbo":"SBO:0000247",
 "seed.compound":"cpd00218",
 "unipathway.compound":"UPC00253"
 }
@@ -26986,6 +26987,7 @@
 "D00026"
 ],
 "metanetx.chemical":"MNXM55",
+"sbo":"SBO:0000247",
 "seed.compound":"cpd00084",
 "unipathway.compound":"UPC00097"
 }
@@ -27012,6 +27014,7 @@
 "hmdb":"HMDB00243",
 "kegg.compound":"C00022",
 "metanetx.chemical":"MNXM23",
+"sbo":"SBO:0000247",
 "seed.compound":"cpd00020",
 "unipathway.compound":"UPC00022"
 }
@@ -27041,6 +27044,7 @@
 "D02456"
 ],
 "metanetx.chemical":"MNXM421",
+"sbo":"SBO:0000247",
 "seed.compound":"cpd00443",
 "unipathway.compound":"UPC00568"
 }
@@ -27069,6 +27073,7 @@
 "D00050"
 ],
 "metanetx.chemical":"MNXM270",
+"sbo":"SBO:0000247",
 "seed.compound":"cpd00220",
 "unipathway.compound":"UPC00255"
 }
@@ -27084,7 +27089,8 @@
 "CHEBI:25517",
 "CHEBI:49785",
 "CHEBI:49786"
-]
+],
+"sbo":"SBO:0000247"
 }
 },
 {
@@ -27102,7 +27108,8 @@
 "CHEBI:3108",
 "CHEBI:41236",
 "CHEBI:57586"
-]
+],
+"sbo":"SBO:0000247"
 }
 }
 ],

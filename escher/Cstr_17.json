@@ -30836,7 +30836,8 @@
 "CHEBI:15956",
 "CHEBI:41236",
 "CHEBI:3108"
-]
+],
+"sbo":"SBO:0000247"
 }
 },
 {
@@ -30844,7 +30845,10 @@
 "name":"3,4-Dihydroxybenzoate / Protocatechuic acid",
 "compartment":"e",
 "charge":0,
-"formula":"C7H5O4"
+"formula":"C7H5O4",
+"annotation":{
+"sbo":"SBO:0000247"
+}
 }
 ],
 "reactions":[
