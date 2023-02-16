@@ -82168,6 +82168,20 @@
 "bigg.reaction":"EX_na1_e",
 "sbo":"SBO:0000627"
 }
+},
+{
+"id":"EX_ni2_e",
+"name":"Nickel exchange",
+"metabolites":{
+"ni2_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"bigg.reaction":"EX_ni2_e",
+"sbo":"SBO:0000627"
+}
 }
 ],
 "genes":[
