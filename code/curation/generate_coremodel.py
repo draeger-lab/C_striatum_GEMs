@@ -16,10 +16,10 @@ __author__ = "Famke Baeuerle"
 if __name__ == '__main__':
 
     modelpaths = [
-        './models/Cstr_14.xml', 
-        './models/Cstr_15.xml',
-        './models/Cstr_16.xml',
-        './models/Cstr_17.xml',
+        './models/Cstr_TS.xml', 
+        './models/Cstr_1197.xml',
+        './models/Cstr_1115.xml',
+        './models/Cstr_1116.xml',
         './models/Cstr_KC-Na-01.xml',
         ]
 

@@ -2,7 +2,7 @@
 import cobra
 #from sklearn.model_selection import RandomizedSearchCV
 from refinegems import load_model_cobra
-model = load_model_cobra('../models/Cstr_14.xml')
+model = load_model_cobra('../models/Cstr_TS.xml')
 #%%
 cobra.medium.minimal_medium(model).index
 
@@ -329,7 +329,7 @@ model.summary(fva=0.9)
 #%%
 import cobra
 from refinegems import load_model_cobra
-model = load_model_cobra('../models/Cstr_16.xml')
+model = load_model_cobra('../models/Cstr_1115.xml')
 model.optimize()
 model.summary()
 
@@ -379,7 +379,7 @@ with model:
 # does not grow with 4abz, pnto__R, urea and gam
 
 #%% growthmedia testing
-model = load_model_cobra('../models/Cstr_14.xml')
+model = load_model_cobra('../models/Cstr_TS.xml')
 minimal = pd.read_csv('/Users/baeuerle/Organisation/Masterarbeit/C_striatum_GEMs/analysis/minmal_media/Cstr_14_minmed.csv')
 list(minimal['Unnamed: 0'])
 #%%

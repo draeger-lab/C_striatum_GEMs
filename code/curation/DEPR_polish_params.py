@@ -16,7 +16,7 @@ def load_model_libsbml(modelpath):
     return mod
 
 #%%
-modelpaths = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+modelpaths = ['../models/Cstr_TS.xml', '../models/Cstr_1197.xml', '../models/Cstr_1115.xml', '../models/Cstr_1116.xml']
 
 for path in modelpaths:
     model = load_model_libsbml(path)

@@ -23,7 +23,7 @@ STRAINS_LAB = {'14':'TS',
             }
 MEDIA = {'CGXlab':'CGXII'}
 
-models = ['../models/Cstr_14.xml','../models/Cstr_15.xml','../models/Cstr_16.xml','../models/Cstr_17.xml','../models/Cstr_KC-Na-01.xml']
+models = ['../models/Cstr_TS.xml','../models/Cstr_1197.xml','../models/Cstr_1115.xml','../models/Cstr_1116.xml','../models/Cstr_KC-Na-01.xml']
 #%%
 mods = []
 for mod in models:

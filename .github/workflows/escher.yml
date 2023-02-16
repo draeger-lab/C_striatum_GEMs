@@ -30,19 +30,19 @@ jobs:
           script: |
             import cobra
             import pandas as pd
-            model_14 = cobra.io.read_sbml_model('./models/Cstr_14.xml')
+            model_14 = cobra.io.read_sbml_model('./models/Cstr_TS.xml')
             df_14 = pd.DataFrame.from_dict([model_14.optimize().fluxes]).T
             df_14.to_csv('./escher/Cstr_14_FBA.csv')    
             cobra.io.save_json_model(model_14, './escher/Cstr_14.json')
-            model_15 = cobra.io.read_sbml_model('./models/Cstr_15.xml')
+            model_15 = cobra.io.read_sbml_model('./models/Cstr_1197.xml')
             df_15 = pd.DataFrame.from_dict([model_15.optimize().fluxes]).T
             df_15.to_csv('./escher/Cstr_15_FBA.csv')   
             cobra.io.save_json_model(model_15, './escher/Cstr_15.json') 
-            model_16 = cobra.io.read_sbml_model('./models/Cstr_16.xml')
+            model_16 = cobra.io.read_sbml_model('./models/Cstr_1115.xml')
             df_16 = pd.DataFrame.from_dict([model_16.optimize().fluxes]).T
             df_16.to_csv('./escher/Cstr_16_FBA.csv')    
             cobra.io.save_json_model(model_16, './escher/Cstr_16.json') 
-            model_17 = cobra.io.read_sbml_model('./models/Cstr_17.xml')
+            model_17 = cobra.io.read_sbml_model('./models/Cstr_1116.xml')
             df_17 = pd.DataFrame.from_dict([model_17.optimize().fluxes]).T
             df_17.to_csv('./escher/Cstr_17_FBA.csv')     
             cobra.io.save_json_model(model_17, './escher/Cstr_17.json') 

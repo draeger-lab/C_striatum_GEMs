@@ -64,7 +64,7 @@ def add_annotation_from_table(model, table):
                 print(met + comp + ' not in model')
 
 #%% look for metab that need annotation to extend manual_annotations.xlsx
-path = '../models/Cstr_14.xml'
+path = '../models/Cstr_TS.xml'
 model = load_model_libsbml(path)
 print(metab_only1_ann(model))
 
@@ -74,7 +74,7 @@ man_ann['PUBCHEM'] = man_ann['PUBCHEM'].astype(int)
 man_ann
 
 #%% annotate all models using the manually curated table manual_annotations.xlsx
-modelpaths = ['../models/Cstr_14.xml', '../models/Cstr_15.xml', '../models/Cstr_16.xml', '../models/Cstr_17.xml']
+modelpaths = ['../models/Cstr_TS.xml', '../models/Cstr_1197.xml', '../models/Cstr_1115.xml', '../models/Cstr_1116.xml']
 
 for path in modelpaths:
     model = load_model_libsbml(path)
