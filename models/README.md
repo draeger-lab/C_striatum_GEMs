@@ -4,12 +4,13 @@ This folder contains all `**.xml` files coding for Genome Scale Metabolic Models
 
 The reconstructions are based on the following NCBI accessions. The Genome files were linked by BacDrive via DSMZ and can be downloaded either from the NCBI or PATRIC.
 
-**Number** | **Name** | **DSM-number** | **NCBI accession** | **Other**
+**Short** | **Name** | **DSM-number** | **NCBI accession** | **Other**
 --- | --- | --- | --- | ---
-14 | FDAARGOS\_1054 | [20668](https://www.dsmz.de/collection/catalogue/details/culture/DSM-20668) | [CP066290](https://www.ncbi.nlm.nih.gov/nuccore/CP066290.1/) | ATCC 6940
-15 | FDAARGOS\_1197 | [45711](https://www.dsmz.de/collection/catalogue/details/culture/DSM-45711) | [CP069514](https://www.ncbi.nlm.nih.gov/nuccore/CP069514) | 
-16 | FDAARGOS\_1115 | [7184](https://www.dsmz.de/collection/catalogue/details/culture/DSM-7184) | [CP068158](https://www.ncbi.nlm.nih.gov/nuccore/CP068158) |  
-17 | FDAARGOS\_1116 | [7185](https://www.dsmz.de/collection/catalogue/details/culture/DSM-7185) | [CP068157](https://www.ncbi.nlm.nih.gov/nuccore/CP068157) | 
+TS | FDAARGOS\_1054 | [20668](https://www.dsmz.de/collection/catalogue/details/culture/DSM-20668) | [GCA_016403285.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_016403285.1) | ATCC 6940, 14 (lab)
+1197 | FDAARGOS\_1197 | [45711](https://www.dsmz.de/collection/catalogue/details/culture/DSM-45711) | [GCA_016889445.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_016889445.1) | 15 (lab)
+1115 | FDAARGOS\_1115 | [7184](https://www.dsmz.de/collection/catalogue/details/culture/DSM-7184) | [GCA_016728105.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_016728105.1) | 16 (lab)
+1116 | FDAARGOS\_1116 | [7185](https://www.dsmz.de/collection/catalogue/details/culture/DSM-7185) | [GCA_016728205.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_016728205.1) | 17 (lab)
+KC | KC-Na-01 | | [GCA_002156805.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_002156805.1)
 
 The `Cstr_core.xml` model was drafted by comparing the four strain specific models and only keeping common reactions and metabolites. It is not very developed at this point and rather conceptual then useful.
 
