@@ -82246,7 +82246,7 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"WP_086891689",
+"gene_reaction_rule":"lcl_CP069514_1_prot_QRP18489_1_2222",
 "subsystem":"Pantothenate and CoA biosynthesis",
 "annotation":{
 "bigg.reaction":"APCPT",
@@ -82270,7 +82270,7 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"WP_086891689",
+"gene_reaction_rule":"lcl_CP069514_1_prot_QRP18489_1_2222",
 "subsystem":"Pantothenate and CoA biosynthesis",
 "annotation":{
 "bigg.reaction":"APNPT",
@@ -88364,14 +88364,6 @@
 "name":"zinc transporter ZupT [Corynebacterium striatum]",
 "annotation":{
 "ncbiprotein":"QRP18447",
-"sbo":"SBO:0000243"
-}
-},
-{
-"id":"WP_086891689",
-"name":"type I pantothenate kinase [Corynebacterium striatum]",
-"annotation":{
-"ncbiprotein":"WP_086891689",
 "sbo":"SBO:0000243"
 }
 }
