@@ -18,3 +18,14 @@ DEPR_add_charges.ipynb | addition of manually researched charges and charges fro
 DEPR_check_egc.py | investigation of Energy Generating Cycles | refineGEMs.investigate.get_egc | FB
 DEPR_manually_annotate.py | manual annotations inferred from `data/manual_curation.xlsx`| refineGEMs.curate | FB
 DEPR_polish_params.py | set params and look for flux bound | refineGEMs.polish | FB
+
+
+## Fix duplicate genes
+
+While using rg.polish, we realized that the gene for the type I pantothenate kinase was present twice in all models but with two distinct IDs. The respective genes are listed below and were replaced accordingly and the duplicates were removed.
+
+* Strain TS: G_WP_086891689 -> G_lcl_CP066290_1_prot_QQE53208_1_131
+* Strain 1197: G_WP_086891689 -> G_lcl_CP069514_1_prot_QRP18489_1_2222
+* Strain 1115: G_WP_086891689 -> G_lcl_CP068158_1_prot_QQU77405_1_429
+* Strain 1116: G_WP_086891689 -> G_lcl_CP068157_1_prot_QQU80022_1_600
+* Strain KC: G_WP_086891689_1 only present in this form thus not removed
