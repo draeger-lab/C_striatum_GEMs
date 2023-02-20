@@ -2,6 +2,7 @@
 
 This script will take all models present in the models folder (paths are hardcoded) and generates a core model. 
 The core model is build from the reactions (and their respective metabolites with genes) that all models have in common and is thus prone to gaps.
+The created core model will be polished and KEGG pathways are added as groups with a few functions from refineGEMs.
 
 Note: This needs to be run with python3 code/curation/generate_coremodel.py from the C_striatum_GEMs folder. 
 Can be run every time the models are changed that are used as input.
@@ -9,7 +10,7 @@ Can be run every time the models are changed that are used as input.
 
 import refinegems as rg
 from cobra import Model, Reaction, Metabolite
-from cobra.io import write_sbml_model
+from cobra.io import write_sbml_model, validate_sbml_model
 
 __author__ = "Famke Baeuerle"
 
@@ -54,3 +55,17 @@ if __name__ == '__main__':
 
     write_sbml_model(core, './models/Cstr_core.xml')
     print('Core model written to ./models/Cstr_core.xml')
+    
+    rg.pathways.kegg_pathways('./models/Cstr_core.xml', './models/Cstr_core.xml')
+    to_polish = rg.io.load_model_libsbml('./models/Cstr_core.xml')
+    rg.polish.add_fba_units(to_polish)
+    rg.polish.set_default_units(to_polish)
+    rg.polish.set_units(to_polish)
+    rg.polish.add_compartment_structure_specs(to_polish)
+    rg.polish.set_initial_amount(to_polish)
+    rg.polish.polish_annotations(model=to_polish, new_pattern=True)
+    rg.polish.change_all_qualifiers(model=to_polish, lab_strain=False)
+    rg.io.write_to_file(to_polish, './models/Cstr_core.xml')
+    mod, err = validate_sbml_model('./models/Cstr_core.xml')
+    print(err)
+    print(f'Core model is polished.')
