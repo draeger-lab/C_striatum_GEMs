@@ -20,14 +20,14 @@ style="display: inline-block; margin: 0 auto; max-width: 300px"/>
 **Model status** | **Tool / Code** | **Date** | **Commit tag**
 --- | --- | --- | ---
 Draft models | CarveMe v.1.5.1 | 25.08.2021 | Initial commit
-Cleaned draft models | refinegems.polish_carveme | 28.03.2022 | v1.0
+Cleaned draft models | refineGEMs.polish_carveme | 28.03.2022 | v1.0
 Polished draft models | ModelPolisher | 29.03.2022 | v2.0
-Specified SBO Terms | refinegems.sbo_annotation | 03.04.2022 | v3.0
-Corrected charges | refinegems.charges + scripts/man_cur_charges.py | 05.04.2022 | v4.0
-Annotated GPRs and metabolites | refinegems.polish_carveme +  scripts/DEPR_manually_annotate.py | 07.04.2022 | v5.0
+Specified SBO Terms | refineGEMs.sbo_annotation | 03.04.2022 | v3.0
+Corrected charges | refineGEMs.charges + scripts/man_cur_charges.py | 05.04.2022 | v4.0
+Annotated GPRs and metabolites | refineGEMs.polish_carveme +  scripts/DEPR_manually_annotate.py | 07.04.2022 | v5.0
 Removed duplicate reactions | scripts/man_cur_dupreac.py | 21.04.2022 | v6.0
 Redo manual steps in case something is missing | scripts/. | 22.04.2022 | v6.1
-Added units to all parameters | refinegems.polish_carveme | 27.04.2022 | v6.2
+Added units to all parameters | refineGEMs.polish_carveme | 27.04.2022 | v6.2
 Used MCC tool on all strains | scripts/man_cur_mcc.py | 01.07.2022 | v7.0
 Removed SIRA2, FPRA and GCDH from all strains | scripts/man_cur_egc.py | 01.07.2022 | v7.1
 
@@ -45,6 +45,6 @@ CPLEX | 20.1.0 | [product website](https://www.ibm.com/de-de/products/ilog-cplex
 CarveMe | 1.5.1 | [docs](https://carveme.readthedocs.io/en/latest/)
 libSBML | 5.19.0 | [github](https://github.com/sbmlteam/libsbml)
 COBRApy | 0.25.0 | [docs](https://cobrapy.readthedocs.io/en/latest/)
-refineGEMs | 0.0.1 | [repository](https://github.com/draeger-lab/refinegems)
+refineGEMs | 0.0.1 | [repository](https://github.com/draeger-lab/refineGEMs)
 MassChargeCuration | 0.1 | [repository](https://github.com/Biomathsys/MassChargeCuration)
 ModelPolisher | 2.0.1 | [repository](https://github.com/draeger-lab/ModelPolisher)
