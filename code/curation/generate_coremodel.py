@@ -36,7 +36,7 @@ if __name__ == '__main__':
     set(all_reactions['fda_1197']).symmetric_difference(all_reactions['fda_1115']) #370
     set(all_reactions['fda_1197']).symmetric_difference(all_reactions['fda_1116']) #444
 
-    common_rea = set(all_reactions['fda_1054']).intersection(all_reactions['fda_1116']).intersection(all_reactions['fda_1115']).intersection(all_reactions['fda_1197'])
+    common_rea = set(all_reactions['fda_1054']).intersection(all_reactions['fda_1116']).intersection(all_reactions['fda_1115']).intersection(all_reactions['fda_1197']).intersection(all_reactions['KC_Na_01'])
 
     core = Model('Cstr_core')
     for reac in common_rea:
@@ -56,8 +56,7 @@ if __name__ == '__main__':
     write_sbml_model(core, './models/Cstr_core.xml')
     print('Core model written to ./models/Cstr_core.xml')
     
-    rg.pathways.kegg_pathways('./models/Cstr_core.xml', './models/Cstr_core.xml')
-    to_polish = rg.io.load_model_libsbml('./models/Cstr_core.xml')
+    to_polish, _obs = rg.pathways.kegg_pathways('./models/Cstr_core.xml')
     rg.polish.add_fba_units(to_polish)
     rg.polish.set_default_units(to_polish)
     rg.polish.set_units(to_polish)

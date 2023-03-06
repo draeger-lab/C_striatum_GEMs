@@ -2,7 +2,7 @@
 
 Manual curation of the models which can be found in the `models` folder was done with a combination of scripts and manual adjustments to the models themselves. Manual adjustments were only done a few times, they are documented via the model version history. Model changes which need a bit more documentation were done within jupyter notebooks (`.ipynb`).
 
-Some of the manual curation scripts are now available from within the [refineGEMs](https://github.com/draeger-lab/refinegems) Python package. They are still a part of this repository for the sake of completeness. These are marked with DEPR_ for deprecated
+Some of the manual curation scripts are now available from within the [refineGEMs](https://github.com/draeger-lab/refineGEMs) Python package. They are still a part of this repository for the sake of completeness. These are marked with DEPR_ for deprecated
 
 The table below shows an overview on all scripts that were used during the curation part of the project. In parallel I developed the refineGEMs toolbox and used functions from refineGEMs as well.
 
