@@ -2,14 +2,8 @@
 
 This folder contains scripts that were used to investigate or manipulate the models denoted in the `models` folder.
 
-The table below shows an overview on all notebooks and scripts that were used to investigate the models and get information about their growth behavior on different media.
+- `/analysis/` holds all scripts and notebooks for model investigation
 
-**name** | **type** | **usage** | **author**
---- | --- | --- | ---
-additives | notebook
-M9 | notebook
-media | notebook
-simulate_growth_single | script | carbon, nitrogen, phosophorous and sulfur sources | Hawkey et al., 2022
-single_gene_knockouts | script | gene knockouts | Hawkey et al., 2022
-visualization | script
-wetlab_transfer | notebook
+- `/curation/` holds all scripts and notebooks for model curation
+
+The file `refineGEMS_config.yaml` is the config file used for running [refineGEMs](https://github.com/draeger-lab/refineGEMs) to curate and investigate the models present in this repository. Flags and inputs were adapted for the respective aim.
