@@ -26,46 +26,46 @@ jobs:
         
     - name: Create FROG report
       run: |
-        runfrog -i ./models/Cstr_TS.xml -o ./FROG/Cstr_14_FROG.omex
-        runfrog -i ./models/Cstr_1197.xml -o ./FROG/Cstr_15_FROG.omex
-        runfrog -i ./models/Cstr_1115.xml -o ./FROG/Cstr_16_FROG.omex
-        runfrog -i ./models/Cstr_1116.xml -o ./FROG/Cstr_17_FROG.omex
+        runfrog -i ./models/Cstr_TS.xml -o ./FROG/Cstr_TS_FROG.omex
+        runfrog -i ./models/Cstr_1197.xml -o ./FROG/Cstr_1197_FROG.omex
+        runfrog -i ./models/Cstr_111197.xml -o ./FROG/Cstr_111197_FROG.omex
+        runfrog -i ./models/Cstr_111115.xml -o ./FROG/Cstr_111115_FROG.omex
         runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01_FROG.omex
       
     - name: Unzip Omex files for easier access
       run: |
-        unzip ./FROG/Cstr_14_FROG.omex -d ./FROG/Cstr_14
-        rm ./FROG/Cstr_14/model.xml
-        rm ./FROG/Cstr_14/manifest.xml
-        cp -R ./FROG/Cstr_14/FROG/cameo ./FROG/Cstr_14
-        rm -R ./FROG/Cstr_14/FROG/cameo
-        cp -R ./FROG/Cstr_14/FROG/cobrapy ./FROG/Cstr_14
-        rm -R ./FROG/Cstr_14/FROG/cobrapy
-        rm -r ./FROG/Cstr_14/FROG/
-        unzip ./FROG/Cstr_15_FROG.omex -d ./FROG/Cstr_15
-        rm ./FROG/Cstr_15/model.xml
-        rm ./FROG/Cstr_15/manifest.xml
-        cp -R ./FROG/Cstr_15/FROG/cameo ./FROG/Cstr_15
-        rm -R ./FROG/Cstr_15/FROG/cameo
-        cp -R ./FROG/Cstr_15/FROG/cobrapy ./FROG/Cstr_15
-        rm -R ./FROG/Cstr_15/FROG/cobrapy
-        rm -r ./FROG/Cstr_15/FROG/
-        unzip ./FROG/Cstr_16_FROG.omex -d ./FROG/Cstr_16
-        rm ./FROG/Cstr_16/model.xml
-        rm ./FROG/Cstr_16/manifest.xml
-        cp -R ./FROG/Cstr_16/FROG/cameo ./FROG/Cstr_16
-        rm -R ./FROG/Cstr_16/FROG/cameo
-        cp -R ./FROG/Cstr_16/FROG/cobrapy ./FROG/Cstr_16
-        rm -R ./FROG/Cstr_16/FROG/cobrapy
-        rm -r ./FROG/Cstr_16/FROG/
-        unzip ./FROG/Cstr_17_FROG.omex -d ./FROG/Cstr_17
-        rm ./FROG/Cstr_17/model.xml
-        rm ./FROG/Cstr_17/manifest.xml
-        cp -R ./FROG/Cstr_17/FROG/cameo ./FROG/Cstr_17
-        rm -R ./FROG/Cstr_17/FROG/cameo
-        cp -R ./FROG/Cstr_17/FROG/cobrapy ./FROG/Cstr_17
-        rm -R ./FROG/Cstr_17/FROG/cobrapy
-        rm -r ./FROG/Cstr_17/FROG/
+        unzip ./FROG/Cstr_TS_FROG.omex -d ./FROG/Cstr_TS
+        rm ./FROG/Cstr_TS/model.xml
+        rm ./FROG/Cstr_TS/manifest.xml
+        cp -R ./FROG/Cstr_TS/FROG/cameo ./FROG/Cstr_TS
+        rm -R ./FROG/Cstr_TS/FROG/cameo
+        cp -R ./FROG/Cstr_TS/FROG/cobrapy ./FROG/Cstr_TS
+        rm -R ./FROG/Cstr_TS/FROG/cobrapy
+        rm -r ./FROG/Cstr_TS/FROG/
+        unzip ./FROG/Cstr_1197_FROG.omex -d ./FROG/Cstr_1197
+        rm ./FROG/Cstr_1197/model.xml
+        rm ./FROG/Cstr_1197/manifest.xml
+        cp -R ./FROG/Cstr_1197/FROG/cameo ./FROG/Cstr_1197
+        rm -R ./FROG/Cstr_1197/FROG/cameo
+        cp -R ./FROG/Cstr_1197/FROG/cobrapy ./FROG/Cstr_1197
+        rm -R ./FROG/Cstr_1197/FROG/cobrapy
+        rm -r ./FROG/Cstr_1197/FROG/
+        unzip ./FROG/Cstr_1115_FROG.omex -d ./FROG/Cstr_1115
+        rm ./FROG/Cstr_1115/model.xml
+        rm ./FROG/Cstr_1115/manifest.xml
+        cp -R ./FROG/Cstr_1115/FROG/cameo ./FROG/Cstr_1115
+        rm -R ./FROG/Cstr_1115/FROG/cameo
+        cp -R ./FROG/Cstr_1115/FROG/cobrapy ./FROG/Cstr_1115
+        rm -R ./FROG/Cstr_1115/FROG/cobrapy
+        rm -r ./FROG/Cstr_1115/FROG/
+        unzip ./FROG/Cstr_1116_FROG.omex -d ./FROG/Cstr_1116
+        rm ./FROG/Cstr_1116/model.xml
+        rm ./FROG/Cstr_1116/manifest.xml
+        cp -R ./FROG/Cstr_1116/FROG/cameo ./FROG/Cstr_1116
+        rm -R ./FROG/Cstr_1116/FROG/cameo
+        cp -R ./FROG/Cstr_1116/FROG/cobrapy ./FROG/Cstr_1116
+        rm -R ./FROG/Cstr_1116/FROG/cobrapy
+        rm -r ./FROG/Cstr_1116/FROG/
         unzip ./FROG/Cstr_KC-Na-01_FROG.omex -d ./FROG/Cstr_KC-Na-01
         rm ./FROG/Cstr_KC-Na-01/model.xml
         rm ./FROG/Cstr_KC-Na-01/manifest.xml
