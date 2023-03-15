@@ -31,8 +31,8 @@ jobs:
       run: |
         runfrog -i ./models/Cstr_TS.xml -o ./FROG/Cstr_TS_FROG.omex
         runfrog -i ./models/Cstr_1197.xml -o ./FROG/Cstr_1197_FROG.omex
-        runfrog -i ./models/Cstr_111197.xml -o ./FROG/Cstr_111197_FROG.omex
-        runfrog -i ./models/Cstr_111115.xml -o ./FROG/Cstr_111115_FROG.omex
+        runfrog -i ./models/Cstr_1115.xml -o ./FROG/Cstr_1115_FROG.omex
+        runfrog -i ./models/Cstr_1116.xml -o ./FROG/Cstr_1116_FROG.omex
         runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01_FROG.omex
       
     - name: Unzip Omex files for easier access
