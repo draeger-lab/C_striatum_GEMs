@@ -135,7 +135,7 @@ svg.escher-svg .node-to-combine {
 }
 </style>
     </defs>
-    <g class="zoom-g" transform="translate(1781.1357421875,1803.6280517578125) scale(1)" style="cursor: grab;">
+    <g class="zoom-g" transform="translate(1781.1357421875,1803.6280517578125) scale(1)" style="">
         <g class="canvas-group">
             <rect id="mouse-node" width="0px" height="0px" pointer-events="all"/>
             <rect id="canvas" width="4308.724853515625" height="3889.3316650390625" transform="translate(-1781.1357421875,-1803.6280517578125)" style="visibility: hidden;"/>
@@ -144,7 +144,18 @@ svg.escher-svg .node-to-combine {
             <rect class="drag-rect resize-rect" transform="translate(-1731.1357421875,-1853.6280517578125)" height="100" width="4208.724853515625" cursor="ns-resize" style="pointer-events: auto;"/>
             <rect class="drag-rect resize-rect" transform="translate(-1731.1357421875,2035.70361328125)" height="100" width="4208.724853515625" cursor="ns-resize" style="pointer-events: auto;"/>
         </g>
-        <g id="brush-container"/>
+        <g id="brush-container" fill="none" pointer-events="all">
+            <rect class="overlay" pointer-events="all" x="-1781.1357421875" y="-1803.6280517578125" width="4308.724853515625" height="3889.3316650390625"/>
+            <rect class="selection" fill="#777" fill-opacity="0.3" stroke="#fff" shape-rendering="crispEdges" style="display: none;"/>
+            <rect class="handle handle--n" style="display: none;"/>
+            <rect class="handle handle--e" style="display: none;"/>
+            <rect class="handle handle--s" style="display: none;"/>
+            <rect class="handle handle--w" style="display: none;"/>
+            <rect class="handle handle--nw" style="display: none;"/>
+            <rect class="handle handle--ne" style="display: none;"/>
+            <rect class="handle handle--se" style="display: none;"/>
+            <rect class="handle handle--sw" style="display: none;"/>
+        </g>
         <g id="reactions">
             <g id="r27" class="reaction">
                 <g class="reaction-label-group" transform="translate(2033.0158996582031,-621.1670532226562)">
@@ -2799,37 +2810,37 @@ svg.escher-svg .node-to-combine {
         <g id="beziers"/>
         <g id="text-labels">
             <g id="l15" class="text-label">
-                <text class="label" transform="translate(-1592.0733642578125,-595.5319213867188)">Blocked Exchanges Cstr_15</text>
+                <text class="label" transform="translate(-1592.0733642578125,-595.5319213867188)" style="">Blocked Exchanges 1197</text>
             </g>
             <g id="l21" class="text-label">
-                <text class="label" transform="translate(1236.591064453125,-1421.1002197265625)">Blocked Exchanges all 14, 15, 16, 17</text>
+                <text class="label" transform="translate(1236.591064453125,-1421.1002197265625)" style="">Blocked Exchanges TS, 1197, 1115, 1116</text>
             </g>
             <g id="l28" class="text-label">
-                <text class="label" transform="translate(1205.736328125,23.000244140625)">Blocked Exchanges 15, 16, 17</text>
+                <text class="label" transform="translate(1205.736328125,23.000244140625)" style="">Blocked Exchanges 1197, 1115, 1116</text>
             </g>
             <g id="l30" class="text-label">
-                <text class="label" transform="translate(1256.6089477539062,1695.8140869140625)">15</text>
+                <text class="label" transform="translate(1256.6089477539062,1695.8140869140625)" style="">1197</text>
             </g>
             <g id="l31" class="text-label">
-                <text class="label" transform="translate(1373.3168334960938,1118.2593994140625)">16, 17</text>
+                <text class="label" transform="translate(1373.3168334960938,1118.2593994140625)" style="">1115, 1116</text>
             </g>
             <g id="l36" class="text-label">
-                <text class="label" transform="translate(-1647.3946228027344,704.80859375)">Blocked Exchanges Cstr_16 Cstr_17</text>
+                <text class="label" transform="translate(-1647.3946228027344,704.80859375)" style="">Blocked Exchanges 1115, 1116</text>
             </g>
             <g id="l42" class="text-label">
-                <text class="label" transform="translate(484.5411071777344,1570.1285400390625)">15, 17</text>
+                <text class="label" transform="translate(484.5411071777344,1570.1285400390625)" style="">1197, 1116</text>
             </g>
             <g id="l44" class="text-label">
-                <text class="label" transform="translate(-1031.502197265625,1892.4437255859375)">16</text>
+                <text class="label" transform="translate(-1031.502197265625,1892.4437255859375)" style="">1115</text>
             </g>
             <g id="l45" class="text-label">
-                <text class="label" transform="translate(-591.6030883789062,1479.477294921875)">16, 17</text>
+                <text class="label" transform="translate(-591.6030883789062,1479.477294921875)" style="">1115, 1116</text>
             </g>
             <g id="l47" class="text-label">
-                <text class="label" transform="translate(-1648.9310302734375,-1268.8468017578125)">14, 17</text>
+                <text class="label" transform="translate(-1678.9935302734375,-1182.417236328125)" style="">TS, 1116</text>
             </g>
             <g id="l50" class="text-label">
-                <text class="label" transform="translate(-757.111572265625,-1267.4036865234375)">14</text>
+                <text class="label" transform="translate(-757.111572265625,-1267.4036865234375)" style="">TS</text>
             </g>
         </g>
         <g id="direction-arrow-container" transform="translate(0,0)rotate(90)">
