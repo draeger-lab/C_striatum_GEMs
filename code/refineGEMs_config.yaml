@@ -1,25 +1,56 @@
-Description: > 
-  This file can be adapted to choose what refineGEMs should do.
-  Note: For windows use \ instead of / for the paths
-
-
 General Setting: >
   Path to GEM to be investigated
 
-model: '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml' # 'data/e_coli_core.xml' #
-entrez_email: 'famke.baeuerle@student.uni-tuebingen.de' # necessary to access NCBI API
+model: '../C_striatum_GEMs/models/Cstr_TS.xml'
+# Set the out path for all analysis files
+out_path: '../rg_out/'
+
+Settings for scripts that investigate the model: >
+  These are only necessary if none of the scripts to manipulate the model are used.
+
+# Set to TRUE if you want pngs that aid in model inevstigation, will be saved to a folder called 'visualization'
+visualize: FALSE
+
+# Set the basis medium to simulate growth from
+growth_basis: 'default_uptake' # 'default_uptake' or 'minimal_uptake'
+
+# Settings if you want to compare multiple models
+multiple: False
+multiple_paths: # enter as many paths as you need below
+  - '../C_striatum_GEMs/models/Cstr_TS.xml'
+  - '../C_striatum_GEMs/models/Cstr_1197.xml'
+  - '../C_striatum_GEMs/models/Cstr_1115.xml'
+  - '../C_striatum_GEMs/models/Cstr_1116.xml'
+single: True
+
+# media to simulate growth from, just comment the media you do not want with a #
+media: 
+  - 'SNM3'
+  - 'RPMI'
+  - 'CGXlab'
+  - 'LB'
+  - 'M9'
+  - 'CGXII'
+  - 'CasA'
+
+# determine whether the memote score should be calculated, default: FALSE
+memote: FALSE
+
+# compare metabolites to the ModelSEED database
+modelseed: True # set to False if not needed
 
 
 Settings for scripts that manipulate the model: >
   They are all split into the ON / OFF switch (TRUE / FALSE) and additional settings like a path to where the new model should be saved.
 
+model_out: '../rg_out/test.xml' # path and filename to where to save the modified model
+entrez_email: 'famke.baeuerle@student.uni-tuebingen.de' # necessary to access NCBI API
+
 ### Addition of KEGG Pathways as Groups ###
-keggpathways: FALSE
-kegg_path:  '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml' # path where to save model with KEGG Groups
+keggpathways: TRUE
 
 ### SBO-Term Annotation ###
-sboterms: FALSE
-sbo_path: '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml' # path where to save model with sbo terms
+sboterms: TRUE
 
 ### Model polishing ### The database of the model identifiers needs to be specified with 'id_db'
 polish: FALSE
@@ -29,50 +60,21 @@ id_db: 'BIGG' # Required!
 lab_strain: FALSE # Needs to be set to ensure that protein IDs get the 'bqbiol:isHomologTo' qualifier
                   # & to set the locus_tag to the ones obtained by the annotation
 protein_fasta: '' # Path to used CarveMe input file, if exists; Needs to be set for lab_strain: True
-polish_path: '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml' # path where to save the polished model
 
 ### Charge correction ###
-charge_corr: FALSE
-charge_path: '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml'
-charge_report_path: '../C_striatum_GEMs/analysis/Cstr_KC-Na-01_multiple_charges.csv'
+charge_corr: TRUE
 
 ### Manual Curation ###
-man_cur: FALSE
-man_cur_type: 'gapfill' # either 'gapfill' or 'metabs'
-man_cur_table: '../C_striatum_GEMs/data/manual_curation.xlsx'
-man_cur_path: '../C_striatum_GEMs/models/Cstr_17.xml' # path where to save modified model
+man_cur: TRUE
+man_cur_type: 'metabs' # either 'gapfill' or 'metabs'
+man_cur_table: 'data/manual_curation.xlsx'
 
-Settings for scripts that investigate the model: >
-  These are only necessary if none of the scripts to manipulate the model are used.
-
-# Set the out path for the csv created by multiple and a possible xlsx for model investigation
-out_path: '../C_striatum_GEMs/analysis/'
-
-# Set the basis medium to simulate growth from
-growth_basis: 'minimal_uptake' # 'default_uptake' or 'minimal_uptake'
-
-# Settings if you want to compare multiple models
-multiple: FALSE
-visualize: TRUE
-multiple_paths: ['../C_striatum_GEMs/models/Cstr_TS.xml', '../C_striatum_GEMs/models/Cstr_1197.xml', '../C_striatum_GEMs/models/Cstr_1115.xml', '../C_striatum_GEMs/models/Cstr_1116.xml', '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml']
-
-# media to simulate growth from, available: SNM, LB, M9, SMM, CGXII, RPMI, no duplicates allowed
-media: ['SNM3', 'RPMI', 'CGXlab', 'LB', 'M9', 'CGXII', 'CasA']
-
-# determine whether the memote score should be calculated, default: FALSE
-memote: FALSE
-
-# Determine if output file for single model should be created, default: cl
-# Filename is set as the models name
-output: xlsx #cl, xlsx, csv 
-
-# these work only with single models
-### Gapfill ###
+### Automatic gap filling ###
 # All parameters are required for all db_to_compare choices except:
 # - organismid which is only required for db_to_compare: 'KEGG'/'KEGG+BioCyc'
-# - and biocyc_tables which is not required for 'KEGG'
-gapfill_analysis: FALSE
-gapfill_analysis_params:
+# - and biocyc_files which is not required for 'KEGG'
+gap_analysis: FALSE
+gap_analysis_params:
   db_to_compare: 'KEGG'  # One of the choices KEGG|BioCyc|GFF|KEGG+BioCyc
   organismid: 'T05059'  # Needs to be specified for KEGG
   gff_file: 'data/cstr.gff'  # Path to RefSeq GFF file 
@@ -87,6 +89,6 @@ gapfill_analysis_params:
 # For all BioCyc files the order should be the same. If the organism does not occur in the BioCyc database the
 # complete tables for reactions can be used with the same columns.
 gapfill_model: FALSE
-
-### ModelSEED comparison ###
-modelseed: FALSE # set to False if not needed
+gap_analysis_file: 'Path to Excel file with which gaps in model should be filled'
+# Either obtained by running gapfill_analysis/Created by hand with the same structure as the result file from gapfill_analysis
+# Example Excel file to fill in by hand: data/modelName_gapfill_analysis_date_example.xlsx
