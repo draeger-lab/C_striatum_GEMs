@@ -1,4 +1,4 @@
-name: Update MEMOTE and ESCHER
+name: Update MEMOTE report and model files for ESCHER maps
 
 on: 
   workflow_dispatch:
