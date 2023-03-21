@@ -1,80 +1,80 @@
-ids,growth,status,name,reaction
-lcl_CP066290_1_prot_QQE52169_1_1629,2.742389197133485e-15,optimal,cadmium-translocating P-type ATPase [Corynebacterium striatum],R_Cuabc
-lcl_CP066290_1_prot_QQE52169_1_1629,2.742389197133485e-15,optimal,cadmium-translocating P-type ATPase [Corynebacterium striatum],R_Cut1
-lcl_CP066290_1_prot_QQE53735_1_742,-4.513703550104175e-15,optimal,diaminopimelate epimerase [Corynebacterium striatum],R_DAPE
-lcl_CP066290_1_prot_QQE53263_1_198,3.9236919639812716e-14,optimal,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [Corynebacterium striatum]",R_THDPS
-lcl_CP066290_1_prot_QQE54200_1_1269,2.355147878472841e-14,optimal,UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Corynebacterium striatum],R_UAGCVT
-lcl_CP066290_1_prot_QQE53891_1_917,0.0,optimal,UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Corynebacterium striatum],R_UAMAGS
-lcl_CP066290_1_prot_QQE53417_1_372,-1.0651567689653175e-10,optimal,isochorismate synthase [Corynebacterium striatum],R_ICHORS
-lcl_CP066290_1_prot_QQE53894_1_920,-3.298700009941885e-15,optimal,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [Corynebacterium striatum]",R_UAAGDS
-lcl_CP066290_1_prot_QQE53611_1_592,-5.322858169721871e-11,optimal,shikimate kinase [Corynebacterium striatum],R_SHKK
-lcl_CP066290_1_prot_QQE53889_1_915,0.0,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT2
-lcl_CP066290_1_prot_QQE53889_1_915,0.0,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT3
-lcl_CP066290_1_prot_QQE53206_1_129,-2.1179255764449424e-09,optimal,isoprenyl transferase [Corynebacterium striatum],R_GRTT
-lcl_CP066290_1_prot_QQE52629_1_2154,-1.4483812677091376e-09,optimal,"1,4-dihydroxy-2-naphthoate polyprenyltransferase [Corynebacterium striatum]",R_DHNAOT
-lcl_CP066290_1_prot_QQE52630_1_2156,-4.688880751168923e-09,optimal,o-succinylbenzoate--CoA ligase [Corynebacterium striatum],
-lcl_CP066290_1_prot_QQE53057_1_2641,6.745081800185898e-11,optimal,carboxylating nicotinate-nucleotide diphosphorylase [Corynebacterium striatum],R_NNDPR
-lcl_CP066290_1_prot_QQE53543_1_513,-1.2871372855119394e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_COBALTt5
-lcl_CP066290_1_prot_QQE53543_1_513,-1.2871372855119394e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_MGt5
-lcl_CP066290_1_prot_QQE53563_1_536,-1.2397355688726492e-14,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK1
-lcl_CP066290_1_prot_QQE53563_1_536,-1.2397355688726492e-14,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK2
-lcl_CP066290_1_prot_QQE51907_1_1338,4.082417139235418e-13,optimal,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Corynebacterium striatum],R_MEPCT
-lcl_CP066290_1_prot_QQE53787_1_804,-1.4452442391499749e-09,optimal,1-deoxy-D-xylulose-5-phosphate reductoisomerase [Corynebacterium striatum],R_DXPRIi
-lcl_CP066290_1_prot_QQE53456_1_417,-4.4744148171495767e-10,optimal,methionine adenosyltransferase [Corynebacterium striatum],R_METAT
-lcl_CP066290_1_prot_QQE52963_1_2536,-2.545826209649527e-12,optimal,dTMP kinase [Corynebacterium striatum],R_DTMPK
-lcl_CP066290_1_prot_QQE54333_1_778,-4.168805005881367e-15,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_FMNAT
-lcl_CP066290_1_prot_QQE54333_1_778,-4.168805005881367e-15,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_RBFK
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK1
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK2
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK3
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK4
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK5
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK6
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK7
-lcl_CP066290_1_prot_QQE54086_1_1140,1.7738244286327288e-12,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK8
-lcl_CP066290_1_prot_QQE53453_1_414,2.132871835912697e-16,optimal,guanylate kinase [Corynebacterium striatum],R_DGK1
-lcl_CP066290_1_prot_QQE53453_1_414,2.132871835912697e-16,optimal,guanylate kinase [Corynebacterium striatum],R_GK1
-lcl_CP066290_1_prot_QQE53942_1_977,3.964808729055608e-15,optimal,CTP synthase [Corynebacterium striatum],R_CTPS1
-lcl_CP066290_1_prot_QQE53942_1_977,3.964808729055608e-15,optimal,CTP synthase [Corynebacterium striatum],R_CTPS2
-lcl_CP066290_1_prot_QQE53600_1_578,4.3938829576818194e-11,optimal,dephospho-CoA kinase [Corynebacterium striatum],R_DPCOAK
-lcl_CP066290_1_prot_QQE53758_1_770,-1.0292154572128296e-14,optimal,4-hydroxy-tetrahydrodipicolinate reductase [Corynebacterium striatum],R_DHDPRy
-lcl_CP066290_1_prot_QQE53888_1_914,-1.8756862654915346e-12,optimal,UDP-N-acetylmuramate--L-alanine ligase [Corynebacterium striatum],R_UAMAS
-lcl_CP066290_1_prot_QQE52808_1_2357,4.15136764757917e-15,optimal,pyridoxal 5'-phosphate synthase glutaminase subunit PdxT [Corynebacterium striatum],R_PLPS
-lcl_CP066290_1_prot_QQE53892_1_918,6.649995644913811e-14,optimal,phospho-N-acetylmuramoyl-pentapeptide-transferase [Corynebacterium striatum],R_PAPPT3
-lcl_CP066290_1_prot_QQE53055_1_2639,1.732405581479882e-10,optimal,quinolinate synthase NadA [Corynebacterium striatum],R_QULNS
-lcl_CP066290_1_prot_QQE51906_1_1337,-1.9841599710258808e-13,optimal,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Corynebacterium striatum]",R_MECDPS
-lcl_CP066290_1_prot_QQE52746_1_2285,0.0,optimal,phosphoglucosamine mutase [Corynebacterium striatum],R_ACGAMPM
-lcl_CP066290_1_prot_QQE52746_1_2285,0.0,optimal,phosphoglucosamine mutase [Corynebacterium striatum],R_PGAMT
-lcl_CP066290_1_prot_QQE53893_1_919,6.17281411645062e-15,optimal,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Corynebacterium striatum],R_UGMDDS
-lcl_CP066290_1_prot_QQE52478_1_1977,-1.0795588879736911e-14,optimal,aspartate-semialdehyde dehydrogenase [Corynebacterium striatum],R_ASAD
-lcl_CP066290_1_prot_QQE52477_1_1976,-7.0784371007710946e-15,optimal,aspartate kinase [Corynebacterium striatum],R_ASPK
-lcl_CP066290_1_prot_QQE52636_1_2165,2.1386525200007915e-09,optimal,o-succinylbenzoate synthase [Corynebacterium striatum],
-lcl_CP066290_1_prot_624,-1.4452502014460546e-09,optimal,adenine phosphoribosyltransferase,R_ADPT
-lcl_CP066290_1_prot_QQE53442_1_400,-4.5021797519197533e-10,optimal,pantetheine-phosphate adenylyltransferase [Corynebacterium striatum],R_PTPATi
-lcl_CP066290_1_prot_QQE53793_1_810,-2.409115972687191e-15,optimal,UMP kinase [Corynebacterium striatum],
-lcl_CP066290_1_prot_QQE54346_1_928,-2.1146125520900976e-09,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_DMATT
-lcl_CP066290_1_prot_QQE54346_1_928,-2.1146125520900976e-09,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_FRTT
-lcl_CP066290_1_prot_QQE53756_1_768,3.7574944485592416e-14,optimal,4-hydroxy-tetrahydrodipicolinate synthase [Corynebacterium striatum],R_DHDPS
-lcl_CP066290_1_prot_QQE54186_1_1254,1.0601436417730256e-10,optimal,ammonia-dependent NAD(+) synthetase [Corynebacterium striatum],R_NADS1
-lcl_CP066290_1_prot_QQE53455_1_416,1.0944956688213864e-14,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPCDC
-lcl_CP066290_1_prot_QQE53455_1_416,1.0944956688213864e-14,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL3
-lcl_CP066290_1_prot_QQE53182_1_97,0.0,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_UAGDP
-lcl_CP066290_1_prot_QQE53660_1_651,0.0,optimal,1-deoxy-D-xylulose-5-phosphate synthase [Corynebacterium striatum],R_DXPS
-lcl_CP066290_1_prot_QQE53056_1_2640,1.2768972064131361e-10,optimal,FAD-binding protein [Corynebacterium striatum],R_ASPO5
-lcl_CP066290_1_prot_QQE53056_1_2640,1.2768972064131361e-10,optimal,FAD-binding protein [Corynebacterium striatum],R_ASPO6
-lcl_CP066290_1_prot_QQE53612_1_593,-9.571172962387114e-15,optimal,chorismate synthase [Corynebacterium striatum],R_CHORS
-lcl_CP066290_1_prot_QQE54067_1_1117,5.943912098202478e-11,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NMNAT
-lcl_CP066290_1_prot_QQE54067_1_1117,5.943912098202478e-11,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NNATr
-lcl_CP066290_1_prot_QQE53181_1_96,1.0326010638141695e-12,optimal,ribose-phosphate diphosphokinase [Corynebacterium striatum],R_PRPPS
-lcl_CP066290_1_prot_QQE53571_1_546,-2.376817831309848e-10,optimal,NAD kinase [Corynebacterium striatum],R_NADK
-lcl_CP066290_1_prot_QQE52970_1_2547,1.476301781362879e-14,optimal,3-phosphoshikimate 1-carboxyvinyltransferase [Corynebacterium striatum],R_PSCVT
-lcl_CP066290_1_prot_QQE52727_1_2264,8.123020873633245e-13,optimal,adenylate kinase [Corynebacterium striatum],R_ADK1
-lcl_CP066290_1_prot_QQE52727_1_2264,8.123020873633245e-13,optimal,adenylate kinase [Corynebacterium striatum],R_ADK2
-lcl_CP066290_1_prot_QQE53141_1_47,-1.4452415937034269e-09,optimal,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase [Corynebacterium striatum],R_CDPMEK
-lcl_CP066290_1_prot_QQE52639_1_2168,-1.3092444484336558e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_OXGDC
-lcl_CP066290_1_prot_QQE52639_1_2168,-1.3092444484336558e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SEPHCHCS
-lcl_CP066290_1_prot_QQE52639_1_2168,-1.3092444484336558e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS3
-lcl_CP066290_1_prot_QQE53208_1_131,4.984450767820338e-12,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNCDC
-lcl_CP066290_1_prot_QQE53208_1_131,4.984450767820338e-12,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNTK
-lcl_CP066290_1_prot_QQE53208_1_131,4.984450767820338e-12,optimal,type I pantothenate kinase [Corynebacterium striatum],R_APCPT
-lcl_CP066290_1_prot_QQE53208_1_131,4.984450767820338e-12,optimal,type I pantothenate kinase [Corynebacterium striatum],R_APNPT
+ids,growth,status,name,reaction,class
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK1,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK2,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK3,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK4,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK5,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK6,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK7,phosphorylation
+lcl_CP066290_1_prot_QQE54086_1_1140,-1.6554891809094755e-13,optimal,nucleoside-diphosphate kinase [Corynebacterium striatum],R_NDPK8,phosphorylation
+lcl_CP066290_1_prot_QQE53442_1_400,-1.4038114914285091e-15,optimal,pantetheine-phosphate adenylyltransferase [Corynebacterium striatum],R_PTPATi,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53417_1_372,-4.335721540538915e-09,optimal,isochorismate synthase [Corynebacterium striatum],R_ICHORS,isomerisation
+lcl_CP066290_1_prot_QQE53455_1_416,-5.816934254959016e-11,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPCDC,decarboxylation
+lcl_CP066290_1_prot_QQE53455_1_416,-5.816934254959016e-11,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL3,biochemical reaction
+lcl_CP066290_1_prot_QQE53057_1_2641,-6.436452397844755e-11,optimal,carboxylating nicotinate-nucleotide diphosphorylase [Corynebacterium striatum],R_NNDPR,glycosylation
+lcl_CP066290_1_prot_QQE53660_1_651,-2.4330048893877884e-14,optimal,1-deoxy-D-xylulose-5-phosphate synthase [Corynebacterium striatum],R_DXPS,transfer of a chemical group
+lcl_CP066290_1_prot_QQE51906_1_1337,-1.0990404530738341e-10,optimal,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Corynebacterium striatum]",R_MECDPS,cleavage
+lcl_CP066290_1_prot_QQE52639_1_2168,3.5641895389358945e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_OXGDC,decarboxylation
+lcl_CP066290_1_prot_QQE52639_1_2168,3.5641895389358945e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SEPHCHCS,transfer of a chemical group
+lcl_CP066290_1_prot_QQE52639_1_2168,3.5641895389358945e-09,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS3,cleavage
+lcl_CP066290_1_prot_QQE54200_1_1269,-1.2335927099200725e-12,optimal,UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Corynebacterium striatum],R_UAGCVT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53612_1_593,-2.114600430018492e-09,optimal,chorismate synthase [Corynebacterium striatum],R_CHORS,cleavage
+lcl_CP066290_1_prot_624,-4.8991873574636e-09,optimal,adenine phosphoribosyltransferase,R_ADPT,glycosylation
+lcl_CP066290_1_prot_QQE53889_1_915,2.0895789210543883e-12,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT2,glycosylation
+lcl_CP066290_1_prot_QQE53889_1_915,2.0895789210543883e-12,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT3,glycosylation
+lcl_CP066290_1_prot_QQE52963_1_2536,-2.8511385188390413e-13,optimal,dTMP kinase [Corynebacterium striatum],R_DTMPK,biochemical reaction
+lcl_CP066290_1_prot_QQE52746_1_2285,-1.050730369738095e-13,optimal,phosphoglucosamine mutase [Corynebacterium striatum],R_ACGAMPM,isomerisation
+lcl_CP066290_1_prot_QQE52746_1_2285,-1.050730369738095e-13,optimal,phosphoglucosamine mutase [Corynebacterium striatum],R_PGAMT,isomerisation
+lcl_CP066290_1_prot_QQE52169_1_1629,-1.0663396176287032e-12,optimal,cadmium-translocating P-type ATPase [Corynebacterium striatum],R_Cuabc,active transport
+lcl_CP066290_1_prot_QQE52169_1_1629,-1.0663396176287032e-12,optimal,cadmium-translocating P-type ATPase [Corynebacterium striatum],R_Cut1,active transport
+lcl_CP066290_1_prot_QQE54346_1_928,-2.133187765592427e-09,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_DMATT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE54346_1_928,-2.133187765592427e-09,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_FRTT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53893_1_919,3.035201437745497e-13,optimal,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Corynebacterium striatum],R_UGMDDS,biochemical reaction
+lcl_CP066290_1_prot_QQE53263_1_198,-8.349772947126006e-16,optimal,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [Corynebacterium striatum]",R_THDPS,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53888_1_914,1.0579287872330927e-14,optimal,UDP-N-acetylmuramate--L-alanine ligase [Corynebacterium striatum],R_UAMAS,biochemical reaction
+lcl_CP066290_1_prot_QQE53758_1_770,-4.130173394379361e-15,optimal,4-hydroxy-tetrahydrodipicolinate reductase [Corynebacterium striatum],R_DHDPRy,redox reaction
+lcl_CP066290_1_prot_QQE53600_1_578,-2.4794711377452984e-14,optimal,dephospho-CoA kinase [Corynebacterium striatum],R_DPCOAK,phosphorylation
+lcl_CP066290_1_prot_QQE53756_1_768,-4.7726318645953444e-15,optimal,4-hydroxy-tetrahydrodipicolinate synthase [Corynebacterium striatum],R_DHDPS,biochemical reaction
+lcl_CP066290_1_prot_QQE53793_1_810,-2.4672917998537164e-15,optimal,UMP kinase [Corynebacterium striatum],, 
+lcl_CP066290_1_prot_QQE53056_1_2640,4.0965202674393294e-11,optimal,FAD-binding protein [Corynebacterium striatum],R_ASPO5,biochemical reaction
+lcl_CP066290_1_prot_QQE53056_1_2640,4.0965202674393294e-11,optimal,FAD-binding protein [Corynebacterium striatum],R_ASPO6,redox reaction
+lcl_CP066290_1_prot_QQE52630_1_2156,-1.4358647409638905e-09,optimal,o-succinylbenzoate--CoA ligase [Corynebacterium striatum],, 
+lcl_CP066290_1_prot_QQE53055_1_2639,-9.193278513940152e-12,optimal,quinolinate synthase NadA [Corynebacterium striatum],R_QULNS,transfer of a chemical group
+lcl_CP066290_1_prot_QQE54067_1_1117,-3.8359826181607755e-13,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NMNAT,biochemical reaction
+lcl_CP066290_1_prot_QQE54067_1_1117,-3.8359826181607755e-13,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NNATr,biochemical reaction
+lcl_CP066290_1_prot_QQE51907_1_1338,-2.1114951237604724e-09,optimal,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Corynebacterium striatum],R_MEPCT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53787_1_804,0.0,optimal,1-deoxy-D-xylulose-5-phosphate reductoisomerase [Corynebacterium striatum],R_DXPRIi,redox reaction
+lcl_CP066290_1_prot_QQE53453_1_414,3.200022579020162e-15,optimal,guanylate kinase [Corynebacterium striatum],R_DGK1,biochemical reaction
+lcl_CP066290_1_prot_QQE53453_1_414,3.200022579020162e-15,optimal,guanylate kinase [Corynebacterium striatum],R_GK1,phosphorylation
+lcl_CP066290_1_prot_QQE53456_1_417,-1.1021193017615836e-09,optimal,methionine adenosyltransferase [Corynebacterium striatum],R_METAT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53181_1_96,-2.3803445065187942e-15,optimal,ribose-phosphate diphosphokinase [Corynebacterium striatum],R_PRPPS,transfer of a chemical group
+lcl_CP066290_1_prot_QQE52478_1_1977,1.4463581636847572e-13,optimal,aspartate-semialdehyde dehydrogenase [Corynebacterium striatum],R_ASAD,redox reaction
+lcl_CP066290_1_prot_QQE53206_1_129,-1.4452408294471948e-09,optimal,isoprenyl transferase [Corynebacterium striatum],R_GRTT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53182_1_97,4.3429303050158525e-14,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_UAGDP,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53141_1_47,1.4700446232594086e-13,optimal,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase [Corynebacterium striatum],R_CDPMEK,phosphorylation
+lcl_CP066290_1_prot_QQE52477_1_1976,3.9590101027647216e-13,optimal,aspartate kinase [Corynebacterium striatum],R_ASPK,phosphorylation
+lcl_CP066290_1_prot_QQE53892_1_918,2.0702132903365556e-14,optimal,phospho-N-acetylmuramoyl-pentapeptide-transferase [Corynebacterium striatum],R_PAPPT3,transfer of a chemical group
+lcl_CP066290_1_prot_QQE53891_1_917,-1.9496028182806086e-13,optimal,UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Corynebacterium striatum],R_UAMAGS,biochemical reaction
+lcl_CP066290_1_prot_QQE53208_1_131,9.265202898010695e-15,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNCDC,decarboxylation
+lcl_CP066290_1_prot_QQE53208_1_131,9.265202898010695e-15,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNTK,phosphorylation
+lcl_CP066290_1_prot_QQE53208_1_131,9.265202898010695e-15,optimal,type I pantothenate kinase [Corynebacterium striatum],R_APCPT,biochemical or transport reaction
+lcl_CP066290_1_prot_QQE53208_1_131,9.265202898010695e-15,optimal,type I pantothenate kinase [Corynebacterium striatum],R_APNPT,biochemical or transport reaction
+lcl_CP066290_1_prot_QQE52629_1_2154,-2.8972249982345473e-13,optimal,"1,4-dihydroxy-2-naphthoate polyprenyltransferase [Corynebacterium striatum]",R_DHNAOT,decarboxylation
+lcl_CP066290_1_prot_QQE53571_1_546,-5.033121292008463e-10,optimal,NAD kinase [Corynebacterium striatum],R_NADK,phosphorylation
+lcl_CP066290_1_prot_QQE52808_1_2357,4.179970661284864e-13,optimal,pyridoxal 5'-phosphate synthase glutaminase subunit PdxT [Corynebacterium striatum],R_PLPS,biochemical reaction
+lcl_CP066290_1_prot_QQE53611_1_592,1.0377283698729619e-09,optimal,shikimate kinase [Corynebacterium striatum],R_SHKK,phosphorylation
+lcl_CP066290_1_prot_QQE53563_1_536,-3.5845229674722837e-14,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK1,biochemical reaction
+lcl_CP066290_1_prot_QQE53563_1_536,-3.5845229674722837e-14,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK2,biochemical reaction
+lcl_CP066290_1_prot_QQE53942_1_977,-1.2117040694244059e-15,optimal,CTP synthase [Corynebacterium striatum],R_CTPS1,biochemical reaction
+lcl_CP066290_1_prot_QQE53942_1_977,-1.2117040694244059e-15,optimal,CTP synthase [Corynebacterium striatum],R_CTPS2,biochemical reaction
+lcl_CP066290_1_prot_QQE53894_1_920,0.0,optimal,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [Corynebacterium striatum]",R_UAAGDS,biochemical reaction
+lcl_CP066290_1_prot_QQE52727_1_2264,-1.6529807584968656e-13,optimal,adenylate kinase [Corynebacterium striatum],R_ADK1,phosphorylation
+lcl_CP066290_1_prot_QQE52727_1_2264,-1.6529807584968656e-13,optimal,adenylate kinase [Corynebacterium striatum],R_ADK2,phosphorylation
+lcl_CP066290_1_prot_QQE54333_1_778,-1.4491211592870934e-12,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_FMNAT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE54333_1_778,-1.4491211592870934e-12,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_RBFK,phosphorylation
+lcl_CP066290_1_prot_QQE52636_1_2165,-7.890373291349059e-15,optimal,o-succinylbenzoate synthase [Corynebacterium striatum],, 
+lcl_CP066290_1_prot_QQE53735_1_742,-4.3930809385533094e-14,optimal,diaminopimelate epimerase [Corynebacterium striatum],R_DAPE,isomerisation
+lcl_CP066290_1_prot_QQE52970_1_2547,2.114620190608731e-09,optimal,3-phosphoshikimate 1-carboxyvinyltransferase [Corynebacterium striatum],R_PSCVT,transfer of a chemical group
+lcl_CP066290_1_prot_QQE54186_1_1254,1.2536357019522057e-10,optimal,ammonia-dependent NAD(+) synthetase [Corynebacterium striatum],R_NADS1,biochemical reaction
+lcl_CP066290_1_prot_QQE53543_1_513,-1.055317778688133e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_COBALTt5,passive transport
+lcl_CP066290_1_prot_QQE53543_1_513,-1.055317778688133e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_MGt5,passive transport

@@ -1,126 +1,126 @@
-ids,growth,status,name,reaction
-WP_086891062_1,9.229966948863523e-15,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT3
-WP_086892420_1,-4.702389640092615e-14,optimal,undecaprenyl-diphosphate phosphatase [Corynebacterium striatum],R_UDCPDP
-WP_086892177_1,9.73014851599844e-13,optimal,UDP-N-acetylmuramate dehydrogenase [Corynebacterium striatum],R_UAPGR
-WP_086892064_1,3.21020940000051e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK1
-WP_086892064_1,3.21020940000051e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK2
-WP_086892064_1,3.21020940000051e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK3
-WP_086892064_1,3.21020940000051e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK4
-WP_086891310_1,4.037735733730342e-12,optimal,chorismate synthase [Corynebacterium striatum],R_CHORS
-WP_086892351_1,-4.385125454222709e-14,optimal,nicotinate phosphoribosyltransferase [Corynebacterium striatum],R_NAMNPP
-WP_086892351_1,-4.385125454222709e-14,optimal,nicotinate phosphoribosyltransferase [Corynebacterium striatum],R_NAPRT
-WP_086890718_1,-1.6037582433880454e-13,optimal,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Corynebacterium striatum],R_MEPCT
-WP_086891311_1,-3.40191142536858e-14,optimal,shikimate kinase [Corynebacterium striatum],R_SHKK
-WP_086890781_1,0.0,optimal,UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Corynebacterium striatum],R_UAGCVT
-WP_086891188_1,-2.2409796503207947e-15,optimal,4-hydroxy-tetrahydrodipicolinate reductase [Corynebacterium striatum],R_DHDPRy
-WP_086892424_1,3.55755333219234e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPCDC
-WP_086892424_1,3.55755333219234e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL
-WP_086892424_1,3.55755333219234e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL2
-WP_086892424_1,3.55755333219234e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL3
-WP_086892415_1,-6.8814996573850456e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK1
-WP_086892415_1,-6.8814996573850456e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK2
-WP_086892415_1,-6.8814996573850456e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_UMPK
-WP_086892493_1,1.4428476612079156e-14,optimal,"1,4-dihydroxy-2-naphthoyl-CoA synthase [Corynebacterium striatum]",R_NPHS
-WP_086891689_1,3.5575961198713313e-10,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNTK
-WP_086891063_1,1.742203293480268e-14,optimal,UDP-N-acetylmuramate--L-alanine ligase [Corynebacterium striatum],R_UAMAS
-WP_086892249_1,2.2460338561392565e-14,optimal,aspartate kinase [Corynebacterium striatum],R_ASPK
-WP_086891184_1,1.1043487046736239e-14,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_FMNAT
-WP_086891184_1,1.1043487046736239e-14,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_RBFK
-WP_086891160_1,-6.931831269222345e-14,optimal,1-deoxy-D-xylulose-5-phosphate reductoisomerase [Corynebacterium striatum],R_DXPRIi
-WP_086891472_1,3.557553332192443e-10,optimal,pantetheine-phosphate adenylyltransferase [Corynebacterium striatum],R_PTPATi
-WP_086890747_1,8.652753585482791e-15,optimal,phosphoribosylamine--glycine ligase [Corynebacterium striatum],R_PRAGSr
-WP_086891211_1,0.0,optimal,diaminopimelate epimerase [Corynebacterium striatum],R_DAPE
-WP_086892103_1,5.1891455952899826e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_DMATT
-WP_086892103_1,5.1891455952899826e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_GRTT
-WP_086892103_1,5.1891455952899826e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_OCTDPS
-WP_086891850_1,0.0,optimal,dTMP kinase [Corynebacterium striatum],R_DTMPK
-WP_086892114_1,0.0,optimal,o-succinylbenzoate--CoA ligase [Corynebacterium striatum],R_SUCBZL
-WP_086891058_1,0.0,optimal,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Corynebacterium striatum],R_UGMDDS
-WP_086890719_1,-3.3543065794639774e-15,optimal,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Corynebacterium striatum]",R_MECDPS
-WP_086891735_1,-1.3607645701474318e-13,optimal,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase [Corynebacterium striatum],R_CDPMEK
-WP_086892115_1,-3.7880969368206365e-15,optimal,"1,4-dihydroxy-2-naphthoate polyprenyltransferase [Corynebacterium striatum]",R_DHNAOT
-WP_061920295_1,-1.350376271608178e-14,optimal,MULTISPECIES: S-ribosylhomocysteine lyase [Corynebacterium],R_RHCCE
-WP_086891458_1,2.4912816820156714e-14,optimal,methionine adenosyltransferase [Corynebacterium striatum],R_METAT
-WP_086890630_1,2.4299367324061288e-14,optimal,nucleosidase [Corynebacterium striatum],R_AHCYSNS
-WP_086890630_1,2.4299367324061288e-14,optimal,nucleosidase [Corynebacterium striatum],R_MTAN
-WP_005528451_1,4.869353260554154e-14,optimal,MULTISPECIES: isoprenyl transferase [Corynebacterium],R_UDPDPS
-WP_005528451_1,4.869353260554154e-14,optimal,MULTISPECIES: isoprenyl transferase [Corynebacterium],R_UDPDPS2
-WP_086890894_1,0.0,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NNATr
-WP_086891323_1,3.7560894049341943e-10,optimal,dephospho-CoA kinase [Corynebacterium striatum],R_DPCOAK
-WP_082254282_1,-1.9564821497754897e-12,optimal,MULTISPECIES: thiamine phosphate synthase [Corynebacterium],R_TMPPP
-WP_086891775_1,0.0,optimal,dihydrofolate reductase [Corynebacterium striatum],R_DHFR
-WP_086891775_1,0.0,optimal,dihydrofolate reductase [Corynebacterium striatum],R_FOLR2
-WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AHMMPS_1
-WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AMPMS
-WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AMPMS2
-WP_086891190_1,0.0,optimal,4-hydroxy-tetrahydrodipicolinate synthase [Corynebacterium striatum],R_DHDPS
-WP_086892248_1,0.0,optimal,aspartate-semialdehyde dehydrogenase [Corynebacterium striatum],R_ASAD
-WP_086891993_1,-3.1575385069764227e-15,optimal,MULTISPECIES: pyridoxal 5'-phosphate synthase lyase subunit PdxS [Corynebacterium],R_PLPS
-WP_086891460_1,4.3738861183310305e-14,optimal,guanylate kinase [Corynebacterium striatum],R_DGK1
-WP_086891460_1,4.3738861183310305e-14,optimal,guanylate kinase [Corynebacterium striatum],R_GK1
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK1
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK2
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK3
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK4
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK5
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK6
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK7
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK8
-WP_034657564_1,-7.331592664956134e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK9
-WP_086891347_1,0.0,optimal,NAD kinase [Corynebacterium striatum],R_NADK
-WP_086891374_1,-2.429936732406128e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_COBALTt5
-WP_086891374_1,-2.429936732406128e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_MGt5
-WP_086890790_1,0.0,optimal,ammonia-dependent NAD(+) synthetase [Corynebacterium striatum],R_NADS1
-WP_086891637_1,2.0767935344585256e-15,optimal,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [Corynebacterium striatum]",R_THDPS
-WP_086891060_1,-1.2783755570102619e-14,optimal,UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Corynebacterium striatum],R_UAMAGS
-WP_086891709_1,3.5248992625567124e-12,optimal,ribose-phosphate diphosphokinase [Corynebacterium striatum],R_PRPPS
-spontaneous,0.0,optimal,G_spontaneous,R_ACALDt
-spontaneous,0.0,optimal,G_spontaneous,R_ATPHs
-spontaneous,0.0,optimal,G_spontaneous,R_CO2t
-spontaneous,0.0,optimal,G_spontaneous,R_CO2tpp
-spontaneous,0.0,optimal,G_spontaneous,R_DHPTDCs2
-spontaneous,0.0,optimal,G_spontaneous,R_G5SADs
-spontaneous,0.0,optimal,G_spontaneous,R_GLYCtpp
-spontaneous,0.0,optimal,G_spontaneous,R_GTPHs
-spontaneous,0.0,optimal,G_spontaneous,R_H2Ot
-spontaneous,0.0,optimal,G_spontaneous,R_H2Otex
-spontaneous,0.0,optimal,G_spontaneous,R_H2Otpp
-spontaneous,0.0,optimal,G_spontaneous,R_H2St
-spontaneous,0.0,optimal,G_spontaneous,R_HCO3E
-spontaneous,0.0,optimal,G_spontaneous,R_METOX1s
-spontaneous,0.0,optimal,G_spontaneous,R_METOX2s
-spontaneous,0.0,optimal,G_spontaneous,R_MGSA
-spontaneous,0.0,optimal,G_spontaneous,R_MTHTHFSs
-spontaneous,0.0,optimal,G_spontaneous,R_N2Otpp
-spontaneous,0.0,optimal,G_spontaneous,R_NH3c
-spontaneous,0.0,optimal,G_spontaneous,R_NH4t
-spontaneous,0.0,optimal,G_spontaneous,R_NH4tex
-spontaneous,0.0,optimal,G_spontaneous,R_NH4tpp
-spontaneous,0.0,optimal,G_spontaneous,R_NOtpp
-spontaneous,0.0,optimal,G_spontaneous,R_O2t
-spontaneous,0.0,optimal,G_spontaneous,R_O2tpp
-spontaneous,0.0,optimal,G_spontaneous,R_OMCDC
-spontaneous,0.0,optimal,G_spontaneous,R_St
-spontaneous,0.0,optimal,G_spontaneous,R_ATPM
-WP_086891376_1,0.0,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_3HPAOX
-WP_086891376_1,0.0,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_4HOXPACMOF
-WP_086891376_1,0.0,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_HMPK1
-WP_086891376_1,0.0,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_HPA3MO
-WP_086891376_1,0.0,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_PMPK
-WP_086891841_1,-1.217545514811029e-15,optimal,3-phosphoshikimate 1-carboxyvinyltransferase [Corynebacterium striatum],R_PSCVT
-WP_086890800_1,-9.35669974580023e-15,optimal,glutamate racemase [Corynebacterium striatum],R_GLUR
-WP_086892107_1,0.0,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_OXGDC2
-WP_086892107_1,0.0,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS
-WP_086892107_1,0.0,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS2
-WP_086891497_1,-2.1869430591655152e-14,optimal,isochorismate synthase [Corynebacterium striatum],R_ICHORS
-WP_086892492_1,9.965126728062701e-14,optimal,o-succinylbenzoate synthase [Corynebacterium striatum],R_SUCBZS
-WP_086891059_1,0.0,optimal,phospho-N-acetylmuramoyl-pentapeptide-transferase [Corynebacterium striatum],R_PAPPT3
-WP_086891478_1,0.0,optimal,thiamine-phosphate kinase [Corynebacterium striatum],R_TMPK
-WP_086891266_1,7.034658036617349e-15,optimal,1-deoxy-D-xylulose-5-phosphate synthase [Corynebacterium striatum],R_DXPS
-WP_046645290_1,-2.9143791149088825e-13,optimal,MULTISPECIES: flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [Corynebacterium],R_MECDPDH2
-WP_046645290_1,-2.9143791149088825e-13,optimal,MULTISPECIES: flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [Corynebacterium],R_MECDPDH4
-WP_086890752_1,6.7938316930727764e-15,optimal,phosphoribosylformylglycinamidine synthase [Corynebacterium striatum],R_PRFGS
-WP_086890760_1,-1.4579620394436775e-14,optimal,phosphoribosylformylglycinamidine cyclo-ligase [Corynebacterium striatum],R_PRAIS
-WP_086891417_1,0.0,optimal,aconitate hydratase [Corynebacterium striatum],R_ACONT
-WP_086891708_1,-8.261784890180838e-14,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_G1PACT
-WP_086891708_1,-8.261784890180838e-14,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_UAGDP
+ids,growth,status,name,reaction,class
+WP_086890747_1,-2.9159240788873537e-14,optimal,phosphoribosylamine--glycine ligase [Corynebacterium striatum],R_PRAGSr,biochemical reaction
+WP_086891472_1,3.5574759749772193e-10,optimal,pantetheine-phosphate adenylyltransferase [Corynebacterium striatum],R_PTPATi,transfer of a chemical group
+WP_086892492_1,1.373540415691536e-12,optimal,o-succinylbenzoate synthase [Corynebacterium striatum],R_SUCBZS,cleavage
+WP_086891735_1,-3.644905098609193e-15,optimal,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase [Corynebacterium striatum],R_CDPMEK,phosphorylation
+WP_086892115_1,-8.85087965048951e-14,optimal,"1,4-dihydroxy-2-naphthoate polyprenyltransferase [Corynebacterium striatum]",R_DHNAOT,decarboxylation
+WP_086891347_1,3.4085435038182696e-14,optimal,NAD kinase [Corynebacterium striatum],R_NADK,phosphorylation
+WP_086890719_1,2.6583741287980583e-13,optimal,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Corynebacterium striatum]",R_MECDPS,cleavage
+WP_086890800_1,-4.1521361366927965e-15,optimal,glutamate racemase [Corynebacterium striatum],R_GLUR,isomerisation
+WP_005528451_1,-6.290860691155884e-15,optimal,MULTISPECIES: isoprenyl transferase [Corynebacterium],R_UDPDPS,biochemical reaction
+WP_005528451_1,-6.290860691155884e-15,optimal,MULTISPECIES: isoprenyl transferase [Corynebacterium],R_UDPDPS2,biochemical reaction
+WP_086891059_1,-7.931345508634909e-15,optimal,phospho-N-acetylmuramoyl-pentapeptide-transferase [Corynebacterium striatum],R_PAPPT3,transfer of a chemical group
+WP_086891160_1,2.235541793813638e-13,optimal,1-deoxy-D-xylulose-5-phosphate reductoisomerase [Corynebacterium striatum],R_DXPRIi,redox reaction
+WP_086892248_1,7.09472042755171e-14,optimal,aspartate-semialdehyde dehydrogenase [Corynebacterium striatum],R_ASAD,redox reaction
+WP_086892415_1,2.2981037238650825e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK1,phosphorylation
+WP_086892415_1,2.2981037238650825e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_CYTK2,phosphorylation
+WP_086892415_1,2.2981037238650825e-15,optimal,(d)CMP kinase [Corynebacterium striatum],R_UMPK,phosphorylation
+WP_086891374_1,-6.803828481198955e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_COBALTt5,passive transport
+WP_086891374_1,-6.803828481198955e-14,optimal,magnesium/cobalt transporter CorA [Corynebacterium striatum],R_MGt5,passive transport
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK1,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK2,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK3,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK4,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK5,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK6,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK7,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK8,phosphorylation
+WP_034657564_1,-2.984563754871061e-13,optimal,MULTISPECIES: nucleoside-diphosphate kinase [Corynebacterium],R_NDPK9,phosphorylation
+WP_086891460_1,-5.533429759540256e-13,optimal,guanylate kinase [Corynebacterium striatum],R_DGK1,phosphorylation
+WP_086891460_1,-5.533429759540256e-13,optimal,guanylate kinase [Corynebacterium striatum],R_GK1,phosphorylation
+WP_086891311_1,-8.853802151058195e-15,optimal,shikimate kinase [Corynebacterium striatum],R_SHKK,phosphorylation
+WP_086891058_1,2.3475023034738643e-13,optimal,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Corynebacterium striatum],R_UGMDDS,biochemical reaction
+WP_086891266_1,8.711956314698943e-14,optimal,1-deoxy-D-xylulose-5-phosphate synthase [Corynebacterium striatum],R_DXPS,transfer of a chemical group
+WP_086891993_1,3.702205374216891e-15,optimal,MULTISPECIES: pyridoxal 5'-phosphate synthase lyase subunit PdxS [Corynebacterium],R_PLPS,biochemical reaction
+WP_086891689_1,3.558019712888178e-10,optimal,type I pantothenate kinase [Corynebacterium striatum],R_PNTK,phosphorylation
+WP_086891478_1,0.0,optimal,thiamine-phosphate kinase [Corynebacterium striatum],R_TMPK,phosphorylation
+WP_086890718_1,1.301116812723019e-13,optimal,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Corynebacterium striatum],R_MEPCT,transfer of a chemical group
+WP_086890894_1,0.0,optimal,nicotinate-nucleotide adenylyltransferase [Corynebacterium striatum],R_NNATr,transfer of a chemical group
+WP_086891190_1,-6.655428902026697e-14,optimal,4-hydroxy-tetrahydrodipicolinate synthase [Corynebacterium striatum],R_DHDPS,biochemical reaction
+WP_086892351_1,-8.889396117220419e-12,optimal,nicotinate phosphoribosyltransferase [Corynebacterium striatum],R_NAMNPP,glycosylation
+WP_086892351_1,-8.889396117220419e-12,optimal,nicotinate phosphoribosyltransferase [Corynebacterium striatum],R_NAPRT,glycosylation
+WP_086891775_1,-2.3392242381494978e-12,optimal,dihydrofolate reductase [Corynebacterium striatum],R_DHFR,redox reaction
+WP_086891775_1,-2.3392242381494978e-12,optimal,dihydrofolate reductase [Corynebacterium striatum],R_FOLR2,redox reaction
+WP_086892114_1,0.0,optimal,o-succinylbenzoate--CoA ligase [Corynebacterium striatum],R_SUCBZL,biochemical reaction
+WP_086892107_1,-4.4056820173556804e-14,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_OXGDC2,decarboxylation
+WP_086892107_1,-4.4056820173556804e-14,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS,biochemical reaction
+WP_086892107_1,-4.4056820173556804e-14,optimal,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase [Corynebacterium striatum],R_SHCHCS2,biochemical reaction
+WP_086891497_1,-1.9439493859249033e-14,optimal,isochorismate synthase [Corynebacterium striatum],R_ICHORS,isomerisation
+WP_086891062_1,-2.3515754694178906e-13,optimal,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase [Corynebacterium striatum],R_UAGPT3,glycosylation
+WP_086891310_1,0.0,optimal,chorismate synthase [Corynebacterium striatum],R_CHORS,cleavage
+WP_086891841_1,-4.9583535571417306e-14,optimal,3-phosphoshikimate 1-carboxyvinyltransferase [Corynebacterium striatum],R_PSCVT,transfer of a chemical group
+WP_086890790_1,-1.4579620394436775e-14,optimal,ammonia-dependent NAD(+) synthetase [Corynebacterium striatum],R_NADS1,biochemical reaction
+WP_086891188_1,0.0,optimal,4-hydroxy-tetrahydrodipicolinate reductase [Corynebacterium striatum],R_DHDPRy,redox reaction
+WP_086892249_1,-7.16420335730148e-14,optimal,aspartate kinase [Corynebacterium striatum],R_ASPK,phosphorylation
+WP_086891417_1,-2.4160357326355035e-14,optimal,aconitate hydratase [Corynebacterium striatum],R_ACONT,cleavage
+WP_046645290_1,-1.3607645701474318e-13,optimal,MULTISPECIES: flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [Corynebacterium],R_MECDPDH2,redox reaction
+WP_046645290_1,-1.3607645701474318e-13,optimal,MULTISPECIES: flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [Corynebacterium],R_MECDPDH4,biochemical reaction
+WP_086890630_1,-8.437330717495583e-10,optimal,nucleosidase [Corynebacterium striatum],R_AHCYSNS,hydrolysis
+WP_086890630_1,-8.437330717495583e-10,optimal,nucleosidase [Corynebacterium striatum],R_MTAN,hydrolysis
+WP_086892064_1,-1.372405824628899e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK1,phosphorylation
+WP_086892064_1,-1.372405824628899e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK2,phosphorylation
+WP_086892064_1,-1.372405824628899e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK3,phosphorylation
+WP_086892064_1,-1.372405824628899e-11,optimal,adenylate kinase [Corynebacterium striatum],R_ADK4,phosphorylation
+WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AHMMPS_1,biochemical reaction
+WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AMPMS,biochemical reaction
+WP_086891146_1,0.0,optimal,phosphomethylpyrimidine synthase ThiC [Corynebacterium striatum],R_AMPMS2,redox reaction
+WP_086891376_1,7.264998926689793e-14,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_3HPAOX,redox reaction
+WP_086891376_1,7.264998926689793e-14,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_4HOXPACMOF,redox reaction
+WP_086891376_1,7.264998926689793e-14,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_HMPK1,phosphorylation
+WP_086891376_1,7.264998926689793e-14,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_HPA3MO,redox reaction
+WP_086891376_1,7.264998926689793e-14,optimal,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase [Corynebacterium striatum],R_PMPK,phosphorylation
+WP_086891060_1,-1.604795323440931e-13,optimal,UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Corynebacterium striatum],R_UAMAGS,biochemical reaction
+WP_086892103_1,3.420356185890327e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_DMATT,transfer of a chemical group
+WP_086892103_1,3.420356185890327e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_GRTT,transfer of a chemical group
+WP_086892103_1,3.420356185890327e-14,optimal,polyprenyl synthetase family protein [Corynebacterium striatum],R_OCTDPS,transfer of a chemical group
+WP_086891211_1,0.0,optimal,diaminopimelate epimerase [Corynebacterium striatum],R_DAPE,isomerisation
+WP_086892493_1,-9.719746929624516e-15,optimal,"1,4-dihydroxy-2-naphthoyl-CoA synthase [Corynebacterium striatum]",R_NPHS,cleavage
+spontaneous,0.0,optimal,G_spontaneous,R_ACALDt,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_ATPHs,deamination
+spontaneous,0.0,optimal,G_spontaneous,R_CO2t,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_CO2tpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_DHPTDCs2,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_G5SADs,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_GLYCtpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_GTPHs,deamination
+spontaneous,0.0,optimal,G_spontaneous,R_H2Ot,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_H2Otex,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_H2Otpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_H2St,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_HCO3E,cleavage
+spontaneous,0.0,optimal,G_spontaneous,R_METOX1s,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_METOX2s,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_MGSA,cleavage
+spontaneous,0.0,optimal,G_spontaneous,R_MTHTHFSs,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_N2Otpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_NH3c,biochemical reaction
+spontaneous,0.0,optimal,G_spontaneous,R_NH4t,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_NH4tex,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_NH4tpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_NOtpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_O2t,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_O2tpp,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_OMCDC,redox reaction
+spontaneous,0.0,optimal,G_spontaneous,R_St,passive transport
+spontaneous,0.0,optimal,G_spontaneous,R_ATPM,ATP maintenance
+WP_086891709_1,1.2728921815624922e-13,optimal,ribose-phosphate diphosphokinase [Corynebacterium striatum],R_PRPPS,transfer of a chemical group
+WP_086891708_1,-1.1188756632957161e-14,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_G1PACT,acetylation
+WP_086891708_1,-1.1188756632957161e-14,optimal,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU [Corynebacterium striatum],R_UAGDP,transfer of a chemical group
+WP_086890781_1,7.925421016252316e-14,optimal,UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Corynebacterium striatum],R_UAGCVT,transfer of a chemical group
+WP_086891063_1,0.0,optimal,UDP-N-acetylmuramate--L-alanine ligase [Corynebacterium striatum],R_UAMAS,biochemical reaction
+WP_086891850_1,-4.3824913674335715e-14,optimal,dTMP kinase [Corynebacterium striatum],R_DTMPK,phosphorylation
+WP_086892420_1,-9.719746929624518e-15,optimal,undecaprenyl-diphosphate phosphatase [Corynebacterium striatum],R_UDCPDP,biochemical reaction
+WP_086892424_1,3.5575533321922585e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPCDC,decarboxylation
+WP_086892424_1,3.5575533321922585e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL,biochemical reaction
+WP_086892424_1,3.5575533321922585e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL2,biochemical reaction
+WP_086892424_1,3.5575533321922585e-10,optimal,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC [Corynebacterium striatum],R_PPNCL3,biochemical reaction
+WP_086890760_1,0.0,optimal,phosphoribosylformylglycinamidine cyclo-ligase [Corynebacterium striatum],R_PRAIS,biochemical reaction
+WP_086890752_1,-1.718683810086063e-14,optimal,phosphoribosylformylglycinamidine synthase [Corynebacterium striatum],R_PRFGS,biochemical reaction
+WP_061920295_1,0.0,optimal,MULTISPECIES: S-ribosylhomocysteine lyase [Corynebacterium],R_RHCCE,cleavage
+WP_086892177_1,4.3263767927413955e-15,optimal,UDP-N-acetylmuramate dehydrogenase [Corynebacterium striatum],R_UAPGR,redox reaction
+WP_086891323_1,3.5575533321917395e-10,optimal,dephospho-CoA kinase [Corynebacterium striatum],R_DPCOAK,phosphorylation
+WP_086891458_1,3.938387736623527e-14,optimal,methionine adenosyltransferase [Corynebacterium striatum],R_METAT,transfer of a chemical group
+WP_086891184_1,0.0,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_FMNAT,transfer of a chemical group
+WP_086891184_1,0.0,optimal,bifunctional riboflavin kinase/FAD synthetase [Corynebacterium striatum],R_RBFK,phosphorylation
+WP_082254282_1,0.0,optimal,MULTISPECIES: thiamine phosphate synthase [Corynebacterium],R_TMPPP,transfer of a chemical group
+WP_086891637_1,-2.5247003361404128e-14,optimal,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [Corynebacterium striatum]",R_THDPS,transfer of a chemical group
