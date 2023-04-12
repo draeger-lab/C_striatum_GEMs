@@ -8,5 +8,5 @@ growth_M9_all | notebook | growth simulation with different growth enhancing met
 growth_requirements | notebook | general look at carbon sources, minimal media, uptakes for all strains | FB
 knockout_studies | notebook | gene essentiality and the connected reactions | FB
 simulate_growth_single | script | carbon, nitrogen, phosophorous and sulfur sources | Hawkey et al., 2022
-single_gene_knockouts | script | gene knockouts | Hawkey et al., 2022
+single_gene_knockouts | script | gene knockouts | Hawkey et al., 2022 KANN EIGENTLICH WEG
 visualization | notebook | holds all images made to understand the models | FB
