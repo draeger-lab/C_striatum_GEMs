@@ -1,9 +1,11 @@
 General Setting: >
   Path to GEM to be investigated
 
+# python main.py -c /Users/baeuerle/Organisation/Masterarbeit/C_striatum_GEMs/code/refineGEMs_config.yaml
+
 model: '../C_striatum_GEMs/models/Cstr_TS.xml'
 # Set the out path for all analysis files
-out_path: '../rg_out/'
+out_path: '../C_striatum_GEMs/analysis/growth_sim_comp/'
 
 Settings for scripts that investigate the model: >
   These are only necessary if none of the scripts to manipulate the model are used.
@@ -15,29 +17,29 @@ visualize: FALSE
 growth_basis: 'default_uptake' # 'default_uptake' or 'minimal_uptake'
 
 # Settings if you want to compare multiple models
-multiple: False
+multiple: TRUE
 multiple_paths: # enter as many paths as you need below
   - '../C_striatum_GEMs/models/Cstr_TS.xml'
   - '../C_striatum_GEMs/models/Cstr_1197.xml'
   - '../C_striatum_GEMs/models/Cstr_1115.xml'
   - '../C_striatum_GEMs/models/Cstr_1116.xml'
-single: True
+  - '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml'
+single: FALSE
 
 # media to simulate growth from, just comment the media you do not want with a #
 media: 
-  - 'SNM3'
+  #- 'SNM3'
   - 'RPMI'
-  - 'CGXlab'
   - 'LB'
   - 'M9'
   - 'CGXII'
-  - 'CasA'
+  #- 'CasA'
 
 # determine whether the memote score should be calculated, default: FALSE
 memote: FALSE
 
 # compare metabolites to the ModelSEED database
-modelseed: True # set to False if not needed
+modelseed: FALSE # set to False if not needed
 
 
 Settings for scripts that manipulate the model: >
