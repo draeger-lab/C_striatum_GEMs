@@ -3,7 +3,7 @@ General Setting: >
 
 # python main.py -c /Users/baeuerle/Organisation/Masterarbeit/C_striatum_GEMs/code/refineGEMs_config.yaml
 
-model: '../C_striatum_GEMs/models/Cstr_TS.xml'
+model: '../C_striatum_GEMs/models/Cstr_core.xml'
 # Set the out path for all analysis files
 out_path: '../C_striatum_GEMs/analysis/growth_sim_comp/'
 
@@ -17,14 +17,14 @@ visualize: FALSE
 growth_basis: 'default_uptake' # 'default_uptake' or 'minimal_uptake'
 
 # Settings if you want to compare multiple models
-multiple: TRUE
+multiple: FALSE
 multiple_paths: # enter as many paths as you need below
   - '../C_striatum_GEMs/models/Cstr_TS.xml'
   - '../C_striatum_GEMs/models/Cstr_1197.xml'
   - '../C_striatum_GEMs/models/Cstr_1115.xml'
   - '../C_striatum_GEMs/models/Cstr_1116.xml'
   - '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml'
-single: FALSE
+single: TRUE
 
 # media to simulate growth from, just comment the media you do not want with a #
 media: 
@@ -45,14 +45,14 @@ modelseed: FALSE # set to False if not needed
 Settings for scripts that manipulate the model: >
   They are all split into the ON / OFF switch (TRUE / FALSE) and additional settings like a path to where the new model should be saved.
 
-model_out: '../rg_out/test.xml' # path and filename to where to save the modified model
+model_out: ../C_striatum_GEMs/models/Cstr_core.xml #'../rg_out/test.xml' # path and filename to where to save the modified model
 entrez_email: 'famke.baeuerle@student.uni-tuebingen.de' # necessary to access NCBI API
 
 ### Addition of KEGG Pathways as Groups ###
 keggpathways: TRUE
 
 ### SBO-Term Annotation ###
-sboterms: TRUE
+sboterms: FALSE
 
 ### Model polishing ### The database of the model identifiers needs to be specified with 'id_db'
 polish: FALSE
