@@ -4,7 +4,7 @@ import refinegems as rg
 reac_url = 'http://bigg.ucsd.edu/api/v2/universal/reactions/'
 metab_url = 'http://bigg.ucsd.edu/api/v2/universal/metabolites/'
 #%%
-mod = rg.load.load_model_cobra('../../models/Cstr_TS.xml')
+mod = rg.load.load_model_cobra('../../models/iCstr1054FB23.xml')
 mod
 #%%
 requests.get(reac_url+'ADA').json().keys()

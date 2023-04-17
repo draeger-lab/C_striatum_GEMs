@@ -17,11 +17,11 @@ __author__ = "Famke Baeuerle"
 if __name__ == '__main__':
 
     modelpaths = [
-        './models/Cstr_TS.xml', 
-        './models/Cstr_1197.xml',
-        './models/Cstr_1115.xml',
-        './models/Cstr_1116.xml',
-        './models/Cstr_KC-Na-01.xml',
+        './models/iCstr1054FB23.xml', 
+        './models/iCstr1197FB23.xml',
+        './models/iCstr1115FB23.xml',
+        './models/iCstr1116FB23.xml',
+        './models/iCstrKCNa01FB23.xml',
         ]
 
     all_models = [rg.io.load_model_cobra(path) for path in modelpaths]
@@ -32,11 +32,11 @@ if __name__ == '__main__':
 
     print('Create core model of the models ' + ", ".join(list(all_reactions.keys())))
     
-    set(all_reactions['fda_1054']).symmetric_difference(all_reactions['fda_1197']) #558
-    set(all_reactions['fda_1197']).symmetric_difference(all_reactions['fda_1115']) #370
-    set(all_reactions['fda_1197']).symmetric_difference(all_reactions['fda_1116']) #444
+    set(all_reactions['iCstr1054FB23']).symmetric_difference(all_reactions['iCstr1197FB23']) #558
+    set(all_reactions['iCstr1197FB23']).symmetric_difference(all_reactions['iCstr1115FB23']) #370
+    set(all_reactions['iCstr1197FB23']).symmetric_difference(all_reactions['iCstr1116FB23']) #444
 
-    common_rea = set(all_reactions['fda_1054']).intersection(all_reactions['fda_1116']).intersection(all_reactions['fda_1115']).intersection(all_reactions['fda_1197']).intersection(all_reactions['KC_Na_01'])
+    common_rea = set(all_reactions['iCstr1054FB23']).intersection(all_reactions['iCstr1116FB23']).intersection(all_reactions['iCstr1115FB23']).intersection(all_reactions['iCstr1197FB23']).intersection(all_reactions['KC_Na_01'])
 
     core = Model('Cstr_core')
     for reac in common_rea:

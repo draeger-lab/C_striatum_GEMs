@@ -30,7 +30,7 @@ def parse_reaction(eq):
             coeff = 1
     return eq_matrix
 #%%
-model = cobra.io.read_sbml_model('../models/Cstr_TS.xml')
+model = cobra.io.read_sbml_model('../models/iCstr1054FB23.xml')
 dissipation_rxns = pd.read_csv("../data/energy_dissipation_rxns.csv")
 dissipation_rxns
 #%%
@@ -70,7 +70,7 @@ with model:
 
 # %%
 # remove the suspicious reactions
-modelpaths = ['../models/Cstr_TS.xml', '../models/Cstr_1197.xml', '../models/Cstr_1115.xml', '../models/Cstr_1116.xml']
+modelpaths = ['../models/iCstr1054FB23.xml', '../models/iCstr1197FB23.xml', '../models/iCstr1115FB23.xml', '../models/iCstr1116FB23.xml']
 
 for path in modelpaths:
     model = cobra.io.read_sbml_model(path)
@@ -84,7 +84,7 @@ for path in modelpaths:
     
 #%%
 # test other models for EGC
-modelpaths = ['../models/Cstr_1197.xml', '../models/Cstr_1115.xml', '../models/Cstr_1116.xml']
+modelpaths = ['../models/iCstr1197FB23.xml', '../models/iCstr1115FB23.xml', '../models/iCstr1116FB23.xml']
 dissipation_rxns = dissipation_rxns.drop(11)
 for path in modelpaths:
     model = cobra.io.read_sbml_model(path)

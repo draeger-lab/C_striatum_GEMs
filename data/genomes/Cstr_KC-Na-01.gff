@@ -7,7 +7,7 @@
 #!annotation-source NCBI RefSeq 
 ##sequence-region NZ_CP021252.1 1 2758551
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43770
-NZ_CP021252.1	RefSeq	region	1	2758551	.	+	.	ID=NZ_CP021252.1:1..2758551;Dbxref=taxon:43770;Is_circular=true;Name=ANONYMOUS;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=chromosome;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;strain=KC-Na-01
+NZ_CP021252.1	RefSeq	region	1	2758551	.	+	.	ID=NZ_CP021252.1:1..2758551;Dbxref=taxon:43770;Is_circular=true;Name=ANONYMOUS;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=chromosome;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;strain=iCstrKCNa01FB23
 NZ_CP021252.1	RefSeq	gene	2141	2533	.	-	.	ID=gene-CBE89_RS00010;Name=CBE89_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS00010;old_locus_tag=CBE89_00010
 NZ_CP021252.1	Protein Homology	CDS	2141	2533	.	-	0	ID=cds-WP_086890297.1;Parent=gene-CBE89_RS00010;Dbxref=Genbank:WP_086890297.1;Name=WP_086890297.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_014835763.1;locus_tag=CBE89_RS00010;product=hypothetical protein;protein_id=WP_086890297.1;transl_table=11
 NZ_CP021252.1	RefSeq	gene	2614	3009	.	-	.	ID=gene-CBE89_RS00015;Name=CBE89_RS00015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS00015;old_locus_tag=CBE89_00015
@@ -5328,7 +5328,7 @@ NZ_CP021252.1	RefSeq	gene	2754356	2760682	.	-	.	ID=gene-CBE89_RS00005;Name=CBE89
 NZ_CP021252.1	Protein Homology	CDS	2754356	2760682	.	-	0	ID=cds-WP_086892294.1;Parent=gene-CBE89_RS00005;Dbxref=Genbank:WP_086892294.1;Name=WP_086892294.1;Ontology_term=GO:0016032,GO:0005198;gbkey=CDS;go_function=structural molecule activity|0005198||IEA;go_process=viral process|0016032||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010190943.1;locus_tag=CBE89_RS00005;product=phage tail tape measure protein;protein_id=WP_086892294.1;transl_table=11
 ##sequence-region NZ_CP021253.1 1 25501
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43770
-NZ_CP021253.1	RefSeq	region	1	25501	.	+	.	ID=NZ_CP021253.1:1..25501;Dbxref=taxon:43770;Is_circular=true;Name=pCs-Na-1;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=plasmid;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;plasmid-name=pCs-Na-1;strain=KC-Na-01
+NZ_CP021253.1	RefSeq	region	1	25501	.	+	.	ID=NZ_CP021253.1:1..25501;Dbxref=taxon:43770;Is_circular=true;Name=pCs-Na-1;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=plasmid;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;plasmid-name=pCs-Na-1;strain=iCstrKCNa01FB23
 NZ_CP021253.1	RefSeq	gene	726	875	.	-	.	ID=gene-CBE89_RS13735;Name=CBE89_RS13735;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS13735
 NZ_CP021253.1	Protein Homology	CDS	726	875	.	-	0	ID=cds-WP_165033318.1;Parent=gene-CBE89_RS13735;Dbxref=Genbank:WP_165033318.1;Name=WP_165033318.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010187836.1;locus_tag=CBE89_RS13735;product=hypothetical protein;protein_id=WP_165033318.1;transl_table=11
 NZ_CP021253.1	RefSeq	gene	1187	1780	.	-	.	ID=gene-CBE89_RS13100;Name=CBE89_RS13100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS13100;old_locus_tag=CBE89_13120
@@ -5387,7 +5387,7 @@ NZ_CP021253.1	RefSeq	gene	25175	26008	.	+	.	ID=gene-CBE89_RS13095;Name=CBE89_RS1
 NZ_CP021253.1	Protein Homology	CDS	25175	26008	.	+	0	ID=cds-WP_240504820.1;Parent=gene-CBE89_RS13095;Dbxref=Genbank:WP_240504820.1;Name=WP_240504820.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005280966.1;locus_tag=CBE89_RS13095;product=3'-5' exonuclease;protein_id=WP_240504820.1;transl_table=11
 ##sequence-region NZ_CP021254.1 1 13640
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43770
-NZ_CP021254.1	RefSeq	region	1	13640	.	+	.	ID=NZ_CP021254.1:1..13640;Dbxref=taxon:43770;Is_circular=true;Name=pCs-Na-2;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=plasmid;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;plasmid-name=pCs-Na-2;strain=KC-Na-01
+NZ_CP021254.1	RefSeq	region	1	13640	.	+	.	ID=NZ_CP021254.1:1..13640;Dbxref=taxon:43770;Is_circular=true;Name=pCs-Na-2;collection-date=2017-01;country=South Korea: South sea;gbkey=Src;genome=plasmid;isolation-source=Blowhole swab;mol_type=genomic DNA;nat-host=Neophocaena asiaeorientalis;plasmid-name=pCs-Na-2;strain=iCstrKCNa01FB23
 NZ_CP021254.1	RefSeq	gene	28	3378	.	-	.	ID=gene-CBE89_RS13225;Name=CBE89_RS13225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS13225;old_locus_tag=CBE89_13245
 NZ_CP021254.1	Protein Homology	CDS	28	3378	.	-	0	ID=cds-WP_240504822.1;Parent=gene-CBE89_RS13225;Dbxref=Genbank:WP_240504822.1;Name=WP_240504822.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_006821243.1;locus_tag=CBE89_RS13225;product=relaxase domain-containing protein;protein_id=WP_240504822.1;transl_table=11
 NZ_CP021254.1	RefSeq	gene	3484	3921	.	-	.	ID=gene-CBE89_RS13810;Name=CBE89_RS13810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CBE89_RS13810

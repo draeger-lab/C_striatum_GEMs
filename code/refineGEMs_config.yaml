@@ -19,11 +19,11 @@ growth_basis: 'default_uptake' # 'default_uptake' or 'minimal_uptake'
 # Settings if you want to compare multiple models
 multiple: FALSE
 multiple_paths: # enter as many paths as you need below
-  - '../C_striatum_GEMs/models/Cstr_TS.xml'
-  - '../C_striatum_GEMs/models/Cstr_1197.xml'
-  - '../C_striatum_GEMs/models/Cstr_1115.xml'
-  - '../C_striatum_GEMs/models/Cstr_1116.xml'
-  - '../C_striatum_GEMs/models/Cstr_KC-Na-01.xml'
+  - '../C_striatum_GEMs/models/iCstr1054FB23.xml'
+  - '../C_striatum_GEMs/models/iCstr1197FB23.xml'
+  - '../C_striatum_GEMs/models/iCstr1115FB23.xml'
+  - '../C_striatum_GEMs/models/iCstr1116FB23.xml'
+  - '../C_striatum_GEMs/models/iCstrKCNa01FB23.xml'
 single: TRUE
 
 # media to simulate growth from, just comment the media you do not want with a #

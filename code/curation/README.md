@@ -12,7 +12,7 @@ apply_mcc.ipynb | application of the MCC tool to all models | . | "Finn Mier"
 generate_coremodel.py | drafting a core model from multiple strain specific models | . | FB
 remove_duplicate_metabolites.ipynb | code for manual removal of duplicate metabolites identified manually or with memote | . | FB
 remove_duplicate_reactions.ipynb| code for manual removal of duplicate reactions identified manually or with memote | . | FB
-remove_keggPathwayCVTerms_KC.py | takes model KC-Na-01 and removes URIs for kegg.pathways since they were added incorrectly | . | FB
+remove_keggPathwayCVTerms_KC.py | takes model iCstrKCNa01FB23 and removes URIs for kegg.pathways since they were added incorrectly | . | FB
 wetlab_transfer.ipynb | change models based on [wetlab experiments](https://github.com/draeger-lab/C_striatum_wetlab) | . | FB
 DEPR_add_charges.ipynb | addition of manually researched charges and charges from the *P. putida* model | [MCC tool](https://github.com/Biomathsys/MassChargeCuration) | FB
 DEPR_check_egc.py | investigation of Energy Generating Cycles | refineGEMs.investigate.get_egc | FB

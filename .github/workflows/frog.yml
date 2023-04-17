@@ -29,11 +29,11 @@ jobs:
         
     - name: Create FROG report
       run: |
-        runfrog -i ./models/Cstr_TS.xml -o ./FROG/Cstr_TS_FROG.omex
-        runfrog -i ./models/Cstr_1197.xml -o ./FROG/Cstr_1197_FROG.omex
-        runfrog -i ./models/Cstr_1115.xml -o ./FROG/Cstr_1115_FROG.omex
-        runfrog -i ./models/Cstr_1116.xml -o ./FROG/Cstr_1116_FROG.omex
-        runfrog -i ./models/Cstr_KC-Na-01.xml -o ./FROG/Cstr_KC-Na-01_FROG.omex
+        runfrog -i ./models/iCstr1054FB23.xml -o ./FROG/Cstr_TS_FROG.omex
+        runfrog -i ./models/iCstr1197FB23.xml -o ./FROG/Cstr_1197_FROG.omex
+        runfrog -i ./models/iCstr1115FB23.xml -o ./FROG/Cstr_1115_FROG.omex
+        runfrog -i ./models/iCstr1116FB23.xml -o ./FROG/Cstr_1116_FROG.omex
+        runfrog -i ./models/iCstrKCNa01FB23.xml -o ./FROG/Cstr_iCstrKCNa01FB23_FROG.omex
       
     - name: Unzip Omex files for easier access
       run: |
@@ -69,14 +69,14 @@ jobs:
         cp -R ./FROG/Cstr_1116/FROG/cobrapy ./FROG/Cstr_1116
         rm -R ./FROG/Cstr_1116/FROG/cobrapy
         rm -r ./FROG/Cstr_1116/FROG/
-        unzip ./FROG/Cstr_KC-Na-01_FROG.omex -d ./FROG/Cstr_KC-Na-01
-        rm ./FROG/Cstr_KC-Na-01/model.xml
-        rm ./FROG/Cstr_KC-Na-01/manifest.xml
-        cp -R ./FROG/Cstr_KC-Na-01/FROG/cameo ./FROG/Cstr_KC-Na-01
-        rm -R ./FROG/Cstr_KC-Na-01/FROG/cameo
-        cp -R ./FROG/Cstr_KC-Na-01/FROG/cobrapy ./FROG/Cstr_KC-Na-01
-        rm -R ./FROG/Cstr_KC-Na-01/FROG/cobrapy
-        rm -r ./FROG/Cstr_KC-Na-01/FROG/
+        unzip ./FROG/Cstr_iCstrKCNa01FB23_FROG.omex -d ./FROG/Cstr_iCstrKCNa01FB23
+        rm ./FROG/Cstr_iCstrKCNa01FB23/model.xml
+        rm ./FROG/Cstr_iCstrKCNa01FB23/manifest.xml
+        cp -R ./FROG/Cstr_iCstrKCNa01FB23/FROG/cameo ./FROG/Cstr_iCstrKCNa01FB23
+        rm -R ./FROG/Cstr_iCstrKCNa01FB23/FROG/cameo
+        cp -R ./FROG/Cstr_iCstrKCNa01FB23/FROG/cobrapy ./FROG/Cstr_iCstrKCNa01FB23
+        rm -R ./FROG/Cstr_iCstrKCNa01FB23/FROG/cobrapy
+        rm -r ./FROG/Cstr_iCstrKCNa01FB23/FROG/
 
     - name: Commit FROG report
       id: commit
