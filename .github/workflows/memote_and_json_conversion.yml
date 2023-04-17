@@ -45,24 +45,24 @@ jobs:
             import pandas as pd
             model_TS = cobra.io.read_sbml_model('./models/iCstr1054FB23.xml')
             df_TS = pd.DataFrame.from_dict([model_TS.optimize().fluxes]).T
-            df_TS.to_csv('./escher/Cstr_TS_FBA.csv')    
-            cobra.io.save_json_model(model_TS, './escher/Cstr_TS.json')
+            df_TS.to_csv('./escher/iCstr1054FB23_FBA.csv')    
+            cobra.io.save_json_model(model_TS, './escher/iCstr1054FB23.json')
             model_1197 = cobra.io.read_sbml_model('./models/iCstr1197FB23.xml')
             df_1197 = pd.DataFrame.from_dict([model_1197.optimize().fluxes]).T
-            df_1197.to_csv('./escher/Cstr_1197_FBA.csv')   
-            cobra.io.save_json_model(model_1197, './escher/Cstr_1197.json') 
+            df_1197.to_csv('./escher/iCstr1197FB23_FBA.csv')   
+            cobra.io.save_json_model(model_1197, './escher/iCstr1197FB23.json') 
             model_1115 = cobra.io.read_sbml_model('./models/iCstr1115FB23.xml')
             df_1115 = pd.DataFrame.from_dict([model_1115.optimize().fluxes]).T
-            df_1115.to_csv('./escher/Cstr_1115_FBA.csv')    
-            cobra.io.save_json_model(model_1115, './escher/Cstr_1115.json') 
+            df_1115.to_csv('./escher/iCstr1115FB23_FBA.csv')    
+            cobra.io.save_json_model(model_1115, './escher/iCstr1115FB23.json') 
             model_1116 = cobra.io.read_sbml_model('./models/iCstr1116FB23.xml')
             df_1116 = pd.DataFrame.from_dict([model_1116.optimize().fluxes]).T
-            df_1116.to_csv('./escher/Cstr_1116_FBA.csv')     
-            cobra.io.save_json_model(model_1116, './escher/Cstr_1116.json')
+            df_1116.to_csv('./escher/iCstr1116FB23_FBA.csv')     
+            cobra.io.save_json_model(model_1116, './escher/iCstr1116FB23.json')
             model_KC = cobra.io.read_sbml_model('./models/iCstrKCNa01FB23.xml')
             df_KC = pd.DataFrame.from_dict([model_KC.optimize().fluxes]).T
-            df_KC.to_csv('./escher/Cstr_iCstrKCNa01FB23_FBA.csv')     
-            cobra.io.save_json_model(model_KC, './escher/Cstr_iCstrKCNa01FB23.json')
+            df_KC.to_csv('./escher/iCstrKCNa01FB23_FBA.csv')     
+            cobra.io.save_json_model(model_KC, './escher/iCstrKCNa01FB23.json')
       
     - name: Create memote report in difference mode for all models
       run: |
