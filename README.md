@@ -1,4 +1,9 @@
-[![Memote Report](https://github.com/draeger-lab/C_striatum_GEMs/actions/workflows/memote_and_json_conversion.yml/badge.svg)](https://github.com/draeger-lab/C_striatum_GEMs/actions/workflows/memote_and_json_conversion.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![standard-GEM](https://img.shields.io/badge/standard--GEM-yes-success)](https://github.com/MetabolicAtlas/standard-GEM)
+[![Memote Report](https://github.com/draeger-lab/C_striatum_GEMs/actions/workflows/memote_and_json_conversion.yml/badge.svg?style=flat-square)](https://github.com/draeger-lab/C_striatum_GEMs/actions/workflows/memote_and_json_conversion.yml) 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![standard-GEM](https://img.shields.io/badge/standard--GEM-yes-success?style=flat-square)](https://github.com/MetabolicAtlas/standard-GEM)
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-B4A069?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.10066430)
+[![Frontiers DOI](https://img.shields.io/badge/Frontiers%20DOI-10.3389%2Ffbinf.2023.1214074-B4A069?style=flat-square)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1214074/full)
+
 # C_striatum_GEMs
 This repository contains all changes made to the strain specific models of *Corynebacterium striatum*.
 
